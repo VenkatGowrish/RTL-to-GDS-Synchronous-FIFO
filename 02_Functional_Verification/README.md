@@ -12,12 +12,7 @@ The functional verification of the parameterized Synchronous FIFO was carried ou
 
 The reset operation was verified to ensure that the FIFO initializes correctly.
 
-**Observed Results**
-- Read and write pointers reset to their initial values.
-- FIFO enters the empty state after reset.
-- Output data remains cleared until valid read operations occur.
-
-**Status:** ✅ Pass
+**Status:**  Pass
 
 ---
 
@@ -36,13 +31,7 @@ Eight consecutive data values were written into the FIFO.
 | 16 |
 | 17 |
 
-**Observed Results**
-- Every write transaction was accepted successfully.
-- The write pointer incremented sequentially.
-- Data was stored in the correct order.
-- No unexpected changes were observed at the output during write-only operations.
-
-**Status:** ✅ Pass
+**Status:**  Pass
 
 ---
 
@@ -58,12 +47,7 @@ Five consecutive read operations were performed.
 | 13 | 13 |
 | 14 | 14 |
 
-**Observed Results**
-- Data was retrieved in the exact order in which it was written.
-- The FIFO maintained First-In-First-Out (FIFO) behaviour.
-- The read pointer incremented correctly after each successful read.
-
-**Status:** ✅ Pass
+**Status:**  Pass
 
 ---
 
@@ -75,12 +59,7 @@ A simultaneous read and write operation was performed.
 |------------|-----------|
 | AA | 15 |
 
-**Observed Results**
-- The oldest data in the FIFO was read correctly.
-- The new input data (`AA`) was successfully written during the same clock cycle.
-- Read and write pointers updated independently without any conflict.
-
-**Status:** ✅ Pass
+**Status:**  Pass
 
 ---
 
@@ -102,13 +81,13 @@ The simulation waveform confirms the following functional behaviour:
 
 | Verification Item | Result |
 |-------------------|--------|
-| Reset Functionality | ✅ Pass |
-| Write Operation | ✅ Pass |
-| Read Operation | ✅ Pass |
-| FIFO Data Ordering | ✅ Pass |
-| Simultaneous Read & Write | ✅ Pass |
-| Pointer Operation | ✅ Pass |
-| Status Flag Behaviour | ✅ Pass |
+| Reset Functionality |  Pass |
+| Write Operation |  Pass |
+| Read Operation |  Pass |
+| FIFO Data Ordering |  Pass |
+| Simultaneous Read & Write |  Pass |
+| Pointer Operation |  Pass |
+| Status Flag Behaviour |  Pass |
 
 ---
 
