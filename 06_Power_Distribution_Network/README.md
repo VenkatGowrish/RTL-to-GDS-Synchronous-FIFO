@@ -20,34 +20,6 @@ In this project, PDN generation is performed using **OpenROAD's `pdngen`** comma
 
 ---
 
-# Flow Used
-
-The PDN stage is executed after:
-
-```
-Logic Synthesis
-      ↓
-Floorplanning
-      ↓
-IO Placement
-      ↓
-Macro Placement
-      ↓
-Tap Cell Insertion
-      ↓
-Power Distribution Network (PDN) ← Current Step
-      ↓
-Global Placement
-      ↓
-Detailed Placement
-      ↓
-Clock Tree Synthesis
-      ↓
-Routing
-```
-
----
-
 # TCL Scripts
 
 ## `gcd_nangate45.tcl`
@@ -128,13 +100,6 @@ At the beginning, the floorplan contains only the die area and standard cell row
 <img src="die.png" width="650">
 </p>
 
-**Explanation**
-
-- White boundary represents the die.
-- Blue horizontal lines are standard cell rows.
-- No dedicated power network exists yet.
-- Cells cannot be reliably powered at this stage.
-
 ---
 
 ## 2. Ground (VSS) Stripes
@@ -145,7 +110,6 @@ Ground stripes are generated vertically to distribute the ground supply across t
 <img src="Ground.png" width="650">
 </p>
 
-**Explanation**
 
 - Vertical green stripes represent the **Ground (VSS)** network.
 - Ground is distributed uniformly across the design.
@@ -161,7 +125,6 @@ Power stripes are added to distribute the positive supply voltage.
 <img src="Power.png" width="650">
 </p>
 
-**Explanation**
 
 - Additional vertical stripes carry **VDD**.
 - Power and Ground are arranged with proper spacing to satisfy design rules.
@@ -177,7 +140,6 @@ The final PDN combines both VDD and VSS networks.
 <img src="pdn.png" width="650">
 </p>
 
-**Explanation**
 
 - Both **Power (VDD)** and **Ground (VSS)** networks are now available.
 - Every standard cell row has access to stable power rails.
