@@ -130,9 +130,7 @@ This script contains technology-specific configuration parameters required durin
 ---
 
 # Results
-
 ## Floorplan
-
 The generated floorplan showing the die boundary, core region, and standard-cell placement rows.
 
 <p align="center">
@@ -140,7 +138,6 @@ The generated floorplan showing the die boundary, core region, and standard-cell
 </p>
 
 ## I/O Pin Placement
-
 Automatic placement of all input and output ports along the chip boundary.
 
 <p align="center">
@@ -148,7 +145,6 @@ Automatic placement of all input and output ports along the chip boundary.
 </p>
 
 ## Floorplanning Execution
-
 Console output showing floorplan initialization, utilization, I/O placement, and tapcell insertion.
 
 <p align="center">
@@ -156,7 +152,6 @@ Console output showing floorplan initialization, utilization, I/O placement, and
 </p>
 
 ## Tapcell and Endcap Insertion
-
 Visualization after endcap insertion around the design boundary.
 
 <p align="center">
