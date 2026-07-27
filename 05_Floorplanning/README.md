@@ -2,19 +2,42 @@
 
 ## Overview
 
-This project implements the **Floorplanning** stage of the RTL-to-GDSII physical design flow using **OpenROAD**. Floorplanning establishes the physical layout of the design by defining the die and core areas, generating placement rows, placing I/O pins, and inserting endcaps/tapcells. The output of this stage is a DEF file that serves as the input for the Placement stage.
+This Folder implements the **Floorplanning** stage of the RTL-to-GDSII physical design flow using **OpenROAD**. Floorplanning converts the synthesized gate-level netlist into an initial physical layout by defining the die and core regions, generating standard-cell rows, placing I/O pins, and inserting endcaps/tapcells. The output of this stage is a **DEF (Design Exchange Format)** file that serves as the input for the Placement stage.
+
+---
+
+## Objectives
+
+- Define the die and core dimensions.
+- Generate standard-cell placement rows.
+- Automatically place I/O pins.
+- Insert endcaps and tapcells.
+- Generate DEF files for the next stage of physical design.
 
 ---
 
 ## Tools Used
 
 - OpenROAD
-- TCL
+- TCL Scripting
 - Nangate45 / FreePDK45 Technology Library
 
 ---
 
-## Design Flow
+## Input Files
+
+| File | Description |
+|------|-------------|
+| Synthesized Verilog | Gate-level netlist generated after logic synthesis |
+| `.lef` | Technology and standard-cell physical library |
+| `.lib` | Standard-cell timing library |
+| `.sdc` | Timing constraints |
+| `flow_floorplan.tcl` | Main OpenROAD floorplanning script |
+| `gcd_nangate45.tcl` | Technology/platform configuration script |
+
+---
+
+# Design Flow
 
 ```
 Synthesized Netlist
@@ -26,71 +49,102 @@ Read Libraries & Constraints
 Initialize Floorplan
         │
         ▼
-Generate Placement Rows
+Generate Standard Cell Rows
         │
         ▼
-I/O Pin Placement
+Automatic I/O Pin Placement
         │
         ▼
-Macro Placement (If Any)
+Macro Placement (If Present)
         │
         ▼
-Tapcell / Endcap Insertion
+Tapcell & Endcap Insertion
         │
         ▼
-Generate DEF
+Generate DEF Files
 ```
 
 ---
 
-## Project Structure
+# TCL Scripts
 
-```
-Floorplanning/
-│── flow_floorplan.tcl
-│── gcd_nangate45.tcl
-│── post_floorplan.def
-│── post_macro_placement.def
-│── post_tapcell.def
-│── images/
-│   ├── Floorplan.png
-│   ├── IO_ports.png
-│   ├── scripting.png
-│   └── tapcell.png
-└── README.md
-```
+## 1. flow_floorplan.tcl
+
+This is the primary OpenROAD script that executes the floorplanning flow.
+
+### Responsibilities
+
+- Reads synthesized netlist and technology libraries
+- Applies timing constraints
+- Initializes die and core areas
+- Generates placement rows
+- Removes unnecessary synthesis buffers
+- Places I/O pins automatically
+- Performs macro placement (if required)
+- Inserts tapcells and endcaps
+- Generates intermediate and final DEF files
 
 ---
 
-## Floorplanning Results
+## 2. gcd_nangate45.tcl
+
+This script contains technology-specific configuration parameters required during floorplanning.
+
+### Responsibilities
+
+- Defines Nangate45 technology settings
+- Specifies standard-cell site information
+- Defines die and core dimensions
+- Configures routing layers
+- Sets placement density
+- Defines macro halo and channel spacing
+- Configures I/O placement layers
+- Stores platform-specific floorplanning parameters
+
+---
+
+# Floorplanning Results
 
 | Parameter | Value |
 |-----------|-------|
-| Die Size | 100.130 × 100.800 µm |
+| Die Size | 100.130 µm × 100.800 µm |
 | Core Area | 6398.364 µm² |
 | Total Cell Area | 1197.532 µm² |
 | Effective Utilization | 18.7% |
 | Standard Cell Rows | 57 |
 | Number of Instances | 659 |
-| I/O Pins | 22 |
+| Total I/O Pins | 22 |
 | Endcaps Inserted | 114 |
+| Tapcells Inserted | 0 |
 
 ---
 
+# Output Files
+
+| File | Description |
+|------|-------------|
+| `post_floorplan.def` | Floorplan after initialization |
+| `post_macro_placement.def` | Floorplan after macro placement |
+| `post_tapcell.def` | Final floorplan after tapcell insertion |
+
+---
+
+# Results
+
 ## Floorplan
 
-The generated floorplan showing the die boundary, core region, and standard-cell rows.
+The generated floorplan showing the die boundary, core region, and standard-cell placement rows.
 
 <p align="center">
-<img src="images/Floorplan.png" width="300">
+<img src="images/Floorplan.png" width="700">
 </p>
 
 ## I/O Pin Placement
 
-Automatic placement of all input and output ports around the chip boundary.
+Automatic placement of all input and output ports along the chip boundary.
 
 <p align="center">
-<img src="images/IO_ports.png" width="300">
+<img src="images/IO_ports.png" width="700">
 </p>
 
 ## Floorplanning Execution
@@ -98,19 +152,30 @@ Automatic placement of all input and output ports around the chip boundary.
 Console output showing floorplan initialization, utilization, I/O placement, and tapcell insertion.
 
 <p align="center">
-<img src="images/scripting.png" width="300">
+<img src="images/scripting.png" width="700">
 </p>
 
-## Tapcell / Endcap Insertion
+## Tapcell and Endcap Insertion
 
-Visualization after inserting endcaps required for fabrication.
+Visualization after endcap insertion around the design boundary.
 
 <p align="center">
-<img src="images/tapcell.png" width="300">
+<img src="images/tapcell.png" width="700">
 </p>
 
 ---
 
-## Conclusion
+# Key Achievements
 
-The floorplanning stage successfully established the physical layout of the synthesized design by creating the die and core regions, generating placement rows, placing all I/O pins, and inserting endcaps. The resulting DEF files provide the required physical information for the subsequent Placement stage, forming an essential step in the RTL-to-GDSII implementation flow.
+- Successfully initialized the die and core regions.
+- Generated **57** standard-cell placement rows.
+- Achieved an effective core utilization of **18.7%**.
+- Automatically placed all **22** I/O pins.
+- Successfully inserted **114 endcaps**.
+- Generated DEF files required for the Placement stage.
+
+---
+
+# Conclusion
+
+The floorplanning stage successfully established the initial physical layout of the synthesized design using OpenROAD. The design was configured with appropriate die and core dimensions, standard-cell rows were generated, all I/O pins were placed automatically, and endcaps were inserted to satisfy physical design requirements. The generated DEF files provide the necessary physical information for the subsequent Placement stage, making this an essential milestone in the RTL-to-GDSII implementation flow.
