@@ -92,12 +92,12 @@ pdngen
 
 # Visualization of PDN Generation
 
-## 1. Die and Standard Cell Rows
+## 1. Die and Standard Cell Rows and PDN 
 
 At the beginning, the floorplan contains only the die area and standard cell rows where cells will be placed later.
 
 <p align="center">
-<img src="images/die.png" width="650">
+<img src="images/die.png" width="350">
 </p>
 
 ---
@@ -107,7 +107,7 @@ At the beginning, the floorplan contains only the die area and standard cell row
 Ground stripes are generated vertically to distribute the ground supply across the entire core.
 
 <p align="center">
-<img src="images/Ground.png" width="650">
+<img src="images/Ground.png" width="350">
 </p>
 
 
@@ -122,7 +122,7 @@ Ground stripes are generated vertically to distribute the ground supply across t
 Power stripes are added to distribute the positive supply voltage.
 
 <p align="center">
-<img src="images/Power.png" width="650">
+<img src="images/Power.png" width="350">
 </p>
 
 
@@ -137,7 +137,7 @@ Power stripes are added to distribute the positive supply voltage.
 The final PDN combines both VDD and VSS networks.
 
 <p align="center">
-<img src="images/pdn.png" width="650">
+<img src="images/pdn.png" width="350">
 </p>
 
 
