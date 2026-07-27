@@ -20,60 +20,17 @@ The functional verification of the parameterized Synchronous FIFO was carried ou
 
 ---
 
-## Verification Scenarios
+## Verification Summary
 
-### 1. Reset Verification
-
-The reset operation was verified to ensure that the FIFO initializes correctly.
-
-**Status:**  Pass
-
----
-
-### 2. Write Operation
-
-Eight consecutive data values were written into the FIFO.
-
-| Data Written (Hex) |
-|--------------------|
-| 10 |
-| 11 |
-| 12 |
-| 13 |
-| 14 |
-| 15 |
-| 16 |
-| 17 |
-
-**Status:**  Pass
-
----
-
-### 3. Read Operation
-
-Five consecutive read operations were performed.
-
-| Expected Output | Observed Output |
-|-----------------|-----------------|
-| 10 | 10 |
-| 11 | 11 |
-| 12 | 12 |
-| 13 | 13 |
-| 14 | 14 |
-
-**Status:**  Pass
-
----
-
-### 4. Simultaneous Read and Write
-
-A simultaneous read and write operation was performed.
-
-| Write Data | Read Data |
-|------------|-----------|
-| AA | 15 |
-
-**Status:**  Pass
+| Verification Item | Result |
+|-------------------|--------|
+| Reset Functionality |  Pass |
+| Write Operation |  Pass |
+| Read Operation |  Pass |
+| FIFO Data Ordering |  Pass |
+| Simultaneous Read & Write |  Pass |
+| Pointer Operation |  Pass |
+| Status Flag Behaviour |  Pass |
 
 ---
 
@@ -91,17 +48,43 @@ The simulation waveform confirms the following functional behaviour:
 
 ---
 
-## Verification Summary
+## Verification Scenarios
 
-| Verification Item | Result |
-|-------------------|--------|
-| Reset Functionality |  Pass |
-| Write Operation |  Pass |
-| Read Operation |  Pass |
-| FIFO Data Ordering |  Pass |
-| Simultaneous Read & Write |  Pass |
-| Pointer Operation |  Pass |
-| Status Flag Behaviour |  Pass |
+### 1. Reset Verification
+The reset operation was verified to ensure that the FIFO initializes correctly.
+**Status:**  Pass
+
+### 2. Write Operation
+Eight consecutive data values were written into the FIFO.
+| Data Written (Hex) |
+|--------------------|
+| 10 |
+| 11 |
+| 12 |
+| 13 |
+| 14 |
+| 15 |
+| 16 |
+| 17 |
+**Status:**  Pass
+
+### 3. Read Operation
+Five consecutive read operations were performed.
+| Expected Output | Observed Output |
+|-----------------|-----------------|
+| 10 | 10 |
+| 11 | 11 |
+| 12 | 12 |
+| 13 | 13 |
+| 14 | 14 |
+**Status:**  Pass
+
+### 4. Simultaneous Read and Write
+A simultaneous read and write operation was performed.
+| Write Data | Read Data |
+|------------|-----------|
+| AA | 15 |
+**Status:**  Pass
 
 ---
 
