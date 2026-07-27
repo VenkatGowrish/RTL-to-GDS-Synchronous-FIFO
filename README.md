@@ -82,10 +82,10 @@ rtl-to-gds-synchronous-fifo/
 │   ├── fifo_synthesized.v
 │   └── reports/
 │
-├── 04_STA/
-│   ├── fifo.sdc
-│   ├── reports/
-│   └── scripts/
+├── 04_Timing_Power_Analysis/
+│   ├── timing_power.sdc
+│   ├── timing_power_check.tcl
+│   └── reports/
 │
 ├── 05_Floorplan/
 │
