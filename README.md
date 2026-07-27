@@ -66,22 +66,21 @@ The objective of this project is to understand and implement the complete front-
 ```
 rtl-to-gds-synchronous-fifo/
 │
-├── 01_RTL/
+├── 01_RTL_Design/
 │   ├── fifo.v
 │   ├── write_pointer.v
 │   ├── read_pointer.v
 │   ├── memory_array.v
-│   ├── status_flags.v
 │   └── top.v
 │
-├── 02_Testbench/
+├── 02_Functional_Verification/
 │   ├── fifo_tb.v
 │   └── simulation_results/
 │
-├── 03_Synthesis/
-│   ├── yosys_script.ys
-│   ├── reports/
-│   └── netlist/
+├── 03_Logic_Synthesis/
+│   ├── logic_synthesis.tcl
+│   ├── fifo_synthesized.v
+│   └── reports/
 │
 ├── 04_STA/
 │   ├── fifo.sdc
@@ -115,18 +114,8 @@ rtl-to-gds-synchronous-fifo/
 - CTS
 - Routing
 - Final Layout (GDSII)
+Results for each step are included in respective folders
 
-(Add screenshots in the images folder.)
-
----
-
-## Future Improvements
-
-- Asynchronous FIFO
-- Configurable FIFO Depth
-- SystemVerilog Verification
-- UVM Testbench
-- FPGA Implementation
 
 ---
 
@@ -138,8 +127,3 @@ B.Tech in Electronics and Communication Engineering
 
 Interested in RTL Design, Physical Design, and ASIC Implementation.
 
----
-
-## License
-
-This project is released under the MIT License.
