@@ -32,31 +32,31 @@ The synthesized gate-level netlist is available as **`fifo_synthesized.v`**, and
 ### Top Module
 
 <p align="center">
-  <img src="Images/top.png" width="800">
+  <img src="Images/top.png" width="300">
 </p>
 
 ### FIFO Controller
 
 <p align="center">
-  <img src="Images/controller.png" width="800">
+  <img src="Images/controller.png" width="300">
 </p>
 
 ### Write Pointer
 
 <p align="center">
-  <img src="Images/write_pointer.png" width="800">
+  <img src="Images/write_pointer.png" width="300">
 </p>
 
 ### Read Pointer
 
 <p align="center">
-  <img src="Images/read_pointer.png" width="800">
+  <img src="Images/read_pointer.png" width="300">
 </p>
 
 ### FIFO Memory
 
 <p align="center">
-  <img src="Images/fifo_memory.png" width="800">
+  <img src="Images/fifo_memory.png" width="300">
 </p>
 
 ---
