@@ -1,0 +1,2225 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN fifo_top ;
+UNITS DISTANCE MICRONS 2000 ;
+DIEAREA ( 0 0 ) ( 200260 201600 ) ;
+ROW ROW_0 FreePDK45_38x28_10R_NP_162NW_34O 20140 22400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_1 FreePDK45_38x28_10R_NP_162NW_34O 20140 25200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_2 FreePDK45_38x28_10R_NP_162NW_34O 20140 28000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_3 FreePDK45_38x28_10R_NP_162NW_34O 20140 30800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_4 FreePDK45_38x28_10R_NP_162NW_34O 20140 33600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_5 FreePDK45_38x28_10R_NP_162NW_34O 20140 36400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_6 FreePDK45_38x28_10R_NP_162NW_34O 20140 39200 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_7 FreePDK45_38x28_10R_NP_162NW_34O 20140 42000 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_8 FreePDK45_38x28_10R_NP_162NW_34O 20140 44800 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_9 FreePDK45_38x28_10R_NP_162NW_34O 20140 47600 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_10 FreePDK45_38x28_10R_NP_162NW_34O 20140 50400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_11 FreePDK45_38x28_10R_NP_162NW_34O 20140 53200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_12 FreePDK45_38x28_10R_NP_162NW_34O 20140 56000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_13 FreePDK45_38x28_10R_NP_162NW_34O 20140 58800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_14 FreePDK45_38x28_10R_NP_162NW_34O 20140 61600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_15 FreePDK45_38x28_10R_NP_162NW_34O 20140 64400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_16 FreePDK45_38x28_10R_NP_162NW_34O 20140 67200 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_17 FreePDK45_38x28_10R_NP_162NW_34O 20140 70000 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_18 FreePDK45_38x28_10R_NP_162NW_34O 20140 72800 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_19 FreePDK45_38x28_10R_NP_162NW_34O 20140 75600 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_20 FreePDK45_38x28_10R_NP_162NW_34O 20140 78400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_21 FreePDK45_38x28_10R_NP_162NW_34O 20140 81200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_22 FreePDK45_38x28_10R_NP_162NW_34O 20140 84000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_23 FreePDK45_38x28_10R_NP_162NW_34O 20140 86800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_24 FreePDK45_38x28_10R_NP_162NW_34O 20140 89600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_25 FreePDK45_38x28_10R_NP_162NW_34O 20140 92400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_26 FreePDK45_38x28_10R_NP_162NW_34O 20140 95200 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_27 FreePDK45_38x28_10R_NP_162NW_34O 20140 98000 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_28 FreePDK45_38x28_10R_NP_162NW_34O 20140 100800 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_29 FreePDK45_38x28_10R_NP_162NW_34O 20140 103600 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_30 FreePDK45_38x28_10R_NP_162NW_34O 20140 106400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_31 FreePDK45_38x28_10R_NP_162NW_34O 20140 109200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_32 FreePDK45_38x28_10R_NP_162NW_34O 20140 112000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_33 FreePDK45_38x28_10R_NP_162NW_34O 20140 114800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_34 FreePDK45_38x28_10R_NP_162NW_34O 20140 117600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_35 FreePDK45_38x28_10R_NP_162NW_34O 20140 120400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_36 FreePDK45_38x28_10R_NP_162NW_34O 20140 123200 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_37 FreePDK45_38x28_10R_NP_162NW_34O 20140 126000 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_38 FreePDK45_38x28_10R_NP_162NW_34O 20140 128800 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_39 FreePDK45_38x28_10R_NP_162NW_34O 20140 131600 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_40 FreePDK45_38x28_10R_NP_162NW_34O 20140 134400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_41 FreePDK45_38x28_10R_NP_162NW_34O 20140 137200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_42 FreePDK45_38x28_10R_NP_162NW_34O 20140 140000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_43 FreePDK45_38x28_10R_NP_162NW_34O 20140 142800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_44 FreePDK45_38x28_10R_NP_162NW_34O 20140 145600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_45 FreePDK45_38x28_10R_NP_162NW_34O 20140 148400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_46 FreePDK45_38x28_10R_NP_162NW_34O 20140 151200 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_47 FreePDK45_38x28_10R_NP_162NW_34O 20140 154000 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_48 FreePDK45_38x28_10R_NP_162NW_34O 20140 156800 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_49 FreePDK45_38x28_10R_NP_162NW_34O 20140 159600 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_50 FreePDK45_38x28_10R_NP_162NW_34O 20140 162400 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_51 FreePDK45_38x28_10R_NP_162NW_34O 20140 165200 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_52 FreePDK45_38x28_10R_NP_162NW_34O 20140 168000 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_53 FreePDK45_38x28_10R_NP_162NW_34O 20140 170800 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_54 FreePDK45_38x28_10R_NP_162NW_34O 20140 173600 N DO 422 BY 1 STEP 380 0 ;
+ROW ROW_55 FreePDK45_38x28_10R_NP_162NW_34O 20140 176400 FS DO 422 BY 1 STEP 380 0 ;
+ROW ROW_56 FreePDK45_38x28_10R_NP_162NW_34O 20140 179200 N DO 422 BY 1 STEP 380 0 ;
+TRACKS X 190 DO 527 STEP 380 LAYER metal1 ;
+TRACKS Y 140 DO 720 STEP 280 LAYER metal1 ;
+TRACKS X 190 DO 527 STEP 380 LAYER metal2 ;
+TRACKS Y 140 DO 720 STEP 280 LAYER metal2 ;
+TRACKS X 190 DO 527 STEP 380 LAYER metal3 ;
+TRACKS Y 140 DO 720 STEP 280 LAYER metal3 ;
+TRACKS X 190 DO 358 STEP 560 LAYER metal4 ;
+TRACKS Y 140 DO 360 STEP 560 LAYER metal4 ;
+TRACKS X 190 DO 358 STEP 560 LAYER metal5 ;
+TRACKS Y 140 DO 360 STEP 560 LAYER metal5 ;
+TRACKS X 190 DO 358 STEP 560 LAYER metal6 ;
+TRACKS Y 140 DO 360 STEP 560 LAYER metal6 ;
+TRACKS X 1790 DO 124 STEP 1600 LAYER metal7 ;
+TRACKS Y 1740 DO 125 STEP 1600 LAYER metal7 ;
+TRACKS X 1790 DO 124 STEP 1600 LAYER metal8 ;
+TRACKS Y 1740 DO 125 STEP 1600 LAYER metal8 ;
+TRACKS X 3390 DO 62 STEP 3200 LAYER metal9 ;
+TRACKS Y 3340 DO 62 STEP 3200 LAYER metal9 ;
+TRACKS X 3390 DO 62 STEP 3200 LAYER metal10 ;
+TRACKS Y 3340 DO 62 STEP 3200 LAYER metal10 ;
+VIAS 6 ;
+    - via1_2_960_340_1_3_300_300 + VIARULE Via1Array-0 + CUTSIZE 140 140  + LAYERS metal1 via1 metal2  + CUTSPACING 160 160  + ENCLOSURE 70 100 70 70  + ROWCOL 1 3  ;
+    - via2_3_960_340_1_3_320_320 + VIARULE Via2Array-0 + CUTSIZE 140 140  + LAYERS metal2 via2 metal3  + CUTSPACING 180 180  + ENCLOSURE 70 70 70 70  + ROWCOL 1 3  ;
+    - via3_4_960_340_1_3_320_320 + VIARULE Via3Array-0 + CUTSIZE 140 140  + LAYERS metal3 via3 metal4  + CUTSPACING 180 180  + ENCLOSURE 70 70 90 70  + ROWCOL 1 3  ;
+    - via4_5_960_2800_5_2_600_600 + VIARULE Via4Array-0 + CUTSIZE 280 280  + LAYERS metal4 via4 metal5  + CUTSPACING 320 320  + ENCLOSURE 40 0 0 0  + ROWCOL 5 2  ;
+    - via5_6_960_2800_5_2_600_600 + VIARULE Via5Array-0 + CUTSIZE 280 280  + LAYERS metal5 via5 metal6  + CUTSPACING 320 320  + ENCLOSURE 0 0 0 0  + ROWCOL 5 2  ;
+    - via6_7_960_2800_4_1_600_600 + VIARULE Via6Array-0 + CUTSIZE 280 280  + LAYERS metal6 via6 metal7  + CUTSPACING 320 320  + ENCLOSURE 0 0 260 360  + ROWCOL 4 1  ;
+END VIAS
+COMPONENTS 773 ;
+    - PHY_EDGE_ROW_0_Left_57 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 22400 ) N ;
+    - PHY_EDGE_ROW_0_Right_0 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 22400 ) FN ;
+    - PHY_EDGE_ROW_10_Left_67 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 50400 ) N ;
+    - PHY_EDGE_ROW_10_Right_10 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 50400 ) FN ;
+    - PHY_EDGE_ROW_11_Left_68 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 53200 ) FS ;
+    - PHY_EDGE_ROW_11_Right_11 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 53200 ) S ;
+    - PHY_EDGE_ROW_12_Left_69 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 56000 ) N ;
+    - PHY_EDGE_ROW_12_Right_12 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 56000 ) FN ;
+    - PHY_EDGE_ROW_13_Left_70 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 58800 ) FS ;
+    - PHY_EDGE_ROW_13_Right_13 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 58800 ) S ;
+    - PHY_EDGE_ROW_14_Left_71 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 61600 ) N ;
+    - PHY_EDGE_ROW_14_Right_14 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 61600 ) FN ;
+    - PHY_EDGE_ROW_15_Left_72 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 64400 ) FS ;
+    - PHY_EDGE_ROW_15_Right_15 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 64400 ) S ;
+    - PHY_EDGE_ROW_16_Left_73 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 67200 ) N ;
+    - PHY_EDGE_ROW_16_Right_16 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 67200 ) FN ;
+    - PHY_EDGE_ROW_17_Left_74 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 70000 ) FS ;
+    - PHY_EDGE_ROW_17_Right_17 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 70000 ) S ;
+    - PHY_EDGE_ROW_18_Left_75 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 72800 ) N ;
+    - PHY_EDGE_ROW_18_Right_18 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 72800 ) FN ;
+    - PHY_EDGE_ROW_19_Left_76 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 75600 ) FS ;
+    - PHY_EDGE_ROW_19_Right_19 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 75600 ) S ;
+    - PHY_EDGE_ROW_1_Left_58 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 25200 ) FS ;
+    - PHY_EDGE_ROW_1_Right_1 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 25200 ) S ;
+    - PHY_EDGE_ROW_20_Left_77 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 78400 ) N ;
+    - PHY_EDGE_ROW_20_Right_20 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 78400 ) FN ;
+    - PHY_EDGE_ROW_21_Left_78 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 81200 ) FS ;
+    - PHY_EDGE_ROW_21_Right_21 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 81200 ) S ;
+    - PHY_EDGE_ROW_22_Left_79 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 84000 ) N ;
+    - PHY_EDGE_ROW_22_Right_22 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 84000 ) FN ;
+    - PHY_EDGE_ROW_23_Left_80 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 86800 ) FS ;
+    - PHY_EDGE_ROW_23_Right_23 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 86800 ) S ;
+    - PHY_EDGE_ROW_24_Left_81 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 89600 ) N ;
+    - PHY_EDGE_ROW_24_Right_24 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 89600 ) FN ;
+    - PHY_EDGE_ROW_25_Left_82 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 92400 ) FS ;
+    - PHY_EDGE_ROW_25_Right_25 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 92400 ) S ;
+    - PHY_EDGE_ROW_26_Left_83 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 95200 ) N ;
+    - PHY_EDGE_ROW_26_Right_26 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 95200 ) FN ;
+    - PHY_EDGE_ROW_27_Left_84 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 98000 ) FS ;
+    - PHY_EDGE_ROW_27_Right_27 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 98000 ) S ;
+    - PHY_EDGE_ROW_28_Left_85 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 100800 ) N ;
+    - PHY_EDGE_ROW_28_Right_28 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 100800 ) FN ;
+    - PHY_EDGE_ROW_29_Left_86 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 103600 ) FS ;
+    - PHY_EDGE_ROW_29_Right_29 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 103600 ) S ;
+    - PHY_EDGE_ROW_2_Left_59 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 28000 ) N ;
+    - PHY_EDGE_ROW_2_Right_2 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 28000 ) FN ;
+    - PHY_EDGE_ROW_30_Left_87 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 106400 ) N ;
+    - PHY_EDGE_ROW_30_Right_30 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 106400 ) FN ;
+    - PHY_EDGE_ROW_31_Left_88 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 109200 ) FS ;
+    - PHY_EDGE_ROW_31_Right_31 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 109200 ) S ;
+    - PHY_EDGE_ROW_32_Left_89 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 112000 ) N ;
+    - PHY_EDGE_ROW_32_Right_32 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 112000 ) FN ;
+    - PHY_EDGE_ROW_33_Left_90 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 114800 ) FS ;
+    - PHY_EDGE_ROW_33_Right_33 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 114800 ) S ;
+    - PHY_EDGE_ROW_34_Left_91 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 117600 ) N ;
+    - PHY_EDGE_ROW_34_Right_34 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 117600 ) FN ;
+    - PHY_EDGE_ROW_35_Left_92 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 120400 ) FS ;
+    - PHY_EDGE_ROW_35_Right_35 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 120400 ) S ;
+    - PHY_EDGE_ROW_36_Left_93 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 123200 ) N ;
+    - PHY_EDGE_ROW_36_Right_36 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 123200 ) FN ;
+    - PHY_EDGE_ROW_37_Left_94 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 126000 ) FS ;
+    - PHY_EDGE_ROW_37_Right_37 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 126000 ) S ;
+    - PHY_EDGE_ROW_38_Left_95 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 128800 ) N ;
+    - PHY_EDGE_ROW_38_Right_38 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 128800 ) FN ;
+    - PHY_EDGE_ROW_39_Left_96 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 131600 ) FS ;
+    - PHY_EDGE_ROW_39_Right_39 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 131600 ) S ;
+    - PHY_EDGE_ROW_3_Left_60 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 30800 ) FS ;
+    - PHY_EDGE_ROW_3_Right_3 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 30800 ) S ;
+    - PHY_EDGE_ROW_40_Left_97 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 134400 ) N ;
+    - PHY_EDGE_ROW_40_Right_40 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 134400 ) FN ;
+    - PHY_EDGE_ROW_41_Left_98 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 137200 ) FS ;
+    - PHY_EDGE_ROW_41_Right_41 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 137200 ) S ;
+    - PHY_EDGE_ROW_42_Left_99 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 140000 ) N ;
+    - PHY_EDGE_ROW_42_Right_42 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 140000 ) FN ;
+    - PHY_EDGE_ROW_43_Left_100 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 142800 ) FS ;
+    - PHY_EDGE_ROW_43_Right_43 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 142800 ) S ;
+    - PHY_EDGE_ROW_44_Left_101 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 145600 ) N ;
+    - PHY_EDGE_ROW_44_Right_44 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 145600 ) FN ;
+    - PHY_EDGE_ROW_45_Left_102 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 148400 ) FS ;
+    - PHY_EDGE_ROW_45_Right_45 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 148400 ) S ;
+    - PHY_EDGE_ROW_46_Left_103 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 151200 ) N ;
+    - PHY_EDGE_ROW_46_Right_46 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 151200 ) FN ;
+    - PHY_EDGE_ROW_47_Left_104 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 154000 ) FS ;
+    - PHY_EDGE_ROW_47_Right_47 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 154000 ) S ;
+    - PHY_EDGE_ROW_48_Left_105 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 156800 ) N ;
+    - PHY_EDGE_ROW_48_Right_48 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 156800 ) FN ;
+    - PHY_EDGE_ROW_49_Left_106 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 159600 ) FS ;
+    - PHY_EDGE_ROW_49_Right_49 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 159600 ) S ;
+    - PHY_EDGE_ROW_4_Left_61 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 33600 ) N ;
+    - PHY_EDGE_ROW_4_Right_4 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 33600 ) FN ;
+    - PHY_EDGE_ROW_50_Left_107 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 162400 ) N ;
+    - PHY_EDGE_ROW_50_Right_50 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 162400 ) FN ;
+    - PHY_EDGE_ROW_51_Left_108 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 165200 ) FS ;
+    - PHY_EDGE_ROW_51_Right_51 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 165200 ) S ;
+    - PHY_EDGE_ROW_52_Left_109 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 168000 ) N ;
+    - PHY_EDGE_ROW_52_Right_52 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 168000 ) FN ;
+    - PHY_EDGE_ROW_53_Left_110 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 170800 ) FS ;
+    - PHY_EDGE_ROW_53_Right_53 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 170800 ) S ;
+    - PHY_EDGE_ROW_54_Left_111 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 173600 ) N ;
+    - PHY_EDGE_ROW_54_Right_54 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 173600 ) FN ;
+    - PHY_EDGE_ROW_55_Left_112 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 176400 ) FS ;
+    - PHY_EDGE_ROW_55_Right_55 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 176400 ) S ;
+    - PHY_EDGE_ROW_56_Left_113 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 179200 ) N ;
+    - PHY_EDGE_ROW_56_Right_56 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 179200 ) FN ;
+    - PHY_EDGE_ROW_5_Left_62 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 36400 ) FS ;
+    - PHY_EDGE_ROW_5_Right_5 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 36400 ) S ;
+    - PHY_EDGE_ROW_6_Left_63 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 39200 ) N ;
+    - PHY_EDGE_ROW_6_Right_6 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 39200 ) FN ;
+    - PHY_EDGE_ROW_7_Left_64 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 42000 ) FS ;
+    - PHY_EDGE_ROW_7_Right_7 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 42000 ) S ;
+    - PHY_EDGE_ROW_8_Left_65 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 44800 ) N ;
+    - PHY_EDGE_ROW_8_Right_8 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 44800 ) FN ;
+    - PHY_EDGE_ROW_9_Left_66 TAPCELL_X1 + SOURCE DIST + FIXED ( 20140 47600 ) FS ;
+    - PHY_EDGE_ROW_9_Right_9 TAPCELL_X1 + SOURCE DIST + FIXED ( 180120 47600 ) S ;
+    - controller/_41_ INV_X1 ;
+    - controller/_42_ NOR2_X1 ;
+    - controller/_43_ NOR3_X1 ;
+    - controller/_44_ NOR4_X1 ;
+    - controller/_45_ OR4_X1 ;
+    - controller/_46_ NOR2_X1 ;
+    - controller/_47_ OAI21_X1 ;
+    - controller/_48_ INV_X1 ;
+    - controller/_49_ AND2_X1 ;
+    - controller/_50_ AOI21_X1 ;
+    - controller/_51_ NOR2_X1 ;
+    - controller/_52_ AND2_X1 ;
+    - controller/_53_ NAND2_X1 ;
+    - controller/_54_ AND2_X1 ;
+    - controller/_55_ MUX2_X1 ;
+    - controller/_56_ NAND2_X1 ;
+    - controller/_57_ XOR2_X1 ;
+    - controller/_58_ NAND2_X1 ;
+    - controller/_59_ NAND3_X1 ;
+    - controller/_60_ NAND4_X1 ;
+    - controller/_61_ XNOR2_X1 ;
+    - controller/_62_ AOI22_X1 ;
+    - controller/_63_ AOI21_X1 ;
+    - controller/_64_ NAND2_X1 ;
+    - controller/_65_ XOR2_X1 ;
+    - controller/_66_ XNOR2_X1 ;
+    - controller/_67_ AOI22_X1 ;
+    - controller/_68_ AOI21_X1 ;
+    - controller/_69_ NAND2_X1 ;
+    - controller/_70_ XOR2_X1 ;
+    - controller/_71_ NOR3_X1 ;
+    - controller/_72_ AOI21_X1 ;
+    - controller/_73_ AOI21_X1 ;
+    - controller/_74_ XOR2_X1 ;
+    - controller/_75_ NOR2_X1 ;
+    - controller/_76_ NOR2_X1 ;
+    - controller/_77_ OAI21_X1 ;
+    - controller/_78_ XNOR2_X1 ;
+    - controller/_79_ NAND2_X1 ;
+    - controller/_80_ AOI21_X1 ;
+    - controller/_81_ DFF_X1 ;
+    - controller/_82_ DFF_X1 ;
+    - controller/_83_ DFF_X1 ;
+    - controller/_84_ DFF_X1 ;
+    - controller/_85_ DFF_X1 ;
+    - memory/_0584_ INV_X1 ;
+    - memory/_0585_ INV_X1 ;
+    - memory/_0586_ INV_X1 ;
+    - memory/_0587_ INV_X1 ;
+    - memory/_0588_ INV_X1 ;
+    - memory/_0589_ INV_X1 ;
+    - memory/_0590_ INV_X1 ;
+    - memory/_0591_ INV_X1 ;
+    - memory/_0592_ INV_X1 ;
+    - memory/_0593_ INV_X1 ;
+    - memory/_0594_ INV_X1 ;
+    - memory/_0595_ INV_X1 ;
+    - memory/_0596_ INV_X1 ;
+    - memory/_0597_ INV_X1 ;
+    - memory/_0598_ INV_X1 ;
+    - memory/_0599_ INV_X1 ;
+    - memory/_0600_ INV_X1 ;
+    - memory/_0601_ INV_X1 ;
+    - memory/_0602_ INV_X1 ;
+    - memory/_0603_ INV_X1 ;
+    - memory/_0604_ INV_X1 ;
+    - memory/_0605_ INV_X1 ;
+    - memory/_0606_ INV_X1 ;
+    - memory/_0607_ INV_X1 ;
+    - memory/_0608_ INV_X1 ;
+    - memory/_0609_ INV_X1 ;
+    - memory/_0610_ INV_X1 ;
+    - memory/_0611_ INV_X1 ;
+    - memory/_0612_ INV_X1 ;
+    - memory/_0613_ INV_X1 ;
+    - memory/_0614_ INV_X1 ;
+    - memory/_0615_ INV_X1 ;
+    - memory/_0616_ INV_X1 ;
+    - memory/_0617_ INV_X1 ;
+    - memory/_0618_ INV_X1 ;
+    - memory/_0619_ INV_X1 ;
+    - memory/_0620_ INV_X1 ;
+    - memory/_0621_ INV_X1 ;
+    - memory/_0622_ INV_X1 ;
+    - memory/_0623_ INV_X1 ;
+    - memory/_0624_ INV_X1 ;
+    - memory/_0625_ INV_X1 ;
+    - memory/_0626_ INV_X1 ;
+    - memory/_0627_ INV_X1 ;
+    - memory/_0628_ INV_X1 ;
+    - memory/_0629_ INV_X1 ;
+    - memory/_0630_ INV_X1 ;
+    - memory/_0631_ INV_X1 ;
+    - memory/_0632_ INV_X1 ;
+    - memory/_0633_ INV_X1 ;
+    - memory/_0634_ INV_X1 ;
+    - memory/_0635_ INV_X1 ;
+    - memory/_0636_ INV_X1 ;
+    - memory/_0637_ INV_X1 ;
+    - memory/_0638_ INV_X1 ;
+    - memory/_0639_ INV_X1 ;
+    - memory/_0640_ INV_X1 ;
+    - memory/_0641_ INV_X1 ;
+    - memory/_0642_ INV_X1 ;
+    - memory/_0643_ INV_X1 ;
+    - memory/_0644_ INV_X1 ;
+    - memory/_0645_ INV_X1 ;
+    - memory/_0646_ INV_X1 ;
+    - memory/_0647_ INV_X1 ;
+    - memory/_0648_ INV_X1 ;
+    - memory/_0649_ INV_X1 ;
+    - memory/_0650_ INV_X1 ;
+    - memory/_0651_ INV_X1 ;
+    - memory/_0652_ INV_X1 ;
+    - memory/_0653_ INV_X1 ;
+    - memory/_0654_ INV_X1 ;
+    - memory/_0655_ INV_X1 ;
+    - memory/_0656_ INV_X1 ;
+    - memory/_0657_ INV_X1 ;
+    - memory/_0658_ INV_X1 ;
+    - memory/_0659_ INV_X1 ;
+    - memory/_0660_ INV_X1 ;
+    - memory/_0661_ INV_X1 ;
+    - memory/_0662_ INV_X1 ;
+    - memory/_0663_ INV_X1 ;
+    - memory/_0664_ INV_X1 ;
+    - memory/_0665_ INV_X1 ;
+    - memory/_0666_ INV_X1 ;
+    - memory/_0667_ INV_X1 ;
+    - memory/_0668_ INV_X1 ;
+    - memory/_0669_ INV_X1 ;
+    - memory/_0670_ INV_X1 ;
+    - memory/_0671_ INV_X1 ;
+    - memory/_0672_ INV_X1 ;
+    - memory/_0673_ INV_X1 ;
+    - memory/_0674_ INV_X1 ;
+    - memory/_0675_ INV_X1 ;
+    - memory/_0676_ INV_X1 ;
+    - memory/_0677_ INV_X1 ;
+    - memory/_0678_ INV_X1 ;
+    - memory/_0679_ INV_X1 ;
+    - memory/_0680_ INV_X1 ;
+    - memory/_0681_ INV_X1 ;
+    - memory/_0682_ INV_X1 ;
+    - memory/_0683_ INV_X1 ;
+    - memory/_0684_ INV_X1 ;
+    - memory/_0685_ INV_X1 ;
+    - memory/_0686_ INV_X1 ;
+    - memory/_0687_ INV_X1 ;
+    - memory/_0688_ INV_X1 ;
+    - memory/_0689_ INV_X1 ;
+    - memory/_0690_ INV_X1 ;
+    - memory/_0691_ INV_X1 ;
+    - memory/_0692_ INV_X1 ;
+    - memory/_0693_ INV_X1 ;
+    - memory/_0694_ INV_X1 ;
+    - memory/_0695_ INV_X1 ;
+    - memory/_0696_ INV_X1 ;
+    - memory/_0697_ INV_X1 ;
+    - memory/_0698_ INV_X1 ;
+    - memory/_0699_ INV_X1 ;
+    - memory/_0700_ INV_X1 ;
+    - memory/_0701_ INV_X1 ;
+    - memory/_0702_ INV_X1 ;
+    - memory/_0703_ INV_X1 ;
+    - memory/_0704_ INV_X1 ;
+    - memory/_0705_ INV_X1 ;
+    - memory/_0706_ INV_X1 ;
+    - memory/_0707_ INV_X1 ;
+    - memory/_0708_ INV_X1 ;
+    - memory/_0709_ INV_X1 ;
+    - memory/_0710_ INV_X1 ;
+    - memory/_0711_ INV_X1 ;
+    - memory/_0712_ INV_X1 ;
+    - memory/_0713_ INV_X1 ;
+    - memory/_0714_ INV_X1 ;
+    - memory/_0715_ INV_X1 ;
+    - memory/_0716_ INV_X1 ;
+    - memory/_0717_ INV_X1 ;
+    - memory/_0718_ INV_X1 ;
+    - memory/_0719_ INV_X1 ;
+    - memory/_0720_ INV_X1 ;
+    - memory/_0721_ INV_X1 ;
+    - memory/_0722_ INV_X1 ;
+    - memory/_0723_ INV_X1 ;
+    - memory/_0724_ INV_X1 ;
+    - memory/_0725_ INV_X1 ;
+    - memory/_0726_ INV_X1 ;
+    - memory/_0727_ INV_X1 ;
+    - memory/_0728_ INV_X1 ;
+    - memory/_0729_ AND2_X1 ;
+    - memory/_0730_ NAND2_X1 ;
+    - memory/_0731_ NAND3_X1 ;
+    - memory/_0732_ NOR2_X1 ;
+    - memory/_0733_ OR2_X1 ;
+    - memory/_0734_ AND2_X1 ;
+    - memory/_0735_ AOI22_X1 ;
+    - memory/_0736_ OAI211_X1 ;
+    - memory/_0737_ NOR2_X1 ;
+    - memory/_0738_ AOI22_X1 ;
+    - memory/_0739_ OAI221_X1 ;
+    - memory/_0740_ NOR2_X1 ;
+    - memory/_0741_ NAND3_X1 ;
+    - memory/_0742_ AOI22_X1 ;
+    - memory/_0743_ OAI211_X1 ;
+    - memory/_0744_ AND2_X1 ;
+    - memory/_0745_ NAND3_X1 ;
+    - memory/_0746_ AOI22_X1 ;
+    - memory/_0747_ OAI211_X1 ;
+    - memory/_0748_ AOI22_X1 ;
+    - memory/_0749_ AOI221_X1 ;
+    - memory/_0750_ OAI21_X1 ;
+    - memory/_0751_ AOI21_X1 ;
+    - memory/_0752_ NAND3_X1 ;
+    - memory/_0753_ AOI22_X1 ;
+    - memory/_0754_ OAI211_X1 ;
+    - memory/_0755_ AOI22_X1 ;
+    - memory/_0756_ OAI221_X1 ;
+    - memory/_0757_ NAND3_X1 ;
+    - memory/_0758_ AOI22_X1 ;
+    - memory/_0759_ OAI211_X1 ;
+    - memory/_0760_ NAND3_X1 ;
+    - memory/_0761_ AOI22_X1 ;
+    - memory/_0762_ OAI211_X1 ;
+    - memory/_0763_ AOI222_X1 ;
+    - memory/_0764_ AOI21_X1 ;
+    - memory/_0765_ OAI21_X1 ;
+    - memory/_0766_ AOI21_X1 ;
+    - memory/_0767_ NAND3_X1 ;
+    - memory/_0768_ AOI22_X1 ;
+    - memory/_0769_ OAI211_X1 ;
+    - memory/_0770_ AOI22_X1 ;
+    - memory/_0771_ OAI221_X1 ;
+    - memory/_0772_ NAND3_X1 ;
+    - memory/_0773_ AOI22_X1 ;
+    - memory/_0774_ OAI211_X1 ;
+    - memory/_0775_ NAND3_X1 ;
+    - memory/_0776_ AOI22_X1 ;
+    - memory/_0777_ OAI211_X1 ;
+    - memory/_0778_ AOI222_X1 ;
+    - memory/_0779_ AOI21_X1 ;
+    - memory/_0780_ OAI21_X1 ;
+    - memory/_0781_ AOI21_X1 ;
+    - memory/_0782_ NAND3_X1 ;
+    - memory/_0783_ AOI22_X1 ;
+    - memory/_0784_ OAI211_X1 ;
+    - memory/_0785_ AOI22_X1 ;
+    - memory/_0786_ OAI221_X1 ;
+    - memory/_0787_ NAND3_X1 ;
+    - memory/_0788_ AOI22_X1 ;
+    - memory/_0789_ OAI211_X1 ;
+    - memory/_0790_ NAND3_X1 ;
+    - memory/_0791_ AOI22_X1 ;
+    - memory/_0792_ OAI211_X1 ;
+    - memory/_0793_ AOI22_X1 ;
+    - memory/_0794_ AOI221_X1 ;
+    - memory/_0795_ OAI21_X1 ;
+    - memory/_0796_ AOI21_X1 ;
+    - memory/_0797_ NAND3_X1 ;
+    - memory/_0798_ AOI22_X1 ;
+    - memory/_0799_ OAI211_X1 ;
+    - memory/_0800_ AOI22_X1 ;
+    - memory/_0801_ OAI221_X1 ;
+    - memory/_0802_ NAND3_X1 ;
+    - memory/_0803_ AOI22_X1 ;
+    - memory/_0804_ OAI211_X1 ;
+    - memory/_0805_ NAND3_X1 ;
+    - memory/_0806_ AOI22_X1 ;
+    - memory/_0807_ OAI211_X1 ;
+    - memory/_0808_ AOI22_X1 ;
+    - memory/_0809_ AOI221_X1 ;
+    - memory/_0810_ OAI21_X1 ;
+    - memory/_0811_ AOI21_X1 ;
+    - memory/_0812_ NAND3_X1 ;
+    - memory/_0813_ AOI22_X1 ;
+    - memory/_0814_ OAI211_X1 ;
+    - memory/_0815_ AOI22_X1 ;
+    - memory/_0816_ OAI221_X1 ;
+    - memory/_0817_ NAND3_X1 ;
+    - memory/_0818_ AOI22_X1 ;
+    - memory/_0819_ OAI211_X1 ;
+    - memory/_0820_ NAND3_X1 ;
+    - memory/_0821_ AOI22_X1 ;
+    - memory/_0822_ OAI211_X1 ;
+    - memory/_0823_ AOI222_X1 ;
+    - memory/_0824_ AOI21_X1 ;
+    - memory/_0825_ OAI21_X1 ;
+    - memory/_0826_ AOI21_X1 ;
+    - memory/_0827_ NAND3_X1 ;
+    - memory/_0828_ AOI22_X1 ;
+    - memory/_0829_ OAI211_X1 ;
+    - memory/_0830_ AOI22_X1 ;
+    - memory/_0831_ OAI221_X1 ;
+    - memory/_0832_ AOI22_X1 ;
+    - memory/_0833_ OAI221_X1 ;
+    - memory/_0834_ AOI22_X1 ;
+    - memory/_0835_ OAI221_X1 ;
+    - memory/_0836_ AOI22_X1 ;
+    - memory/_0837_ AOI221_X1 ;
+    - memory/_0838_ OAI21_X1 ;
+    - memory/_0839_ AOI21_X1 ;
+    - memory/_0840_ NOR2_X1 ;
+    - memory/_0841_ AOI211_X1 ;
+    - memory/_0842_ AOI211_X1 ;
+    - memory/_0843_ OR4_X1 ;
+    - memory/_0844_ NAND2_X1 ;
+    - memory/_0845_ OAI22_X1 ;
+    - memory/_0846_ OAI22_X1 ;
+    - memory/_0847_ OAI22_X1 ;
+    - memory/_0848_ OAI22_X1 ;
+    - memory/_0849_ OAI22_X1 ;
+    - memory/_0850_ OAI22_X1 ;
+    - memory/_0851_ OAI22_X1 ;
+    - memory/_0852_ NAND4_X1 ;
+    - memory/_0853_ OR2_X1 ;
+    - memory/_0854_ NAND2_X1 ;
+    - memory/_0855_ NAND2_X1 ;
+    - memory/_0856_ OAI22_X1 ;
+    - memory/_0857_ NAND2_X1 ;
+    - memory/_0858_ OAI22_X1 ;
+    - memory/_0859_ NAND2_X1 ;
+    - memory/_0860_ OAI22_X1 ;
+    - memory/_0861_ NAND2_X1 ;
+    - memory/_0862_ OAI22_X1 ;
+    - memory/_0863_ NAND2_X1 ;
+    - memory/_0864_ OAI22_X1 ;
+    - memory/_0865_ NAND2_X1 ;
+    - memory/_0866_ OAI22_X1 ;
+    - memory/_0867_ NAND2_X1 ;
+    - memory/_0868_ OAI22_X1 ;
+    - memory/_0869_ NAND4_X1 ;
+    - memory/_0870_ OR2_X1 ;
+    - memory/_0871_ NAND2_X1 ;
+    - memory/_0872_ OAI22_X1 ;
+    - memory/_0873_ OAI22_X1 ;
+    - memory/_0874_ OAI22_X1 ;
+    - memory/_0875_ OAI22_X1 ;
+    - memory/_0876_ OAI22_X1 ;
+    - memory/_0877_ OAI22_X1 ;
+    - memory/_0878_ OAI22_X1 ;
+    - memory/_0879_ NAND4_X1 ;
+    - memory/_0880_ OR2_X1 ;
+    - memory/_0881_ NAND2_X1 ;
+    - memory/_0882_ OAI22_X1 ;
+    - memory/_0883_ OAI22_X1 ;
+    - memory/_0884_ OAI22_X1 ;
+    - memory/_0885_ OAI22_X1 ;
+    - memory/_0886_ OAI22_X1 ;
+    - memory/_0887_ OAI22_X1 ;
+    - memory/_0888_ OAI22_X1 ;
+    - memory/_0889_ NAND4_X1 ;
+    - memory/_0890_ OR2_X1 ;
+    - memory/_0891_ NAND2_X1 ;
+    - memory/_0892_ OAI22_X1 ;
+    - memory/_0893_ OAI22_X1 ;
+    - memory/_0894_ OAI22_X1 ;
+    - memory/_0895_ OAI22_X1 ;
+    - memory/_0896_ OAI22_X1 ;
+    - memory/_0897_ OAI22_X1 ;
+    - memory/_0898_ OAI22_X1 ;
+    - memory/_0899_ OR2_X1 ;
+    - memory/_0900_ NAND2_X1 ;
+    - memory/_0901_ OAI22_X1 ;
+    - memory/_0902_ OAI22_X1 ;
+    - memory/_0903_ OAI22_X1 ;
+    - memory/_0904_ OAI22_X1 ;
+    - memory/_0905_ OAI22_X1 ;
+    - memory/_0906_ OAI22_X1 ;
+    - memory/_0907_ OAI22_X1 ;
+    - memory/_0908_ OR2_X1 ;
+    - memory/_0909_ NAND2_X1 ;
+    - memory/_0910_ OAI22_X1 ;
+    - memory/_0911_ OAI22_X1 ;
+    - memory/_0912_ OAI22_X1 ;
+    - memory/_0913_ OAI22_X1 ;
+    - memory/_0914_ OAI22_X1 ;
+    - memory/_0915_ OAI22_X1 ;
+    - memory/_0916_ OAI22_X1 ;
+    - memory/_0917_ OR2_X1 ;
+    - memory/_0918_ NAND2_X1 ;
+    - memory/_0919_ OAI22_X1 ;
+    - memory/_0920_ OAI22_X1 ;
+    - memory/_0921_ OAI22_X1 ;
+    - memory/_0922_ OAI22_X1 ;
+    - memory/_0923_ OAI22_X1 ;
+    - memory/_0924_ OAI22_X1 ;
+    - memory/_0925_ OAI22_X1 ;
+    - memory/_0926_ NAND4_X1 ;
+    - memory/_0927_ OR2_X1 ;
+    - memory/_0928_ NAND2_X1 ;
+    - memory/_0929_ OAI22_X1 ;
+    - memory/_0930_ OAI22_X1 ;
+    - memory/_0931_ OAI22_X1 ;
+    - memory/_0932_ OAI22_X1 ;
+    - memory/_0933_ OAI22_X1 ;
+    - memory/_0934_ OAI22_X1 ;
+    - memory/_0935_ OAI22_X1 ;
+    - memory/_0936_ OR2_X1 ;
+    - memory/_0937_ NAND2_X1 ;
+    - memory/_0938_ OAI22_X1 ;
+    - memory/_0939_ OAI22_X1 ;
+    - memory/_0940_ OAI22_X1 ;
+    - memory/_0941_ OAI22_X1 ;
+    - memory/_0942_ OAI22_X1 ;
+    - memory/_0943_ OAI22_X1 ;
+    - memory/_0944_ OAI22_X1 ;
+    - memory/_0945_ OR2_X1 ;
+    - memory/_0946_ NAND2_X1 ;
+    - memory/_0947_ OAI22_X1 ;
+    - memory/_0948_ OAI22_X1 ;
+    - memory/_0949_ OAI22_X1 ;
+    - memory/_0950_ OAI22_X1 ;
+    - memory/_0951_ OAI22_X1 ;
+    - memory/_0952_ OAI22_X1 ;
+    - memory/_0953_ OAI22_X1 ;
+    - memory/_0954_ OR2_X1 ;
+    - memory/_0955_ NAND2_X1 ;
+    - memory/_0956_ OAI22_X1 ;
+    - memory/_0957_ OAI22_X1 ;
+    - memory/_0958_ OAI22_X1 ;
+    - memory/_0959_ OAI22_X1 ;
+    - memory/_0960_ OAI22_X1 ;
+    - memory/_0961_ OAI22_X1 ;
+    - memory/_0962_ OAI22_X1 ;
+    - memory/_0963_ NAND4_X1 ;
+    - memory/_0964_ OR2_X1 ;
+    - memory/_0965_ NAND2_X1 ;
+    - memory/_0966_ OAI22_X1 ;
+    - memory/_0967_ OAI22_X1 ;
+    - memory/_0968_ OAI22_X1 ;
+    - memory/_0969_ OAI22_X1 ;
+    - memory/_0970_ OAI22_X1 ;
+    - memory/_0971_ OAI22_X1 ;
+    - memory/_0972_ OAI22_X1 ;
+    - memory/_0973_ OR2_X1 ;
+    - memory/_0974_ NAND2_X1 ;
+    - memory/_0975_ OAI22_X1 ;
+    - memory/_0976_ OAI22_X1 ;
+    - memory/_0977_ OAI22_X1 ;
+    - memory/_0978_ OAI22_X1 ;
+    - memory/_0979_ OAI22_X1 ;
+    - memory/_0980_ OAI22_X1 ;
+    - memory/_0981_ OAI22_X1 ;
+    - memory/_0982_ OR2_X1 ;
+    - memory/_0983_ NAND2_X1 ;
+    - memory/_0984_ OAI22_X1 ;
+    - memory/_0985_ OAI22_X1 ;
+    - memory/_0986_ OAI22_X1 ;
+    - memory/_0987_ OAI22_X1 ;
+    - memory/_0988_ OAI22_X1 ;
+    - memory/_0989_ OAI22_X1 ;
+    - memory/_0990_ OAI22_X1 ;
+    - memory/_0991_ OR2_X1 ;
+    - memory/_0992_ NAND2_X1 ;
+    - memory/_0993_ OAI22_X1 ;
+    - memory/_0994_ OAI22_X1 ;
+    - memory/_0995_ OAI22_X1 ;
+    - memory/_0996_ OAI22_X1 ;
+    - memory/_0997_ OAI22_X1 ;
+    - memory/_0998_ OAI22_X1 ;
+    - memory/_0999_ OAI22_X1 ;
+    - memory/_1000_ NAND3_X1 ;
+    - memory/_1001_ AOI22_X1 ;
+    - memory/_1002_ OAI211_X1 ;
+    - memory/_1003_ AOI22_X1 ;
+    - memory/_1004_ OAI221_X1 ;
+    - memory/_1005_ NAND3_X1 ;
+    - memory/_1006_ AOI22_X1 ;
+    - memory/_1007_ OAI211_X1 ;
+    - memory/_1008_ NAND3_X1 ;
+    - memory/_1009_ AOI22_X1 ;
+    - memory/_1010_ OAI211_X1 ;
+    - memory/_1011_ AOI222_X1 ;
+    - memory/_1012_ AOI21_X1 ;
+    - memory/_1013_ OAI21_X1 ;
+    - memory/_1014_ AOI21_X1 ;
+    - memory/_1015_ NAND2_X1 ;
+    - memory/_1016_ OAI22_X1 ;
+    - memory/_1017_ OAI22_X1 ;
+    - memory/_1018_ OAI22_X1 ;
+    - memory/_1019_ OAI22_X1 ;
+    - memory/_1020_ OAI22_X1 ;
+    - memory/_1021_ OAI22_X1 ;
+    - memory/_1022_ OAI22_X1 ;
+    - memory/_1023_ OAI22_X1 ;
+    - memory/_1024_ OAI22_X1 ;
+    - memory/_1025_ OAI22_X1 ;
+    - memory/_1026_ OAI22_X1 ;
+    - memory/_1027_ OAI22_X1 ;
+    - memory/_1028_ OAI22_X1 ;
+    - memory/_1029_ OAI22_X1 ;
+    - memory/_1030_ OAI22_X1 ;
+    - memory/_1031_ OAI22_X1 ;
+    - memory/_1032_ DFF_X1 ;
+    - memory/_1033_ DFF_X1 ;
+    - memory/_1034_ DFF_X1 ;
+    - memory/_1035_ DFF_X1 ;
+    - memory/_1036_ DFF_X1 ;
+    - memory/_1037_ DFF_X1 ;
+    - memory/_1038_ DFF_X1 ;
+    - memory/_1039_ DFF_X1 ;
+    - memory/_1040_ DFF_X1 ;
+    - memory/_1041_ DFF_X1 ;
+    - memory/_1042_ DFF_X1 ;
+    - memory/_1043_ DFF_X1 ;
+    - memory/_1044_ DFF_X1 ;
+    - memory/_1045_ DFF_X1 ;
+    - memory/_1046_ DFF_X1 ;
+    - memory/_1047_ DFF_X1 ;
+    - memory/_1048_ DFF_X1 ;
+    - memory/_1049_ DFF_X1 ;
+    - memory/_1050_ DFF_X1 ;
+    - memory/_1051_ DFF_X1 ;
+    - memory/_1052_ DFF_X1 ;
+    - memory/_1053_ DFF_X1 ;
+    - memory/_1054_ DFF_X1 ;
+    - memory/_1055_ DFF_X1 ;
+    - memory/_1056_ DFF_X1 ;
+    - memory/_1057_ DFF_X1 ;
+    - memory/_1058_ DFF_X1 ;
+    - memory/_1059_ DFF_X1 ;
+    - memory/_1060_ DFF_X1 ;
+    - memory/_1061_ DFF_X1 ;
+    - memory/_1062_ DFF_X1 ;
+    - memory/_1063_ DFF_X1 ;
+    - memory/_1064_ DFF_X1 ;
+    - memory/_1065_ DFF_X1 ;
+    - memory/_1066_ DFF_X1 ;
+    - memory/_1067_ DFF_X1 ;
+    - memory/_1068_ DFF_X1 ;
+    - memory/_1069_ DFF_X1 ;
+    - memory/_1070_ DFF_X1 ;
+    - memory/_1071_ DFF_X1 ;
+    - memory/_1072_ DFF_X1 ;
+    - memory/_1073_ DFF_X1 ;
+    - memory/_1074_ DFF_X1 ;
+    - memory/_1075_ DFF_X1 ;
+    - memory/_1076_ DFF_X1 ;
+    - memory/_1077_ DFF_X1 ;
+    - memory/_1078_ DFF_X1 ;
+    - memory/_1079_ DFF_X1 ;
+    - memory/_1080_ DFF_X1 ;
+    - memory/_1081_ DFF_X1 ;
+    - memory/_1082_ DFF_X1 ;
+    - memory/_1083_ DFF_X1 ;
+    - memory/_1084_ DFF_X1 ;
+    - memory/_1085_ DFF_X1 ;
+    - memory/_1086_ DFF_X1 ;
+    - memory/_1087_ DFF_X1 ;
+    - memory/_1088_ DFF_X1 ;
+    - memory/_1089_ DFF_X1 ;
+    - memory/_1090_ DFF_X1 ;
+    - memory/_1091_ DFF_X1 ;
+    - memory/_1092_ DFF_X1 ;
+    - memory/_1093_ DFF_X1 ;
+    - memory/_1094_ DFF_X1 ;
+    - memory/_1095_ DFF_X1 ;
+    - memory/_1096_ DFF_X1 ;
+    - memory/_1097_ DFF_X1 ;
+    - memory/_1098_ DFF_X1 ;
+    - memory/_1099_ DFF_X1 ;
+    - memory/_1100_ DFF_X1 ;
+    - memory/_1101_ DFF_X1 ;
+    - memory/_1102_ DFF_X1 ;
+    - memory/_1103_ DFF_X1 ;
+    - memory/_1104_ DFF_X1 ;
+    - memory/_1105_ DFF_X1 ;
+    - memory/_1106_ DFF_X1 ;
+    - memory/_1107_ DFF_X1 ;
+    - memory/_1108_ DFF_X1 ;
+    - memory/_1109_ DFF_X1 ;
+    - memory/_1110_ DFF_X1 ;
+    - memory/_1111_ DFF_X1 ;
+    - memory/_1112_ DFF_X1 ;
+    - memory/_1113_ DFF_X1 ;
+    - memory/_1114_ DFF_X1 ;
+    - memory/_1115_ DFF_X1 ;
+    - memory/_1116_ DFF_X1 ;
+    - memory/_1117_ DFF_X1 ;
+    - memory/_1118_ DFF_X1 ;
+    - memory/_1119_ DFF_X1 ;
+    - memory/_1120_ DFF_X1 ;
+    - memory/_1121_ DFF_X1 ;
+    - memory/_1122_ DFF_X1 ;
+    - memory/_1123_ DFF_X1 ;
+    - memory/_1124_ DFF_X1 ;
+    - memory/_1125_ DFF_X1 ;
+    - memory/_1126_ DFF_X1 ;
+    - memory/_1127_ DFF_X1 ;
+    - memory/_1128_ DFF_X1 ;
+    - memory/_1129_ DFF_X1 ;
+    - memory/_1130_ DFF_X1 ;
+    - memory/_1131_ DFF_X1 ;
+    - memory/_1132_ DFF_X1 ;
+    - memory/_1133_ DFF_X1 ;
+    - memory/_1134_ DFF_X1 ;
+    - memory/_1135_ DFF_X1 ;
+    - memory/_1136_ DFF_X1 ;
+    - memory/_1137_ DFF_X1 ;
+    - memory/_1138_ DFF_X1 ;
+    - memory/_1139_ DFF_X1 ;
+    - memory/_1140_ DFF_X1 ;
+    - memory/_1141_ DFF_X1 ;
+    - memory/_1142_ DFF_X1 ;
+    - memory/_1143_ DFF_X1 ;
+    - memory/_1144_ DFF_X1 ;
+    - memory/_1145_ DFF_X1 ;
+    - memory/_1146_ DFF_X1 ;
+    - memory/_1147_ DFF_X1 ;
+    - memory/_1148_ DFF_X1 ;
+    - memory/_1149_ DFF_X1 ;
+    - memory/_1150_ DFF_X1 ;
+    - memory/_1151_ DFF_X1 ;
+    - memory/_1152_ DFF_X1 ;
+    - memory/_1153_ DFF_X1 ;
+    - memory/_1154_ DFF_X1 ;
+    - memory/_1155_ DFF_X1 ;
+    - memory/_1156_ DFF_X1 ;
+    - memory/_1157_ DFF_X1 ;
+    - memory/_1158_ DFF_X1 ;
+    - memory/_1159_ DFF_X1 ;
+    - memory/_1160_ DFF_X1 ;
+    - memory/_1161_ DFF_X1 ;
+    - memory/_1162_ DFF_X1 ;
+    - memory/_1163_ DFF_X1 ;
+    - memory/_1164_ DFF_X1 ;
+    - memory/_1165_ DFF_X1 ;
+    - memory/_1166_ DFF_X1 ;
+    - memory/_1167_ DFF_X1 ;
+    - rd_pointer/_15_ INV_X1 ;
+    - rd_pointer/_16_ AND3_X1 ;
+    - rd_pointer/_17_ OAI21_X1 ;
+    - rd_pointer/_18_ AOI21_X1 ;
+    - rd_pointer/_19_ AOI21_X1 ;
+    - rd_pointer/_20_ NOR3_X1 ;
+    - rd_pointer/_21_ OAI21_X1 ;
+    - rd_pointer/_22_ AOI21_X1 ;
+    - rd_pointer/_23_ AOI21_X1 ;
+    - rd_pointer/_24_ AND3_X1 ;
+    - rd_pointer/_25_ NOR3_X1 ;
+    - rd_pointer/_26_ DFF_X1 ;
+    - rd_pointer/_27_ DFF_X1 ;
+    - rd_pointer/_28_ DFF_X1 ;
+    - rd_pointer/_29_ DFF_X1 ;
+    - wr_pointer/_15_ INV_X1 ;
+    - wr_pointer/_16_ AND3_X1 ;
+    - wr_pointer/_17_ OAI21_X1 ;
+    - wr_pointer/_18_ AOI21_X1 ;
+    - wr_pointer/_19_ AOI21_X1 ;
+    - wr_pointer/_20_ NOR3_X1 ;
+    - wr_pointer/_21_ OAI21_X1 ;
+    - wr_pointer/_22_ AOI21_X1 ;
+    - wr_pointer/_23_ AOI21_X1 ;
+    - wr_pointer/_24_ AND3_X1 ;
+    - wr_pointer/_25_ NOR3_X1 ;
+    - wr_pointer/_26_ DFF_X1 ;
+    - wr_pointer/_27_ DFF_X1 ;
+    - wr_pointer/_28_ DFF_X1 ;
+    - wr_pointer/_29_ DFF_X1 ;
+END COMPONENTS
+PINS 22 ;
+    - clk + NET clk + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 99750 70 ) N ;
+    - data_in[0] + NET data_in[0] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 100510 70 ) N ;
+    - data_in[1] + NET data_in[1] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 104310 70 ) N ;
+    - data_in[2] + NET data_in[2] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 98990 70 ) N ;
+    - data_in[3] + NET data_in[3] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 98230 70 ) N ;
+    - data_in[4] + NET data_in[4] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 105070 70 ) N ;
+    - data_in[5] + NET data_in[5] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 101270 70 ) N ;
+    - data_in[6] + NET data_in[6] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 96710 70 ) N ;
+    - data_in[7] + NET data_in[7] + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 95950 70 ) N ;
+    - data_out[0] + NET data_out[0] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 105830 70 ) N ;
+    - data_out[1] + NET data_out[1] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 102030 70 ) N ;
+    - data_out[2] + NET data_out[2] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 107350 70 ) N ;
+    - data_out[3] + NET data_out[3] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 94430 70 ) N ;
+    - data_out[4] + NET data_out[4] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 97470 70 ) N ;
+    - data_out[5] + NET data_out[5] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 102790 70 ) N ;
+    - data_out[6] + NET data_out[6] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 93670 70 ) N ;
+    - data_out[7] + NET data_out[7] + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 108110 70 ) N ;
+    - empty + NET empty + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 95190 70 ) N ;
+    - full + NET full + DIRECTION OUTPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 103550 70 ) N ;
+    - rd_en + NET rd_en + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 92910 70 ) N ;
+    - rst + NET rst + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 92150 70 ) N ;
+    - wr_en + NET wr_en + DIRECTION INPUT + USE SIGNAL
+      + PORT
+        + LAYER metal2 ( -70 -70 ) ( 70 70 )
+        + PLACED ( 106590 70 ) N ;
+END PINS
+SPECIALNETS 2 ;
+    - VDD ( * VDD ) + USE POWER
+      + ROUTED metal4 960 + SHAPE STRIPE ( 80140 25030 ) ( 80140 182170 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 182000 ) ( 180500 182000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 176400 ) ( 180500 176400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 170800 ) ( 180500 170800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 165200 ) ( 180500 165200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 159600 ) ( 180500 159600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 154000 ) ( 180500 154000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 148400 ) ( 180500 148400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 142800 ) ( 180500 142800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 137200 ) ( 180500 137200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 131600 ) ( 180500 131600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 126000 ) ( 180500 126000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 120400 ) ( 180500 120400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 114800 ) ( 180500 114800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 109200 ) ( 180500 109200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 103600 ) ( 180500 103600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 98000 ) ( 180500 98000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 92400 ) ( 180500 92400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 86800 ) ( 180500 86800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 81200 ) ( 180500 81200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 75600 ) ( 180500 75600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 70000 ) ( 180500 70000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 64400 ) ( 180500 64400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 58800 ) ( 180500 58800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 53200 ) ( 180500 53200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 47600 ) ( 180500 47600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 42000 ) ( 180500 42000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 36400 ) ( 180500 36400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 30800 ) ( 180500 30800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 25200 ) ( 180500 25200 )
+      NEW metal3 0 + SHAPE STRIPE ( 80140 182000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 182000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 182000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 176400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 176400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 176400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 170800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 170800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 170800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 165200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 165200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 165200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 159600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 159600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 159600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 154000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 154000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 154000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 148400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 148400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 148400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 142800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 142800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 142800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 137200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 137200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 137200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 131600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 131600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 131600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 126000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 126000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 126000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 120400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 120400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 120400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 114800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 114800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 114800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 109200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 109200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 109200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 103600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 103600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 103600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 98000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 98000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 98000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 92400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 92400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 92400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 86800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 86800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 86800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 81200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 81200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 81200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 75600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 75600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 75600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 70000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 70000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 70000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 64400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 64400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 64400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 58800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 58800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 58800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 53200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 53200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 53200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 47600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 47600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 47600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 42000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 42000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 42000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 36400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 36400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 36400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 30800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 30800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 30800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 80140 25200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 80140 25200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 80140 25200 ) via1_2_960_340_1_3_300_300 ;
+    - VSS ( * VSS ) + USE GROUND
+      + ROUTED metal7 2800 + SHAPE STRIPE ( 23660 106400 ) ( 136620 106400 )
+      NEW metal7 2800 + SHAPE STRIPE ( 23660 26400 ) ( 136620 26400 )
+      NEW metal4 960 + SHAPE STRIPE ( 136140 22230 ) ( 136140 179370 )
+      NEW metal4 960 + SHAPE STRIPE ( 24140 22230 ) ( 24140 179370 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 179200 ) ( 180500 179200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 173600 ) ( 180500 173600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 168000 ) ( 180500 168000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 162400 ) ( 180500 162400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 156800 ) ( 180500 156800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 151200 ) ( 180500 151200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 145600 ) ( 180500 145600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 140000 ) ( 180500 140000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 134400 ) ( 180500 134400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 128800 ) ( 180500 128800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 123200 ) ( 180500 123200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 117600 ) ( 180500 117600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 112000 ) ( 180500 112000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 106400 ) ( 180500 106400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 100800 ) ( 180500 100800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 95200 ) ( 180500 95200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 89600 ) ( 180500 89600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 84000 ) ( 180500 84000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 78400 ) ( 180500 78400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 72800 ) ( 180500 72800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 67200 ) ( 180500 67200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 61600 ) ( 180500 61600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 56000 ) ( 180500 56000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 50400 ) ( 180500 50400 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 44800 ) ( 180500 44800 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 39200 ) ( 180500 39200 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 33600 ) ( 180500 33600 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 28000 ) ( 180500 28000 )
+      NEW metal1 340 + SHAPE FOLLOWPIN ( 20140 22400 ) ( 180500 22400 )
+      NEW metal6 0 + SHAPE STRIPE ( 136140 106400 ) via6_7_960_2800_4_1_600_600
+      NEW metal5 0 + SHAPE STRIPE ( 136140 106400 ) via5_6_960_2800_5_2_600_600
+      NEW metal4 0 + SHAPE STRIPE ( 136140 106400 ) via4_5_960_2800_5_2_600_600
+      NEW metal6 0 + SHAPE STRIPE ( 136140 26400 ) via6_7_960_2800_4_1_600_600
+      NEW metal5 0 + SHAPE STRIPE ( 136140 26400 ) via5_6_960_2800_5_2_600_600
+      NEW metal4 0 + SHAPE STRIPE ( 136140 26400 ) via4_5_960_2800_5_2_600_600
+      NEW metal6 0 + SHAPE STRIPE ( 24140 106400 ) via6_7_960_2800_4_1_600_600
+      NEW metal5 0 + SHAPE STRIPE ( 24140 106400 ) via5_6_960_2800_5_2_600_600
+      NEW metal4 0 + SHAPE STRIPE ( 24140 106400 ) via4_5_960_2800_5_2_600_600
+      NEW metal6 0 + SHAPE STRIPE ( 24140 26400 ) via6_7_960_2800_4_1_600_600
+      NEW metal5 0 + SHAPE STRIPE ( 24140 26400 ) via5_6_960_2800_5_2_600_600
+      NEW metal4 0 + SHAPE STRIPE ( 24140 26400 ) via4_5_960_2800_5_2_600_600
+      NEW metal3 0 + SHAPE STRIPE ( 136140 179200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 179200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 179200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 173600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 173600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 173600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 168000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 168000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 168000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 162400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 162400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 162400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 156800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 156800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 156800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 151200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 151200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 151200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 145600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 145600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 145600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 140000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 140000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 140000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 134400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 134400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 134400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 128800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 128800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 128800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 123200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 123200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 123200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 117600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 117600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 117600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 112000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 112000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 112000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 106400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 106400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 106400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 100800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 100800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 100800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 95200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 95200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 95200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 89600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 89600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 89600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 84000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 84000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 84000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 78400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 78400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 78400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 72800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 72800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 72800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 67200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 67200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 67200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 61600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 61600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 61600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 56000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 56000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 56000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 50400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 50400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 50400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 44800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 44800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 44800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 39200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 39200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 39200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 33600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 33600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 33600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 28000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 28000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 28000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 136140 22400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 136140 22400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 136140 22400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 179200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 179200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 179200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 173600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 173600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 173600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 168000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 168000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 168000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 162400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 162400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 162400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 156800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 156800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 156800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 151200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 151200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 151200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 145600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 145600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 145600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 140000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 140000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 140000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 134400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 134400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 134400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 128800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 128800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 128800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 123200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 123200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 123200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 117600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 117600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 117600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 112000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 112000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 112000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 106400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 106400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 106400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 100800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 100800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 100800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 95200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 95200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 95200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 89600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 89600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 89600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 84000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 84000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 84000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 78400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 78400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 78400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 72800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 72800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 72800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 67200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 67200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 67200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 61600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 61600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 61600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 56000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 56000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 56000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 50400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 50400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 50400 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 44800 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 44800 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 44800 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 39200 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 39200 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 39200 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 33600 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 33600 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 33600 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 28000 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 28000 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 28000 ) via1_2_960_340_1_3_300_300
+      NEW metal3 0 + SHAPE STRIPE ( 24140 22400 ) via3_4_960_340_1_3_320_320
+      NEW metal2 0 + SHAPE STRIPE ( 24140 22400 ) via2_3_960_340_1_3_320_320
+      NEW metal1 0 + SHAPE STRIPE ( 24140 22400 ) via1_2_960_340_1_3_300_300 ;
+END SPECIALNETS
+NETS 820 ;
+    - clk ( PIN clk ) ( wr_pointer/_29_ CK ) ( wr_pointer/_28_ CK ) ( wr_pointer/_27_ CK ) ( wr_pointer/_26_ CK ) ( rd_pointer/_29_ CK ) ( rd_pointer/_28_ CK )
+      ( rd_pointer/_27_ CK ) ( rd_pointer/_26_ CK ) ( memory/_1167_ CK ) ( memory/_1166_ CK ) ( memory/_1165_ CK ) ( memory/_1164_ CK ) ( memory/_1163_ CK ) ( memory/_1162_ CK )
+      ( memory/_1161_ CK ) ( memory/_1160_ CK ) ( memory/_1159_ CK ) ( memory/_1158_ CK ) ( memory/_1157_ CK ) ( memory/_1156_ CK ) ( memory/_1155_ CK ) ( memory/_1154_ CK )
+      ( memory/_1153_ CK ) ( memory/_1152_ CK ) ( memory/_1151_ CK ) ( memory/_1150_ CK ) ( memory/_1149_ CK ) ( memory/_1148_ CK ) ( memory/_1147_ CK ) ( memory/_1146_ CK )
+      ( memory/_1145_ CK ) ( memory/_1144_ CK ) ( memory/_1143_ CK ) ( memory/_1142_ CK ) ( memory/_1141_ CK ) ( memory/_1140_ CK ) ( memory/_1139_ CK ) ( memory/_1138_ CK )
+      ( memory/_1137_ CK ) ( memory/_1136_ CK ) ( memory/_1135_ CK ) ( memory/_1134_ CK ) ( memory/_1133_ CK ) ( memory/_1132_ CK ) ( memory/_1131_ CK ) ( memory/_1130_ CK )
+      ( memory/_1129_ CK ) ( memory/_1128_ CK ) ( memory/_1127_ CK ) ( memory/_1126_ CK ) ( memory/_1125_ CK ) ( memory/_1124_ CK ) ( memory/_1123_ CK ) ( memory/_1122_ CK )
+      ( memory/_1121_ CK ) ( memory/_1120_ CK ) ( memory/_1119_ CK ) ( memory/_1118_ CK ) ( memory/_1117_ CK ) ( memory/_1116_ CK ) ( memory/_1115_ CK ) ( memory/_1114_ CK )
+      ( memory/_1113_ CK ) ( memory/_1112_ CK ) ( memory/_1111_ CK ) ( memory/_1110_ CK ) ( memory/_1109_ CK ) ( memory/_1108_ CK ) ( memory/_1107_ CK ) ( memory/_1106_ CK )
+      ( memory/_1105_ CK ) ( memory/_1104_ CK ) ( memory/_1103_ CK ) ( memory/_1102_ CK ) ( memory/_1101_ CK ) ( memory/_1100_ CK ) ( memory/_1099_ CK ) ( memory/_1098_ CK )
+      ( memory/_1097_ CK ) ( memory/_1096_ CK ) ( memory/_1095_ CK ) ( memory/_1094_ CK ) ( memory/_1093_ CK ) ( memory/_1092_ CK ) ( memory/_1091_ CK ) ( memory/_1090_ CK )
+      ( memory/_1089_ CK ) ( memory/_1088_ CK ) ( memory/_1087_ CK ) ( memory/_1086_ CK ) ( memory/_1085_ CK ) ( memory/_1084_ CK ) ( memory/_1083_ CK ) ( memory/_1082_ CK )
+      ( memory/_1081_ CK ) ( memory/_1080_ CK ) ( memory/_1079_ CK ) ( memory/_1078_ CK ) ( memory/_1077_ CK ) ( memory/_1076_ CK ) ( memory/_1075_ CK ) ( memory/_1074_ CK )
+      ( memory/_1073_ CK ) ( memory/_1072_ CK ) ( memory/_1071_ CK ) ( memory/_1070_ CK ) ( memory/_1069_ CK ) ( memory/_1068_ CK ) ( memory/_1067_ CK ) ( memory/_1066_ CK )
+      ( memory/_1065_ CK ) ( memory/_1064_ CK ) ( memory/_1063_ CK ) ( memory/_1062_ CK ) ( memory/_1061_ CK ) ( memory/_1060_ CK ) ( memory/_1059_ CK ) ( memory/_1058_ CK )
+      ( memory/_1057_ CK ) ( memory/_1056_ CK ) ( memory/_1055_ CK ) ( memory/_1054_ CK ) ( memory/_1053_ CK ) ( memory/_1052_ CK ) ( memory/_1051_ CK ) ( memory/_1050_ CK )
+      ( memory/_1049_ CK ) ( memory/_1048_ CK ) ( memory/_1047_ CK ) ( memory/_1046_ CK ) ( memory/_1045_ CK ) ( memory/_1044_ CK ) ( memory/_1043_ CK ) ( memory/_1042_ CK )
+      ( memory/_1041_ CK ) ( memory/_1040_ CK ) ( memory/_1039_ CK ) ( memory/_1038_ CK ) ( memory/_1037_ CK ) ( memory/_1036_ CK ) ( memory/_1035_ CK ) ( memory/_1034_ CK )
+      ( memory/_1033_ CK ) ( memory/_1032_ CK ) ( controller/_85_ CK ) ( controller/_84_ CK ) ( controller/_83_ CK ) ( controller/_82_ CK ) ( controller/_81_ CK ) + USE SIGNAL ;
+    - controller/_00_ ( controller/_84_ D ) ( controller/_63_ ZN ) + USE SIGNAL ;
+    - controller/_01_ ( controller/_83_ D ) ( controller/_68_ ZN ) + USE SIGNAL ;
+    - controller/_02_ ( controller/_82_ D ) ( controller/_73_ ZN ) + USE SIGNAL ;
+    - controller/_03_ ( controller/_81_ D ) ( controller/_75_ ZN ) + USE SIGNAL ;
+    - controller/_04_ ( controller/_85_ D ) ( controller/_80_ ZN ) + USE SIGNAL ;
+    - controller/_05_ ( controller/_50_ A ) ( controller/_41_ ZN ) + USE SIGNAL ;
+    - controller/_06_ ( controller/_65_ B ) ( controller/_42_ ZN ) + USE SIGNAL ;
+    - controller/_07_ ( controller/_57_ B ) ( controller/_43_ ZN ) + USE SIGNAL ;
+    - controller/_08_ ( controller/_50_ B1 ) ( controller/_49_ A2 ) ( controller/_44_ ZN ) + USE SIGNAL ;
+    - controller/_09_ ( controller/_53_ A2 ) ( controller/_52_ A2 ) ( controller/_47_ B1 ) ( controller/_46_ A2 ) ( controller/_45_ ZN ) + USE SIGNAL ;
+    - controller/_10_ ( controller/_71_ A1 ) ( controller/_55_ A ) ( controller/_51_ A1 ) ( controller/_48_ A ) ( controller/_47_ ZN ) + USE SIGNAL ;
+    - controller/_11_ ( controller/_67_ A1 ) ( controller/_62_ A1 ) ( controller/_51_ ZN ) + USE SIGNAL ;
+    - controller/_12_ ( controller/_55_ B ) ( controller/_52_ ZN ) + USE SIGNAL ;
+    - controller/_13_ ( controller/_76_ A2 ) ( controller/_54_ A2 ) ( controller/_53_ ZN ) + USE SIGNAL ;
+    - controller/_14_ ( controller/_79_ A1 ) ( controller/_72_ B2 ) ( controller/_67_ B2 ) ( controller/_62_ B2 ) ( controller/_54_ ZN ) + USE SIGNAL ;
+    - controller/_15_ ( controller/_77_ B1 ) ( controller/_74_ B ) ( controller/_69_ A2 ) ( controller/_64_ A2 ) ( controller/_56_ A2 ) ( controller/_55_ Z ) + USE SIGNAL ;
+    - controller/_16_ ( controller/_63_ B1 ) ( controller/_56_ ZN ) + USE SIGNAL ;
+    - controller/_17_ ( controller/_62_ A2 ) ( controller/_57_ Z ) + USE SIGNAL ;
+    - controller/_18_ ( controller/_66_ B ) ( controller/_58_ ZN ) + USE SIGNAL ;
+    - controller/_19_ ( controller/_61_ B ) ( controller/_59_ ZN ) + USE SIGNAL ;
+    - controller/_20_ ( controller/_78_ B ) ( controller/_60_ ZN ) + USE SIGNAL ;
+    - controller/_21_ ( controller/_62_ B1 ) ( controller/_61_ ZN ) + USE SIGNAL ;
+    - controller/_22_ ( controller/_63_ B2 ) ( controller/_62_ ZN ) + USE SIGNAL ;
+    - controller/_23_ ( controller/_68_ B1 ) ( controller/_64_ ZN ) + USE SIGNAL ;
+    - controller/_24_ ( controller/_67_ A2 ) ( controller/_65_ Z ) + USE SIGNAL ;
+    - controller/_25_ ( controller/_67_ B1 ) ( controller/_66_ ZN ) + USE SIGNAL ;
+    - controller/_26_ ( controller/_68_ B2 ) ( controller/_67_ ZN ) + USE SIGNAL ;
+    - controller/_27_ ( controller/_73_ B1 ) ( controller/_69_ ZN ) + USE SIGNAL ;
+    - controller/_28_ ( controller/_72_ B1 ) ( controller/_71_ A3 ) ( controller/_70_ Z ) + USE SIGNAL ;
+    - controller/_29_ ( controller/_72_ A ) ( controller/_71_ ZN ) + USE SIGNAL ;
+    - controller/_30_ ( controller/_73_ B2 ) ( controller/_72_ ZN ) + USE SIGNAL ;
+    - controller/_31_ ( controller/_75_ A2 ) ( controller/_74_ Z ) + USE SIGNAL ;
+    - controller/_32_ ( controller/_77_ B2 ) ( controller/_76_ ZN ) + USE SIGNAL ;
+    - controller/_33_ ( controller/_80_ B1 ) ( controller/_77_ ZN ) + USE SIGNAL ;
+    - controller/_34_ ( controller/_79_ A2 ) ( controller/_78_ ZN ) + USE SIGNAL ;
+    - controller/_35_ ( controller/_80_ B2 ) ( controller/_79_ ZN ) + USE SIGNAL ;
+    - controller/_36_ ( controller/_85_ QN ) + USE SIGNAL ;
+    - controller/_37_ ( controller/_81_ QN ) + USE SIGNAL ;
+    - controller/_38_ ( controller/_82_ QN ) + USE SIGNAL ;
+    - controller/_39_ ( controller/_83_ QN ) + USE SIGNAL ;
+    - controller/_40_ ( controller/_84_ QN ) + USE SIGNAL ;
+    - controller/count[0] ( controller/_81_ Q ) ( controller/_74_ A ) ( controller/_70_ A ) ( controller/_60_ A1 ) ( controller/_59_ A1 ) ( controller/_58_ A1 ) ( controller/_45_ A1 )
+      ( controller/_44_ A1 ) ( controller/_43_ A1 ) ( controller/_42_ A1 ) + USE SIGNAL ;
+    - controller/count[1] ( controller/_82_ Q ) ( controller/_70_ B ) ( controller/_69_ A1 ) ( controller/_60_ A2 ) ( controller/_59_ A2 ) ( controller/_58_ A2 ) ( controller/_45_ A2 )
+      ( controller/_44_ A2 ) ( controller/_43_ A2 ) ( controller/_42_ A2 ) + USE SIGNAL ;
+    - controller/count[2] ( controller/_83_ Q ) ( controller/_66_ A ) ( controller/_65_ A ) ( controller/_64_ A1 ) ( controller/_60_ A3 ) ( controller/_59_ A3 ) ( controller/_45_ A3 )
+      ( controller/_44_ A3 ) ( controller/_43_ A3 ) + USE SIGNAL ;
+    - controller/count[3] ( controller/_84_ Q ) ( controller/_61_ A ) ( controller/_60_ A4 ) ( controller/_57_ A ) ( controller/_56_ A1 ) ( controller/_45_ A4 ) ( controller/_44_ A4 ) + USE SIGNAL ;
+    - controller/count[4] ( controller/_85_ Q ) ( controller/_78_ A ) ( controller/_77_ A ) ( controller/_50_ B2 ) ( controller/_49_ A1 ) ( controller/_47_ B2 ) ( controller/_46_ A1 ) + USE SIGNAL ;
+    - data_in[0] ( PIN data_in[0] ) ( memory/_0867_ A1 ) ( memory/_0710_ A ) + USE SIGNAL ;
+    - data_in[1] ( PIN data_in[1] ) ( memory/_0865_ A1 ) ( memory/_0709_ A ) + USE SIGNAL ;
+    - data_in[2] ( PIN data_in[2] ) ( memory/_0863_ A1 ) ( memory/_0708_ A ) + USE SIGNAL ;
+    - data_in[3] ( PIN data_in[3] ) ( memory/_0861_ A1 ) ( memory/_0707_ A ) + USE SIGNAL ;
+    - data_in[4] ( PIN data_in[4] ) ( memory/_0859_ A1 ) ( memory/_0706_ A ) + USE SIGNAL ;
+    - data_in[5] ( PIN data_in[5] ) ( memory/_0857_ A1 ) ( memory/_0705_ A ) + USE SIGNAL ;
+    - data_in[6] ( PIN data_in[6] ) ( memory/_0855_ A1 ) ( memory/_0704_ A ) + USE SIGNAL ;
+    - data_in[7] ( PIN data_in[7] ) ( memory/_1015_ A1 ) ( memory/_0728_ A ) + USE SIGNAL ;
+    - data_out[0] ( PIN data_out[0] ) ( memory/_1048_ Q ) ( memory/_0838_ B1 ) + USE SIGNAL ;
+    - data_out[1] ( PIN data_out[1] ) ( memory/_1049_ Q ) ( memory/_0825_ B1 ) + USE SIGNAL ;
+    - data_out[2] ( PIN data_out[2] ) ( memory/_1050_ Q ) ( memory/_0810_ B1 ) + USE SIGNAL ;
+    - data_out[3] ( PIN data_out[3] ) ( memory/_1051_ Q ) ( memory/_0795_ B1 ) + USE SIGNAL ;
+    - data_out[4] ( PIN data_out[4] ) ( memory/_1052_ Q ) ( memory/_0780_ B1 ) + USE SIGNAL ;
+    - data_out[5] ( PIN data_out[5] ) ( memory/_1053_ Q ) ( memory/_0765_ B1 ) + USE SIGNAL ;
+    - data_out[6] ( PIN data_out[6] ) ( memory/_1054_ Q ) ( memory/_0750_ B1 ) + USE SIGNAL ;
+    - data_out[7] ( PIN data_out[7] ) ( memory/_1055_ Q ) ( memory/_1013_ B2 ) + USE SIGNAL ;
+    - empty ( PIN empty ) ( controller/_46_ ZN ) + USE SIGNAL ;
+    - full ( PIN full ) ( controller/_49_ ZN ) + USE SIGNAL ;
+    - memory/_0000_ ( memory/_1054_ D ) ( memory/_0751_ ZN ) + USE SIGNAL ;
+    - memory/_0001_ ( memory/_1053_ D ) ( memory/_0766_ ZN ) + USE SIGNAL ;
+    - memory/_0002_ ( memory/_1052_ D ) ( memory/_0781_ ZN ) + USE SIGNAL ;
+    - memory/_0003_ ( memory/_1051_ D ) ( memory/_0796_ ZN ) + USE SIGNAL ;
+    - memory/_0004_ ( memory/_1050_ D ) ( memory/_0811_ ZN ) + USE SIGNAL ;
+    - memory/_0005_ ( memory/_1049_ D ) ( memory/_0826_ ZN ) + USE SIGNAL ;
+    - memory/_0006_ ( memory/_1048_ D ) ( memory/_0839_ ZN ) + USE SIGNAL ;
+    - memory/_0007_ ( memory/_1046_ D ) ( memory/_0845_ ZN ) + USE SIGNAL ;
+    - memory/_0008_ ( memory/_1045_ D ) ( memory/_0846_ ZN ) + USE SIGNAL ;
+    - memory/_0009_ ( memory/_1044_ D ) ( memory/_0847_ ZN ) + USE SIGNAL ;
+    - memory/_0010_ ( memory/_1043_ D ) ( memory/_0848_ ZN ) + USE SIGNAL ;
+    - memory/_0011_ ( memory/_1042_ D ) ( memory/_0849_ ZN ) + USE SIGNAL ;
+    - memory/_0012_ ( memory/_1041_ D ) ( memory/_0850_ ZN ) + USE SIGNAL ;
+    - memory/_0013_ ( memory/_1040_ D ) ( memory/_0851_ ZN ) + USE SIGNAL ;
+    - memory/_0014_ ( memory/_1038_ D ) ( memory/_0856_ ZN ) + USE SIGNAL ;
+    - memory/_0015_ ( memory/_1037_ D ) ( memory/_0858_ ZN ) + USE SIGNAL ;
+    - memory/_0016_ ( memory/_1036_ D ) ( memory/_0860_ ZN ) + USE SIGNAL ;
+    - memory/_0017_ ( memory/_1035_ D ) ( memory/_0862_ ZN ) + USE SIGNAL ;
+    - memory/_0018_ ( memory/_1034_ D ) ( memory/_0864_ ZN ) + USE SIGNAL ;
+    - memory/_0019_ ( memory/_1033_ D ) ( memory/_0866_ ZN ) + USE SIGNAL ;
+    - memory/_0020_ ( memory/_1032_ D ) ( memory/_0868_ ZN ) + USE SIGNAL ;
+    - memory/_0021_ ( memory/_1166_ D ) ( memory/_0872_ ZN ) + USE SIGNAL ;
+    - memory/_0022_ ( memory/_1165_ D ) ( memory/_0873_ ZN ) + USE SIGNAL ;
+    - memory/_0023_ ( memory/_1164_ D ) ( memory/_0874_ ZN ) + USE SIGNAL ;
+    - memory/_0024_ ( memory/_1163_ D ) ( memory/_0875_ ZN ) + USE SIGNAL ;
+    - memory/_0025_ ( memory/_1162_ D ) ( memory/_0876_ ZN ) + USE SIGNAL ;
+    - memory/_0026_ ( memory/_1161_ D ) ( memory/_0877_ ZN ) + USE SIGNAL ;
+    - memory/_0027_ ( memory/_1160_ D ) ( memory/_0878_ ZN ) + USE SIGNAL ;
+    - memory/_0028_ ( memory/_1158_ D ) ( memory/_0882_ ZN ) + USE SIGNAL ;
+    - memory/_0029_ ( memory/_1157_ D ) ( memory/_0883_ ZN ) + USE SIGNAL ;
+    - memory/_0030_ ( memory/_1156_ D ) ( memory/_0884_ ZN ) + USE SIGNAL ;
+    - memory/_0031_ ( memory/_1155_ D ) ( memory/_0885_ ZN ) + USE SIGNAL ;
+    - memory/_0032_ ( memory/_1154_ D ) ( memory/_0886_ ZN ) + USE SIGNAL ;
+    - memory/_0033_ ( memory/_1153_ D ) ( memory/_0887_ ZN ) + USE SIGNAL ;
+    - memory/_0034_ ( memory/_1152_ D ) ( memory/_0888_ ZN ) + USE SIGNAL ;
+    - memory/_0035_ ( memory/_1150_ D ) ( memory/_0892_ ZN ) + USE SIGNAL ;
+    - memory/_0036_ ( memory/_1149_ D ) ( memory/_0893_ ZN ) + USE SIGNAL ;
+    - memory/_0037_ ( memory/_1148_ D ) ( memory/_0894_ ZN ) + USE SIGNAL ;
+    - memory/_0038_ ( memory/_1147_ D ) ( memory/_0895_ ZN ) + USE SIGNAL ;
+    - memory/_0039_ ( memory/_1146_ D ) ( memory/_0896_ ZN ) + USE SIGNAL ;
+    - memory/_0040_ ( memory/_1145_ D ) ( memory/_0897_ ZN ) + USE SIGNAL ;
+    - memory/_0041_ ( memory/_1144_ D ) ( memory/_0898_ ZN ) + USE SIGNAL ;
+    - memory/_0042_ ( memory/_1142_ D ) ( memory/_0901_ ZN ) + USE SIGNAL ;
+    - memory/_0043_ ( memory/_1141_ D ) ( memory/_0902_ ZN ) + USE SIGNAL ;
+    - memory/_0044_ ( memory/_1140_ D ) ( memory/_0903_ ZN ) + USE SIGNAL ;
+    - memory/_0045_ ( memory/_1139_ D ) ( memory/_0904_ ZN ) + USE SIGNAL ;
+    - memory/_0046_ ( memory/_1138_ D ) ( memory/_0905_ ZN ) + USE SIGNAL ;
+    - memory/_0047_ ( memory/_1137_ D ) ( memory/_0906_ ZN ) + USE SIGNAL ;
+    - memory/_0048_ ( memory/_1136_ D ) ( memory/_0907_ ZN ) + USE SIGNAL ;
+    - memory/_0049_ ( memory/_1134_ D ) ( memory/_0910_ ZN ) + USE SIGNAL ;
+    - memory/_0050_ ( memory/_1133_ D ) ( memory/_0911_ ZN ) + USE SIGNAL ;
+    - memory/_0051_ ( memory/_1132_ D ) ( memory/_0912_ ZN ) + USE SIGNAL ;
+    - memory/_0052_ ( memory/_1131_ D ) ( memory/_0913_ ZN ) + USE SIGNAL ;
+    - memory/_0053_ ( memory/_1130_ D ) ( memory/_0914_ ZN ) + USE SIGNAL ;
+    - memory/_0054_ ( memory/_1129_ D ) ( memory/_0915_ ZN ) + USE SIGNAL ;
+    - memory/_0055_ ( memory/_1128_ D ) ( memory/_0916_ ZN ) + USE SIGNAL ;
+    - memory/_0056_ ( memory/_1126_ D ) ( memory/_0919_ ZN ) + USE SIGNAL ;
+    - memory/_0057_ ( memory/_1125_ D ) ( memory/_0920_ ZN ) + USE SIGNAL ;
+    - memory/_0058_ ( memory/_1124_ D ) ( memory/_0921_ ZN ) + USE SIGNAL ;
+    - memory/_0059_ ( memory/_1123_ D ) ( memory/_0922_ ZN ) + USE SIGNAL ;
+    - memory/_0060_ ( memory/_1122_ D ) ( memory/_0923_ ZN ) + USE SIGNAL ;
+    - memory/_0061_ ( memory/_1121_ D ) ( memory/_0924_ ZN ) + USE SIGNAL ;
+    - memory/_0062_ ( memory/_1120_ D ) ( memory/_0925_ ZN ) + USE SIGNAL ;
+    - memory/_0063_ ( memory/_1118_ D ) ( memory/_0929_ ZN ) + USE SIGNAL ;
+    - memory/_0064_ ( memory/_1117_ D ) ( memory/_0930_ ZN ) + USE SIGNAL ;
+    - memory/_0065_ ( memory/_1116_ D ) ( memory/_0931_ ZN ) + USE SIGNAL ;
+    - memory/_0066_ ( memory/_1115_ D ) ( memory/_0932_ ZN ) + USE SIGNAL ;
+    - memory/_0067_ ( memory/_1114_ D ) ( memory/_0933_ ZN ) + USE SIGNAL ;
+    - memory/_0068_ ( memory/_1113_ D ) ( memory/_0934_ ZN ) + USE SIGNAL ;
+    - memory/_0069_ ( memory/_1112_ D ) ( memory/_0935_ ZN ) + USE SIGNAL ;
+    - memory/_0070_ ( memory/_1110_ D ) ( memory/_0938_ ZN ) + USE SIGNAL ;
+    - memory/_0071_ ( memory/_1109_ D ) ( memory/_0939_ ZN ) + USE SIGNAL ;
+    - memory/_0072_ ( memory/_1108_ D ) ( memory/_0940_ ZN ) + USE SIGNAL ;
+    - memory/_0073_ ( memory/_1107_ D ) ( memory/_0941_ ZN ) + USE SIGNAL ;
+    - memory/_0074_ ( memory/_1106_ D ) ( memory/_0942_ ZN ) + USE SIGNAL ;
+    - memory/_0075_ ( memory/_1105_ D ) ( memory/_0943_ ZN ) + USE SIGNAL ;
+    - memory/_0076_ ( memory/_1104_ D ) ( memory/_0944_ ZN ) + USE SIGNAL ;
+    - memory/_0077_ ( memory/_1102_ D ) ( memory/_0947_ ZN ) + USE SIGNAL ;
+    - memory/_0078_ ( memory/_1101_ D ) ( memory/_0948_ ZN ) + USE SIGNAL ;
+    - memory/_0079_ ( memory/_1100_ D ) ( memory/_0949_ ZN ) + USE SIGNAL ;
+    - memory/_0080_ ( memory/_1099_ D ) ( memory/_0950_ ZN ) + USE SIGNAL ;
+    - memory/_0081_ ( memory/_1098_ D ) ( memory/_0951_ ZN ) + USE SIGNAL ;
+    - memory/_0082_ ( memory/_1097_ D ) ( memory/_0952_ ZN ) + USE SIGNAL ;
+    - memory/_0083_ ( memory/_1096_ D ) ( memory/_0953_ ZN ) + USE SIGNAL ;
+    - memory/_0084_ ( memory/_1094_ D ) ( memory/_0956_ ZN ) + USE SIGNAL ;
+    - memory/_0085_ ( memory/_1093_ D ) ( memory/_0957_ ZN ) + USE SIGNAL ;
+    - memory/_0086_ ( memory/_1092_ D ) ( memory/_0958_ ZN ) + USE SIGNAL ;
+    - memory/_0087_ ( memory/_1091_ D ) ( memory/_0959_ ZN ) + USE SIGNAL ;
+    - memory/_0088_ ( memory/_1090_ D ) ( memory/_0960_ ZN ) + USE SIGNAL ;
+    - memory/_0089_ ( memory/_1089_ D ) ( memory/_0961_ ZN ) + USE SIGNAL ;
+    - memory/_0090_ ( memory/_1088_ D ) ( memory/_0962_ ZN ) + USE SIGNAL ;
+    - memory/_0091_ ( memory/_1086_ D ) ( memory/_0966_ ZN ) + USE SIGNAL ;
+    - memory/_0092_ ( memory/_1085_ D ) ( memory/_0967_ ZN ) + USE SIGNAL ;
+    - memory/_0093_ ( memory/_1084_ D ) ( memory/_0968_ ZN ) + USE SIGNAL ;
+    - memory/_0094_ ( memory/_1083_ D ) ( memory/_0969_ ZN ) + USE SIGNAL ;
+    - memory/_0095_ ( memory/_1082_ D ) ( memory/_0970_ ZN ) + USE SIGNAL ;
+    - memory/_0096_ ( memory/_1081_ D ) ( memory/_0971_ ZN ) + USE SIGNAL ;
+    - memory/_0097_ ( memory/_1080_ D ) ( memory/_0972_ ZN ) + USE SIGNAL ;
+    - memory/_0098_ ( memory/_1078_ D ) ( memory/_0975_ ZN ) + USE SIGNAL ;
+    - memory/_0099_ ( memory/_1077_ D ) ( memory/_0976_ ZN ) + USE SIGNAL ;
+    - memory/_0100_ ( memory/_1076_ D ) ( memory/_0977_ ZN ) + USE SIGNAL ;
+    - memory/_0101_ ( memory/_1075_ D ) ( memory/_0978_ ZN ) + USE SIGNAL ;
+    - memory/_0102_ ( memory/_1074_ D ) ( memory/_0979_ ZN ) + USE SIGNAL ;
+    - memory/_0103_ ( memory/_1073_ D ) ( memory/_0980_ ZN ) + USE SIGNAL ;
+    - memory/_0104_ ( memory/_1072_ D ) ( memory/_0981_ ZN ) + USE SIGNAL ;
+    - memory/_0105_ ( memory/_1070_ D ) ( memory/_0984_ ZN ) + USE SIGNAL ;
+    - memory/_0106_ ( memory/_1069_ D ) ( memory/_0985_ ZN ) + USE SIGNAL ;
+    - memory/_0107_ ( memory/_1068_ D ) ( memory/_0986_ ZN ) + USE SIGNAL ;
+    - memory/_0108_ ( memory/_1067_ D ) ( memory/_0987_ ZN ) + USE SIGNAL ;
+    - memory/_0109_ ( memory/_1066_ D ) ( memory/_0988_ ZN ) + USE SIGNAL ;
+    - memory/_0110_ ( memory/_1065_ D ) ( memory/_0989_ ZN ) + USE SIGNAL ;
+    - memory/_0111_ ( memory/_1064_ D ) ( memory/_0990_ ZN ) + USE SIGNAL ;
+    - memory/_0112_ ( memory/_1062_ D ) ( memory/_0993_ ZN ) + USE SIGNAL ;
+    - memory/_0113_ ( memory/_1061_ D ) ( memory/_0994_ ZN ) + USE SIGNAL ;
+    - memory/_0114_ ( memory/_1060_ D ) ( memory/_0995_ ZN ) + USE SIGNAL ;
+    - memory/_0115_ ( memory/_1059_ D ) ( memory/_0996_ ZN ) + USE SIGNAL ;
+    - memory/_0116_ ( memory/_1058_ D ) ( memory/_0997_ ZN ) + USE SIGNAL ;
+    - memory/_0117_ ( memory/_1057_ D ) ( memory/_0998_ ZN ) + USE SIGNAL ;
+    - memory/_0118_ ( memory/_1056_ D ) ( memory/_0999_ ZN ) + USE SIGNAL ;
+    - memory/_0119_ ( memory/_1055_ D ) ( memory/_1014_ ZN ) + USE SIGNAL ;
+    - memory/_0120_ ( memory/_1063_ D ) ( memory/_1016_ ZN ) + USE SIGNAL ;
+    - memory/_0121_ ( memory/_1071_ D ) ( memory/_1017_ ZN ) + USE SIGNAL ;
+    - memory/_0122_ ( memory/_1079_ D ) ( memory/_1018_ ZN ) + USE SIGNAL ;
+    - memory/_0123_ ( memory/_1087_ D ) ( memory/_1019_ ZN ) + USE SIGNAL ;
+    - memory/_0124_ ( memory/_1095_ D ) ( memory/_1020_ ZN ) + USE SIGNAL ;
+    - memory/_0125_ ( memory/_1103_ D ) ( memory/_1021_ ZN ) + USE SIGNAL ;
+    - memory/_0126_ ( memory/_1111_ D ) ( memory/_1022_ ZN ) + USE SIGNAL ;
+    - memory/_0127_ ( memory/_1119_ D ) ( memory/_1023_ ZN ) + USE SIGNAL ;
+    - memory/_0128_ ( memory/_1127_ D ) ( memory/_1024_ ZN ) + USE SIGNAL ;
+    - memory/_0129_ ( memory/_1135_ D ) ( memory/_1025_ ZN ) + USE SIGNAL ;
+    - memory/_0130_ ( memory/_1143_ D ) ( memory/_1026_ ZN ) + USE SIGNAL ;
+    - memory/_0131_ ( memory/_1151_ D ) ( memory/_1027_ ZN ) + USE SIGNAL ;
+    - memory/_0132_ ( memory/_1159_ D ) ( memory/_1028_ ZN ) + USE SIGNAL ;
+    - memory/_0133_ ( memory/_1167_ D ) ( memory/_1029_ ZN ) + USE SIGNAL ;
+    - memory/_0134_ ( memory/_1039_ D ) ( memory/_1030_ ZN ) + USE SIGNAL ;
+    - memory/_0135_ ( memory/_1047_ D ) ( memory/_1031_ ZN ) + USE SIGNAL ;
+    - memory/_0136_ ( memory/_1012_ A ) ( memory/_0837_ A ) ( memory/_0824_ A ) ( memory/_0809_ A ) ( memory/_0794_ A ) ( memory/_0779_ A ) ( memory/_0764_ A )
+      ( memory/_0749_ A ) ( memory/_0584_ ZN ) + USE SIGNAL ;
+    - memory/_0137_ ( memory/_0984_ B2 ) ( memory/_0585_ ZN ) + USE SIGNAL ;
+    - memory/_0138_ ( memory/_0993_ B2 ) ( memory/_0586_ ZN ) + USE SIGNAL ;
+    - memory/_0139_ ( memory/_1008_ A1 ) ( memory/_1005_ A1 ) ( memory/_1000_ A1 ) ( memory/_0827_ A1 ) ( memory/_0820_ A1 ) ( memory/_0817_ A1 ) ( memory/_0812_ A1 )
+      ( memory/_0805_ A1 ) ( memory/_0802_ A1 ) ( memory/_0797_ A1 ) ( memory/_0790_ A1 ) ( memory/_0787_ A1 ) ( memory/_0782_ A1 ) ( memory/_0775_ A1 ) ( memory/_0772_ A1 )
+      ( memory/_0767_ A1 ) ( memory/_0760_ A1 ) ( memory/_0757_ A1 ) ( memory/_0752_ A1 ) ( memory/_0745_ A1 ) ( memory/_0741_ A1 ) ( memory/_0733_ A1 ) ( memory/_0731_ A2 )
+      ( memory/_0730_ A1 ) ( memory/_0587_ ZN ) + USE SIGNAL ;
+    - memory/_0140_ ( memory/_0985_ B2 ) ( memory/_0756_ C1 ) ( memory/_0588_ ZN ) + USE SIGNAL ;
+    - memory/_0141_ ( memory/_0994_ B2 ) ( memory/_0589_ ZN ) + USE SIGNAL ;
+    - memory/_0142_ ( memory/_0986_ B2 ) ( memory/_0771_ C1 ) ( memory/_0590_ ZN ) + USE SIGNAL ;
+    - memory/_0143_ ( memory/_0995_ B2 ) ( memory/_0591_ ZN ) + USE SIGNAL ;
+    - memory/_0144_ ( memory/_0987_ B2 ) ( memory/_0786_ C1 ) ( memory/_0592_ ZN ) + USE SIGNAL ;
+    - memory/_0145_ ( memory/_0996_ B2 ) ( memory/_0593_ ZN ) + USE SIGNAL ;
+    - memory/_0146_ ( memory/_0988_ B2 ) ( memory/_0594_ ZN ) + USE SIGNAL ;
+    - memory/_0147_ ( memory/_0997_ B2 ) ( memory/_0595_ ZN ) + USE SIGNAL ;
+    - memory/_0148_ ( memory/_0989_ B2 ) ( memory/_0596_ ZN ) + USE SIGNAL ;
+    - memory/_0149_ ( memory/_0998_ B2 ) ( memory/_0597_ ZN ) + USE SIGNAL ;
+    - memory/_0150_ ( memory/_0990_ B2 ) ( memory/_0835_ C1 ) ( memory/_0598_ ZN ) + USE SIGNAL ;
+    - memory/_0151_ ( memory/_0999_ B2 ) ( memory/_0599_ ZN ) + USE SIGNAL ;
+    - memory/_0152_ ( memory/_0966_ B2 ) ( memory/_0600_ ZN ) + USE SIGNAL ;
+    - memory/_0153_ ( memory/_0975_ B2 ) ( memory/_0736_ C2 ) ( memory/_0601_ ZN ) + USE SIGNAL ;
+    - memory/_0154_ ( memory/_0967_ B2 ) ( memory/_0602_ ZN ) + USE SIGNAL ;
+    - memory/_0155_ ( memory/_0976_ B2 ) ( memory/_0756_ B2 ) ( memory/_0603_ ZN ) + USE SIGNAL ;
+    - memory/_0156_ ( memory/_0968_ B2 ) ( memory/_0604_ ZN ) + USE SIGNAL ;
+    - memory/_0157_ ( memory/_0977_ B2 ) ( memory/_0771_ B2 ) ( memory/_0605_ ZN ) + USE SIGNAL ;
+    - memory/_0158_ ( memory/_0969_ B2 ) ( memory/_0606_ ZN ) + USE SIGNAL ;
+    - memory/_0159_ ( memory/_0978_ B2 ) ( memory/_0786_ B2 ) ( memory/_0607_ ZN ) + USE SIGNAL ;
+    - memory/_0160_ ( memory/_0970_ B2 ) ( memory/_0608_ ZN ) + USE SIGNAL ;
+    - memory/_0161_ ( memory/_0979_ B2 ) ( memory/_0799_ C1 ) ( memory/_0609_ ZN ) + USE SIGNAL ;
+    - memory/_0162_ ( memory/_0971_ B2 ) ( memory/_0610_ ZN ) + USE SIGNAL ;
+    - memory/_0163_ ( memory/_0980_ B2 ) ( memory/_0814_ C1 ) ( memory/_0611_ ZN ) + USE SIGNAL ;
+    - memory/_0164_ ( memory/_0972_ B2 ) ( memory/_0612_ ZN ) + USE SIGNAL ;
+    - memory/_0165_ ( memory/_0981_ B2 ) ( memory/_0835_ B2 ) ( memory/_0613_ ZN ) + USE SIGNAL ;
+    - memory/_0166_ ( memory/_0947_ B2 ) ( memory/_0614_ ZN ) + USE SIGNAL ;
+    - memory/_0167_ ( memory/_0956_ B2 ) ( memory/_0615_ ZN ) + USE SIGNAL ;
+    - memory/_0168_ ( memory/_0948_ B2 ) ( memory/_0616_ ZN ) + USE SIGNAL ;
+    - memory/_0169_ ( memory/_0957_ B2 ) ( memory/_0617_ ZN ) + USE SIGNAL ;
+    - memory/_0170_ ( memory/_0949_ B2 ) ( memory/_0618_ ZN ) + USE SIGNAL ;
+    - memory/_0171_ ( memory/_0958_ B2 ) ( memory/_0619_ ZN ) + USE SIGNAL ;
+    - memory/_0172_ ( memory/_0950_ B2 ) ( memory/_0620_ ZN ) + USE SIGNAL ;
+    - memory/_0173_ ( memory/_0959_ B2 ) ( memory/_0621_ ZN ) + USE SIGNAL ;
+    - memory/_0174_ ( memory/_0951_ B2 ) ( memory/_0622_ ZN ) + USE SIGNAL ;
+    - memory/_0175_ ( memory/_0960_ B2 ) ( memory/_0623_ ZN ) + USE SIGNAL ;
+    - memory/_0176_ ( memory/_0952_ B2 ) ( memory/_0624_ ZN ) + USE SIGNAL ;
+    - memory/_0177_ ( memory/_0961_ B2 ) ( memory/_0625_ ZN ) + USE SIGNAL ;
+    - memory/_0178_ ( memory/_0953_ B2 ) ( memory/_0626_ ZN ) + USE SIGNAL ;
+    - memory/_0179_ ( memory/_0962_ B2 ) ( memory/_0627_ ZN ) + USE SIGNAL ;
+    - memory/_0180_ ( memory/_0929_ B2 ) ( memory/_0628_ ZN ) + USE SIGNAL ;
+    - memory/_0181_ ( memory/_0938_ B2 ) ( memory/_0747_ C1 ) ( memory/_0629_ ZN ) + USE SIGNAL ;
+    - memory/_0182_ ( memory/_0930_ B2 ) ( memory/_0630_ ZN ) + USE SIGNAL ;
+    - memory/_0183_ ( memory/_0939_ B2 ) ( memory/_0762_ C1 ) ( memory/_0631_ ZN ) + USE SIGNAL ;
+    - memory/_0184_ ( memory/_0931_ B2 ) ( memory/_0632_ ZN ) + USE SIGNAL ;
+    - memory/_0185_ ( memory/_0940_ B2 ) ( memory/_0777_ C1 ) ( memory/_0633_ ZN ) + USE SIGNAL ;
+    - memory/_0186_ ( memory/_0932_ B2 ) ( memory/_0634_ ZN ) + USE SIGNAL ;
+    - memory/_0187_ ( memory/_0941_ B2 ) ( memory/_0792_ C1 ) ( memory/_0635_ ZN ) + USE SIGNAL ;
+    - memory/_0188_ ( memory/_0933_ B2 ) ( memory/_0636_ ZN ) + USE SIGNAL ;
+    - memory/_0189_ ( memory/_0942_ B2 ) ( memory/_0807_ C1 ) ( memory/_0637_ ZN ) + USE SIGNAL ;
+    - memory/_0190_ ( memory/_0934_ B2 ) ( memory/_0638_ ZN ) + USE SIGNAL ;
+    - memory/_0191_ ( memory/_0943_ B2 ) ( memory/_0822_ C1 ) ( memory/_0639_ ZN ) + USE SIGNAL ;
+    - memory/_0192_ ( memory/_0935_ B2 ) ( memory/_0640_ ZN ) + USE SIGNAL ;
+    - memory/_0193_ ( memory/_0944_ B2 ) ( memory/_0829_ C1 ) ( memory/_0641_ ZN ) + USE SIGNAL ;
+    - memory/_0194_ ( memory/_0910_ B2 ) ( memory/_0642_ ZN ) + USE SIGNAL ;
+    - memory/_0195_ ( memory/_0919_ B2 ) ( memory/_0643_ ZN ) + USE SIGNAL ;
+    - memory/_0196_ ( memory/_0911_ B2 ) ( memory/_0644_ ZN ) + USE SIGNAL ;
+    - memory/_0197_ ( memory/_0920_ B2 ) ( memory/_0645_ ZN ) + USE SIGNAL ;
+    - memory/_0198_ ( memory/_0912_ B2 ) ( memory/_0646_ ZN ) + USE SIGNAL ;
+    - memory/_0199_ ( memory/_0921_ B2 ) ( memory/_0647_ ZN ) + USE SIGNAL ;
+    - memory/_0200_ ( memory/_0913_ B2 ) ( memory/_0648_ ZN ) + USE SIGNAL ;
+    - memory/_0201_ ( memory/_0922_ B2 ) ( memory/_0649_ ZN ) + USE SIGNAL ;
+    - memory/_0202_ ( memory/_0914_ B2 ) ( memory/_0801_ C1 ) ( memory/_0650_ ZN ) + USE SIGNAL ;
+    - memory/_0203_ ( memory/_0923_ B2 ) ( memory/_0651_ ZN ) + USE SIGNAL ;
+    - memory/_0204_ ( memory/_0915_ B2 ) ( memory/_0816_ C1 ) ( memory/_0652_ ZN ) + USE SIGNAL ;
+    - memory/_0205_ ( memory/_0924_ B2 ) ( memory/_0653_ ZN ) + USE SIGNAL ;
+    - memory/_0206_ ( memory/_0916_ B2 ) ( memory/_0833_ C1 ) ( memory/_0654_ ZN ) + USE SIGNAL ;
+    - memory/_0207_ ( memory/_0925_ B2 ) ( memory/_0655_ ZN ) + USE SIGNAL ;
+    - memory/_0208_ ( memory/_0892_ B2 ) ( memory/_0656_ ZN ) + USE SIGNAL ;
+    - memory/_0209_ ( memory/_0901_ B2 ) ( memory/_0743_ C1 ) ( memory/_0657_ ZN ) + USE SIGNAL ;
+    - memory/_0210_ ( memory/_0893_ B2 ) ( memory/_0658_ ZN ) + USE SIGNAL ;
+    - memory/_0211_ ( memory/_0902_ B2 ) ( memory/_0754_ C1 ) ( memory/_0659_ ZN ) + USE SIGNAL ;
+    - memory/_0212_ ( memory/_0894_ B2 ) ( memory/_0660_ ZN ) + USE SIGNAL ;
+    - memory/_0213_ ( memory/_0903_ B2 ) ( memory/_0769_ C1 ) ( memory/_0661_ ZN ) + USE SIGNAL ;
+    - memory/_0214_ ( memory/_0895_ B2 ) ( memory/_0662_ ZN ) + USE SIGNAL ;
+    - memory/_0215_ ( memory/_0904_ B2 ) ( memory/_0784_ C1 ) ( memory/_0663_ ZN ) + USE SIGNAL ;
+    - memory/_0216_ ( memory/_0896_ B2 ) ( memory/_0664_ ZN ) + USE SIGNAL ;
+    - memory/_0217_ ( memory/_0905_ B2 ) ( memory/_0801_ B2 ) ( memory/_0665_ ZN ) + USE SIGNAL ;
+    - memory/_0218_ ( memory/_0897_ B2 ) ( memory/_0666_ ZN ) + USE SIGNAL ;
+    - memory/_0219_ ( memory/_0906_ B2 ) ( memory/_0816_ B2 ) ( memory/_0667_ ZN ) + USE SIGNAL ;
+    - memory/_0220_ ( memory/_0898_ B2 ) ( memory/_0668_ ZN ) + USE SIGNAL ;
+    - memory/_0221_ ( memory/_0907_ B2 ) ( memory/_0833_ B2 ) ( memory/_0669_ ZN ) + USE SIGNAL ;
+    - memory/_0222_ ( memory/_0872_ B2 ) ( memory/_0739_ C1 ) ( memory/_0670_ ZN ) + USE SIGNAL ;
+    - memory/_0223_ ( memory/_0882_ B2 ) ( memory/_0671_ ZN ) + USE SIGNAL ;
+    - memory/_0224_ ( memory/_0873_ B2 ) ( memory/_0672_ ZN ) + USE SIGNAL ;
+    - memory/_0225_ ( memory/_0883_ B2 ) ( memory/_0673_ ZN ) + USE SIGNAL ;
+    - memory/_0226_ ( memory/_0874_ B2 ) ( memory/_0674_ ZN ) + USE SIGNAL ;
+    - memory/_0227_ ( memory/_0884_ B2 ) ( memory/_0675_ ZN ) + USE SIGNAL ;
+    - memory/_0228_ ( memory/_0875_ B2 ) ( memory/_0676_ ZN ) + USE SIGNAL ;
+    - memory/_0229_ ( memory/_0885_ B2 ) ( memory/_0677_ ZN ) + USE SIGNAL ;
+    - memory/_0230_ ( memory/_0876_ B2 ) ( memory/_0678_ ZN ) + USE SIGNAL ;
+    - memory/_0231_ ( memory/_0886_ B2 ) ( memory/_0679_ ZN ) + USE SIGNAL ;
+    - memory/_0232_ ( memory/_0877_ B2 ) ( memory/_0680_ ZN ) + USE SIGNAL ;
+    - memory/_0233_ ( memory/_0887_ B2 ) ( memory/_0681_ ZN ) + USE SIGNAL ;
+    - memory/_0234_ ( memory/_0878_ B2 ) ( memory/_0831_ C1 ) ( memory/_0682_ ZN ) + USE SIGNAL ;
+    - memory/_0235_ ( memory/_0888_ B2 ) ( memory/_0683_ ZN ) + USE SIGNAL ;
+    - memory/_0236_ ( memory/_0845_ B2 ) ( memory/_0684_ ZN ) + USE SIGNAL ;
+    - memory/_0237_ ( memory/_0856_ A1 ) ( memory/_0739_ B2 ) ( memory/_0685_ ZN ) + USE SIGNAL ;
+    - memory/_0238_ ( memory/_0846_ B2 ) ( memory/_0686_ ZN ) + USE SIGNAL ;
+    - memory/_0239_ ( memory/_0858_ A1 ) ( memory/_0759_ C1 ) ( memory/_0687_ ZN ) + USE SIGNAL ;
+    - memory/_0240_ ( memory/_0847_ B2 ) ( memory/_0688_ ZN ) + USE SIGNAL ;
+    - memory/_0241_ ( memory/_0860_ A1 ) ( memory/_0774_ C1 ) ( memory/_0689_ ZN ) + USE SIGNAL ;
+    - memory/_0242_ ( memory/_0848_ B2 ) ( memory/_0690_ ZN ) + USE SIGNAL ;
+    - memory/_0243_ ( memory/_0862_ A1 ) ( memory/_0789_ C1 ) ( memory/_0691_ ZN ) + USE SIGNAL ;
+    - memory/_0244_ ( memory/_0849_ B2 ) ( memory/_0692_ ZN ) + USE SIGNAL ;
+    - memory/_0245_ ( memory/_0864_ A1 ) ( memory/_0804_ C1 ) ( memory/_0693_ ZN ) + USE SIGNAL ;
+    - memory/_0246_ ( memory/_0850_ B2 ) ( memory/_0694_ ZN ) + USE SIGNAL ;
+    - memory/_0247_ ( memory/_0866_ A1 ) ( memory/_0819_ C1 ) ( memory/_0695_ ZN ) + USE SIGNAL ;
+    - memory/_0248_ ( memory/_0851_ B2 ) ( memory/_0696_ ZN ) + USE SIGNAL ;
+    - memory/_0249_ ( memory/_0868_ A1 ) ( memory/_0831_ B2 ) ( memory/_0697_ ZN ) + USE SIGNAL ;
+    - memory/_0250_ ( memory/_0744_ A1 ) ( memory/_0740_ A1 ) ( memory/_0698_ ZN ) + USE SIGNAL ;
+    - memory/_0251_ ( memory/_1013_ A ) ( memory/_0992_ A1 ) ( memory/_0983_ A1 ) ( memory/_0974_ A1 ) ( memory/_0965_ A1 ) ( memory/_0963_ A1 ) ( memory/_0955_ A1 )
+      ( memory/_0946_ A1 ) ( memory/_0937_ A1 ) ( memory/_0928_ A1 ) ( memory/_0926_ A1 ) ( memory/_0918_ A1 ) ( memory/_0909_ A1 ) ( memory/_0900_ A1 ) ( memory/_0891_ A1 )
+      ( memory/_0889_ A1 ) ( memory/_0881_ A1 ) ( memory/_0879_ A1 ) ( memory/_0871_ A1 ) ( memory/_0869_ A1 ) ( memory/_0854_ A1 ) ( memory/_0852_ A1 ) ( memory/_0844_ A1 )
+      ( memory/_0838_ A ) ( memory/_0825_ A ) ( memory/_0810_ A ) ( memory/_0795_ A ) ( memory/_0780_ A ) ( memory/_0765_ A ) ( memory/_0750_ A ) ( memory/_0699_ ZN ) + USE SIGNAL ;
+    - memory/_0252_ ( memory/_0926_ A2 ) ( memory/_0841_ C2 ) ( memory/_0700_ ZN ) + USE SIGNAL ;
+    - memory/_0253_ ( memory/_0843_ A2 ) ( memory/_0842_ B ) ( memory/_0841_ B ) ( memory/_0840_ A2 ) ( memory/_0701_ ZN ) + USE SIGNAL ;
+    - memory/_0254_ ( memory/_0852_ A3 ) ( memory/_0842_ C1 ) ( memory/_0702_ ZN ) + USE SIGNAL ;
+    - memory/_0255_ ( memory/_0869_ A4 ) ( memory/_0842_ C2 ) ( memory/_0703_ ZN ) + USE SIGNAL ;
+    - memory/_0256_ ( memory/_0845_ A1 ) ( memory/_0704_ ZN ) + USE SIGNAL ;
+    - memory/_0257_ ( memory/_0846_ A1 ) ( memory/_0705_ ZN ) + USE SIGNAL ;
+    - memory/_0258_ ( memory/_0847_ A1 ) ( memory/_0706_ ZN ) + USE SIGNAL ;
+    - memory/_0259_ ( memory/_0848_ A1 ) ( memory/_0707_ ZN ) + USE SIGNAL ;
+    - memory/_0260_ ( memory/_0849_ A1 ) ( memory/_0708_ ZN ) + USE SIGNAL ;
+    - memory/_0261_ ( memory/_0850_ A1 ) ( memory/_0709_ ZN ) + USE SIGNAL ;
+    - memory/_0262_ ( memory/_0851_ A1 ) ( memory/_0710_ ZN ) + USE SIGNAL ;
+    - memory/_0263_ ( memory/_1017_ A1 ) ( memory/_1004_ C1 ) ( memory/_0711_ ZN ) + USE SIGNAL ;
+    - memory/_0264_ ( memory/_1016_ A1 ) ( memory/_0712_ ZN ) + USE SIGNAL ;
+    - memory/_0265_ ( memory/_1019_ A1 ) ( memory/_0713_ ZN ) + USE SIGNAL ;
+    - memory/_0266_ ( memory/_1018_ A1 ) ( memory/_1004_ B2 ) ( memory/_0714_ ZN ) + USE SIGNAL ;
+    - memory/_0267_ ( memory/_1021_ A1 ) ( memory/_0715_ ZN ) + USE SIGNAL ;
+    - memory/_0268_ ( memory/_1020_ A1 ) ( memory/_0716_ ZN ) + USE SIGNAL ;
+    - memory/_0269_ ( memory/_1023_ A1 ) ( memory/_0717_ ZN ) + USE SIGNAL ;
+    - memory/_0270_ ( memory/_1022_ A1 ) ( memory/_1010_ C1 ) ( memory/_0718_ ZN ) + USE SIGNAL ;
+    - memory/_0271_ ( memory/_1025_ A1 ) ( memory/_0719_ ZN ) + USE SIGNAL ;
+    - memory/_0272_ ( memory/_1024_ A1 ) ( memory/_0720_ ZN ) + USE SIGNAL ;
+    - memory/_0273_ ( memory/_1027_ A1 ) ( memory/_0721_ ZN ) + USE SIGNAL ;
+    - memory/_0274_ ( memory/_1026_ A1 ) ( memory/_1002_ C1 ) ( memory/_0722_ ZN ) + USE SIGNAL ;
+    - memory/_0275_ ( memory/_1029_ A1 ) ( memory/_0723_ ZN ) + USE SIGNAL ;
+    - memory/_0276_ ( memory/_1028_ A1 ) ( memory/_0724_ ZN ) + USE SIGNAL ;
+    - memory/_0277_ ( memory/_1031_ B2 ) ( memory/_0725_ ZN ) + USE SIGNAL ;
+    - memory/_0278_ ( memory/_1030_ A1 ) ( memory/_1007_ C1 ) ( memory/_0726_ ZN ) + USE SIGNAL ;
+    - memory/_0279_ ( memory/_0889_ A4 ) ( memory/_0841_ C1 ) ( memory/_0727_ ZN ) + USE SIGNAL ;
+    - memory/_0280_ ( memory/_1031_ A1 ) ( memory/_0728_ ZN ) + USE SIGNAL ;
+    - memory/_0281_ ( memory/_1011_ A1 ) ( memory/_0837_ C2 ) ( memory/_0823_ A1 ) ( memory/_0809_ B1 ) ( memory/_0793_ A1 ) ( memory/_0778_ A1 ) ( memory/_0763_ A1 )
+      ( memory/_0748_ A1 ) ( memory/_0729_ ZN ) + USE SIGNAL ;
+    - memory/_0282_ ( memory/_1004_ C2 ) ( memory/_0835_ C2 ) ( memory/_0833_ C2 ) ( memory/_0831_ C2 ) ( memory/_0816_ C2 ) ( memory/_0801_ C2 ) ( memory/_0786_ C2 )
+      ( memory/_0771_ C2 ) ( memory/_0756_ C2 ) ( memory/_0739_ C2 ) ( memory/_0730_ ZN ) + USE SIGNAL ;
+    - memory/_0283_ ( memory/_0736_ A ) ( memory/_0731_ ZN ) + USE SIGNAL ;
+    - memory/_0284_ ( memory/_1009_ A2 ) ( memory/_1006_ A2 ) ( memory/_1003_ A2 ) ( memory/_1001_ A2 ) ( memory/_0834_ A2 ) ( memory/_0832_ A2 ) ( memory/_0830_ A2 )
+      ( memory/_0828_ A2 ) ( memory/_0821_ A2 ) ( memory/_0818_ A2 ) ( memory/_0815_ A2 ) ( memory/_0813_ A2 ) ( memory/_0806_ A2 ) ( memory/_0803_ A2 ) ( memory/_0800_ A2 )
+      ( memory/_0798_ A2 ) ( memory/_0791_ A2 ) ( memory/_0788_ A2 ) ( memory/_0785_ A2 ) ( memory/_0783_ A2 ) ( memory/_0776_ A2 ) ( memory/_0773_ A2 ) ( memory/_0770_ A2 )
+      ( memory/_0768_ A2 ) ( memory/_0761_ A2 ) ( memory/_0758_ A2 ) ( memory/_0755_ A2 ) ( memory/_0753_ A2 ) ( memory/_0746_ A2 ) ( memory/_0742_ A2 ) ( memory/_0738_ A2 )
+      ( memory/_0735_ A2 ) ( memory/_0732_ ZN ) + USE SIGNAL ;
+    - memory/_0285_ ( memory/_1010_ C2 ) ( memory/_1007_ C2 ) ( memory/_1004_ B1 ) ( memory/_1002_ C2 ) ( memory/_0835_ B1 ) ( memory/_0833_ B1 ) ( memory/_0831_ B1 )
+      ( memory/_0829_ C2 ) ( memory/_0822_ C2 ) ( memory/_0819_ C2 ) ( memory/_0816_ B1 ) ( memory/_0814_ C2 ) ( memory/_0807_ C2 ) ( memory/_0804_ C2 ) ( memory/_0801_ B1 )
+      ( memory/_0799_ C2 ) ( memory/_0792_ C2 ) ( memory/_0789_ C2 ) ( memory/_0786_ B1 ) ( memory/_0784_ C2 ) ( memory/_0777_ C2 ) ( memory/_0774_ C2 ) ( memory/_0771_ B1 )
+      ( memory/_0769_ C2 ) ( memory/_0762_ C2 ) ( memory/_0759_ C2 ) ( memory/_0756_ B1 ) ( memory/_0754_ C2 ) ( memory/_0747_ C2 ) ( memory/_0743_ C2 ) ( memory/_0739_ B1 )
+      ( memory/_0736_ C1 ) ( memory/_0733_ ZN ) + USE SIGNAL ;
+    - memory/_0286_ ( memory/_1009_ B1 ) ( memory/_1006_ B1 ) ( memory/_1003_ B1 ) ( memory/_1001_ B1 ) ( memory/_0834_ B1 ) ( memory/_0832_ B1 ) ( memory/_0830_ B1 )
+      ( memory/_0828_ B1 ) ( memory/_0821_ B1 ) ( memory/_0818_ B1 ) ( memory/_0815_ B1 ) ( memory/_0813_ B1 ) ( memory/_0806_ B1 ) ( memory/_0803_ B1 ) ( memory/_0800_ B1 )
+      ( memory/_0798_ B1 ) ( memory/_0791_ B1 ) ( memory/_0788_ B1 ) ( memory/_0785_ B1 ) ( memory/_0783_ B1 ) ( memory/_0776_ B1 ) ( memory/_0773_ B1 ) ( memory/_0770_ B1 )
+      ( memory/_0768_ B1 ) ( memory/_0761_ B1 ) ( memory/_0758_ B1 ) ( memory/_0755_ B1 ) ( memory/_0753_ B1 ) ( memory/_0746_ B1 ) ( memory/_0742_ B1 ) ( memory/_0738_ B1 )
+      ( memory/_0735_ B1 ) ( memory/_0734_ ZN ) + USE SIGNAL ;
+    - memory/_0287_ ( memory/_0736_ B ) ( memory/_0735_ ZN ) + USE SIGNAL ;
+    - memory/_0288_ ( memory/_0748_ A2 ) ( memory/_0736_ ZN ) + USE SIGNAL ;
+    - memory/_0289_ ( memory/_1011_ B2 ) ( memory/_0837_ B1 ) ( memory/_0823_ C2 ) ( memory/_0809_ C2 ) ( memory/_0794_ C2 ) ( memory/_0778_ B2 ) ( memory/_0763_ B2 )
+      ( memory/_0748_ B1 ) ( memory/_0737_ ZN ) + USE SIGNAL ;
+    - memory/_0290_ ( memory/_0739_ A ) ( memory/_0738_ ZN ) + USE SIGNAL ;
+    - memory/_0291_ ( memory/_0748_ B2 ) ( memory/_0739_ ZN ) + USE SIGNAL ;
+    - memory/_0292_ ( memory/_1011_ C1 ) ( memory/_0836_ B2 ) ( memory/_0823_ B2 ) ( memory/_0808_ A1 ) ( memory/_0794_ B1 ) ( memory/_0778_ C1 ) ( memory/_0763_ C1 )
+      ( memory/_0749_ B1 ) ( memory/_0740_ ZN ) + USE SIGNAL ;
+    - memory/_0293_ ( memory/_0743_ A ) ( memory/_0741_ ZN ) + USE SIGNAL ;
+    - memory/_0294_ ( memory/_0743_ B ) ( memory/_0742_ ZN ) + USE SIGNAL ;
+    - memory/_0295_ ( memory/_0749_ B2 ) ( memory/_0743_ ZN ) + USE SIGNAL ;
+    - memory/_0296_ ( memory/_1012_ B1 ) ( memory/_0836_ A1 ) ( memory/_0824_ B1 ) ( memory/_0808_ B2 ) ( memory/_0793_ B2 ) ( memory/_0779_ B1 ) ( memory/_0764_ B1 )
+      ( memory/_0749_ C1 ) ( memory/_0744_ ZN ) + USE SIGNAL ;
+    - memory/_0297_ ( memory/_0747_ A ) ( memory/_0745_ ZN ) + USE SIGNAL ;
+    - memory/_0298_ ( memory/_0747_ B ) ( memory/_0746_ ZN ) + USE SIGNAL ;
+    - memory/_0299_ ( memory/_0749_ C2 ) ( memory/_0747_ ZN ) + USE SIGNAL ;
+    - memory/_0300_ ( memory/_0751_ B2 ) ( memory/_0748_ ZN ) + USE SIGNAL ;
+    - memory/_0301_ ( memory/_0751_ B1 ) ( memory/_0749_ ZN ) + USE SIGNAL ;
+    - memory/_0302_ ( memory/_0751_ A ) ( memory/_0750_ ZN ) + USE SIGNAL ;
+    - memory/_0303_ ( memory/_0754_ A ) ( memory/_0752_ ZN ) + USE SIGNAL ;
+    - memory/_0304_ ( memory/_0754_ B ) ( memory/_0753_ ZN ) + USE SIGNAL ;
+    - memory/_0305_ ( memory/_0763_ C2 ) ( memory/_0754_ ZN ) + USE SIGNAL ;
+    - memory/_0306_ ( memory/_0756_ A ) ( memory/_0755_ ZN ) + USE SIGNAL ;
+    - memory/_0307_ ( memory/_0763_ A2 ) ( memory/_0756_ ZN ) + USE SIGNAL ;
+    - memory/_0308_ ( memory/_0759_ A ) ( memory/_0757_ ZN ) + USE SIGNAL ;
+    - memory/_0309_ ( memory/_0759_ B ) ( memory/_0758_ ZN ) + USE SIGNAL ;
+    - memory/_0310_ ( memory/_0763_ B1 ) ( memory/_0759_ ZN ) + USE SIGNAL ;
+    - memory/_0311_ ( memory/_0762_ A ) ( memory/_0760_ ZN ) + USE SIGNAL ;
+    - memory/_0312_ ( memory/_0762_ B ) ( memory/_0761_ ZN ) + USE SIGNAL ;
+    - memory/_0313_ ( memory/_0764_ B2 ) ( memory/_0762_ ZN ) + USE SIGNAL ;
+    - memory/_0314_ ( memory/_0766_ B2 ) ( memory/_0763_ ZN ) + USE SIGNAL ;
+    - memory/_0315_ ( memory/_0766_ B1 ) ( memory/_0764_ ZN ) + USE SIGNAL ;
+    - memory/_0316_ ( memory/_0766_ A ) ( memory/_0765_ ZN ) + USE SIGNAL ;
+    - memory/_0317_ ( memory/_0769_ A ) ( memory/_0767_ ZN ) + USE SIGNAL ;
+    - memory/_0318_ ( memory/_0769_ B ) ( memory/_0768_ ZN ) + USE SIGNAL ;
+    - memory/_0319_ ( memory/_0778_ C2 ) ( memory/_0769_ ZN ) + USE SIGNAL ;
+    - memory/_0320_ ( memory/_0771_ A ) ( memory/_0770_ ZN ) + USE SIGNAL ;
+    - memory/_0321_ ( memory/_0778_ A2 ) ( memory/_0771_ ZN ) + USE SIGNAL ;
+    - memory/_0322_ ( memory/_0774_ A ) ( memory/_0772_ ZN ) + USE SIGNAL ;
+    - memory/_0323_ ( memory/_0774_ B ) ( memory/_0773_ ZN ) + USE SIGNAL ;
+    - memory/_0324_ ( memory/_0778_ B1 ) ( memory/_0774_ ZN ) + USE SIGNAL ;
+    - memory/_0325_ ( memory/_0777_ A ) ( memory/_0775_ ZN ) + USE SIGNAL ;
+    - memory/_0326_ ( memory/_0777_ B ) ( memory/_0776_ ZN ) + USE SIGNAL ;
+    - memory/_0327_ ( memory/_0779_ B2 ) ( memory/_0777_ ZN ) + USE SIGNAL ;
+    - memory/_0328_ ( memory/_0781_ B2 ) ( memory/_0778_ ZN ) + USE SIGNAL ;
+    - memory/_0329_ ( memory/_0781_ B1 ) ( memory/_0779_ ZN ) + USE SIGNAL ;
+    - memory/_0330_ ( memory/_0781_ A ) ( memory/_0780_ ZN ) + USE SIGNAL ;
+    - memory/_0331_ ( memory/_0784_ A ) ( memory/_0782_ ZN ) + USE SIGNAL ;
+    - memory/_0332_ ( memory/_0784_ B ) ( memory/_0783_ ZN ) + USE SIGNAL ;
+    - memory/_0333_ ( memory/_0794_ B2 ) ( memory/_0784_ ZN ) + USE SIGNAL ;
+    - memory/_0334_ ( memory/_0786_ A ) ( memory/_0785_ ZN ) + USE SIGNAL ;
+    - memory/_0335_ ( memory/_0793_ A2 ) ( memory/_0786_ ZN ) + USE SIGNAL ;
+    - memory/_0336_ ( memory/_0789_ A ) ( memory/_0787_ ZN ) + USE SIGNAL ;
+    - memory/_0337_ ( memory/_0789_ B ) ( memory/_0788_ ZN ) + USE SIGNAL ;
+    - memory/_0338_ ( memory/_0794_ C1 ) ( memory/_0789_ ZN ) + USE SIGNAL ;
+    - memory/_0339_ ( memory/_0792_ A ) ( memory/_0790_ ZN ) + USE SIGNAL ;
+    - memory/_0340_ ( memory/_0792_ B ) ( memory/_0791_ ZN ) + USE SIGNAL ;
+    - memory/_0341_ ( memory/_0793_ B1 ) ( memory/_0792_ ZN ) + USE SIGNAL ;
+    - memory/_0342_ ( memory/_0796_ B2 ) ( memory/_0793_ ZN ) + USE SIGNAL ;
+    - memory/_0343_ ( memory/_0796_ B1 ) ( memory/_0794_ ZN ) + USE SIGNAL ;
+    - memory/_0344_ ( memory/_0796_ A ) ( memory/_0795_ ZN ) + USE SIGNAL ;
+    - memory/_0345_ ( memory/_0799_ A ) ( memory/_0797_ ZN ) + USE SIGNAL ;
+    - memory/_0346_ ( memory/_0799_ B ) ( memory/_0798_ ZN ) + USE SIGNAL ;
+    - memory/_0347_ ( memory/_0809_ B2 ) ( memory/_0799_ ZN ) + USE SIGNAL ;
+    - memory/_0348_ ( memory/_0801_ A ) ( memory/_0800_ ZN ) + USE SIGNAL ;
+    - memory/_0349_ ( memory/_0808_ A2 ) ( memory/_0801_ ZN ) + USE SIGNAL ;
+    - memory/_0350_ ( memory/_0804_ A ) ( memory/_0802_ ZN ) + USE SIGNAL ;
+    - memory/_0351_ ( memory/_0804_ B ) ( memory/_0803_ ZN ) + USE SIGNAL ;
+    - memory/_0352_ ( memory/_0809_ C1 ) ( memory/_0804_ ZN ) + USE SIGNAL ;
+    - memory/_0353_ ( memory/_0807_ A ) ( memory/_0805_ ZN ) + USE SIGNAL ;
+    - memory/_0354_ ( memory/_0807_ B ) ( memory/_0806_ ZN ) + USE SIGNAL ;
+    - memory/_0355_ ( memory/_0808_ B1 ) ( memory/_0807_ ZN ) + USE SIGNAL ;
+    - memory/_0356_ ( memory/_0811_ B2 ) ( memory/_0808_ ZN ) + USE SIGNAL ;
+    - memory/_0357_ ( memory/_0811_ B1 ) ( memory/_0809_ ZN ) + USE SIGNAL ;
+    - memory/_0358_ ( memory/_0811_ A ) ( memory/_0810_ ZN ) + USE SIGNAL ;
+    - memory/_0359_ ( memory/_0814_ A ) ( memory/_0812_ ZN ) + USE SIGNAL ;
+    - memory/_0360_ ( memory/_0814_ B ) ( memory/_0813_ ZN ) + USE SIGNAL ;
+    - memory/_0361_ ( memory/_0823_ A2 ) ( memory/_0814_ ZN ) + USE SIGNAL ;
+    - memory/_0362_ ( memory/_0816_ A ) ( memory/_0815_ ZN ) + USE SIGNAL ;
+    - memory/_0363_ ( memory/_0823_ B1 ) ( memory/_0816_ ZN ) + USE SIGNAL ;
+    - memory/_0364_ ( memory/_0819_ A ) ( memory/_0817_ ZN ) + USE SIGNAL ;
+    - memory/_0365_ ( memory/_0819_ B ) ( memory/_0818_ ZN ) + USE SIGNAL ;
+    - memory/_0366_ ( memory/_0823_ C1 ) ( memory/_0819_ ZN ) + USE SIGNAL ;
+    - memory/_0367_ ( memory/_0822_ A ) ( memory/_0820_ ZN ) + USE SIGNAL ;
+    - memory/_0368_ ( memory/_0822_ B ) ( memory/_0821_ ZN ) + USE SIGNAL ;
+    - memory/_0369_ ( memory/_0824_ B2 ) ( memory/_0822_ ZN ) + USE SIGNAL ;
+    - memory/_0370_ ( memory/_0826_ B2 ) ( memory/_0823_ ZN ) + USE SIGNAL ;
+    - memory/_0371_ ( memory/_0826_ B1 ) ( memory/_0824_ ZN ) + USE SIGNAL ;
+    - memory/_0372_ ( memory/_0826_ A ) ( memory/_0825_ ZN ) + USE SIGNAL ;
+    - memory/_0373_ ( memory/_0829_ A ) ( memory/_0827_ ZN ) + USE SIGNAL ;
+    - memory/_0374_ ( memory/_0829_ B ) ( memory/_0828_ ZN ) + USE SIGNAL ;
+    - memory/_0375_ ( memory/_0836_ A2 ) ( memory/_0829_ ZN ) + USE SIGNAL ;
+    - memory/_0376_ ( memory/_0831_ A ) ( memory/_0830_ ZN ) + USE SIGNAL ;
+    - memory/_0377_ ( memory/_0837_ B2 ) ( memory/_0831_ ZN ) + USE SIGNAL ;
+    - memory/_0378_ ( memory/_0833_ A ) ( memory/_0832_ ZN ) + USE SIGNAL ;
+    - memory/_0379_ ( memory/_0836_ B1 ) ( memory/_0833_ ZN ) + USE SIGNAL ;
+    - memory/_0380_ ( memory/_0835_ A ) ( memory/_0834_ ZN ) + USE SIGNAL ;
+    - memory/_0381_ ( memory/_0837_ C1 ) ( memory/_0835_ ZN ) + USE SIGNAL ;
+    - memory/_0382_ ( memory/_0839_ B2 ) ( memory/_0836_ ZN ) + USE SIGNAL ;
+    - memory/_0383_ ( memory/_0839_ B1 ) ( memory/_0837_ ZN ) + USE SIGNAL ;
+    - memory/_0384_ ( memory/_0839_ A ) ( memory/_0838_ ZN ) + USE SIGNAL ;
+    - memory/_0385_ ( memory/_1015_ A2 ) ( memory/_0867_ A2 ) ( memory/_0865_ A2 ) ( memory/_0863_ A2 ) ( memory/_0861_ A2 ) ( memory/_0859_ A2 ) ( memory/_0857_ A2 )
+      ( memory/_0855_ A2 ) ( memory/_0840_ ZN ) + USE SIGNAL ;
+    - memory/_0386_ ( memory/_0880_ A1 ) ( memory/_0870_ A1 ) ( memory/_0853_ A1 ) ( memory/_0843_ A3 ) ( memory/_0841_ ZN ) + USE SIGNAL ;
+    - memory/_0387_ ( memory/_0964_ A1 ) ( memory/_0927_ A1 ) ( memory/_0890_ A1 ) ( memory/_0843_ A4 ) ( memory/_0842_ ZN ) + USE SIGNAL ;
+    - memory/_0388_ ( memory/_1031_ A2 ) ( memory/_0851_ A2 ) ( memory/_0850_ A2 ) ( memory/_0849_ A2 ) ( memory/_0848_ A2 ) ( memory/_0847_ A2 ) ( memory/_0846_ A2 )
+      ( memory/_0845_ A2 ) ( memory/_0844_ A2 ) ( memory/_0843_ ZN ) + USE SIGNAL ;
+    - memory/_0389_ ( memory/_1031_ B1 ) ( memory/_0851_ B1 ) ( memory/_0850_ B1 ) ( memory/_0849_ B1 ) ( memory/_0848_ B1 ) ( memory/_0847_ B1 ) ( memory/_0846_ B1 )
+      ( memory/_0845_ B1 ) ( memory/_0844_ ZN ) + USE SIGNAL ;
+    - memory/_0390_ ( memory/_0973_ A1 ) ( memory/_0936_ A1 ) ( memory/_0899_ A1 ) ( memory/_0853_ A2 ) ( memory/_0852_ ZN ) + USE SIGNAL ;
+    - memory/_0391_ ( memory/_1030_ B2 ) ( memory/_0868_ B2 ) ( memory/_0866_ B2 ) ( memory/_0864_ B2 ) ( memory/_0862_ B2 ) ( memory/_0860_ B2 ) ( memory/_0858_ B2 )
+      ( memory/_0856_ B2 ) ( memory/_0854_ A2 ) ( memory/_0853_ ZN ) + USE SIGNAL ;
+    - memory/_0392_ ( memory/_1030_ A2 ) ( memory/_0868_ A2 ) ( memory/_0866_ A2 ) ( memory/_0864_ A2 ) ( memory/_0862_ A2 ) ( memory/_0860_ A2 ) ( memory/_0858_ A2 )
+      ( memory/_0856_ A2 ) ( memory/_0854_ ZN ) + USE SIGNAL ;
+    - memory/_0393_ ( memory/_0993_ A1 ) ( memory/_0984_ A1 ) ( memory/_0975_ A1 ) ( memory/_0966_ A1 ) ( memory/_0956_ A1 ) ( memory/_0947_ A1 ) ( memory/_0938_ A1 )
+      ( memory/_0929_ A1 ) ( memory/_0919_ A1 ) ( memory/_0910_ A1 ) ( memory/_0901_ A1 ) ( memory/_0892_ A1 ) ( memory/_0882_ A1 ) ( memory/_0872_ A1 ) ( memory/_0856_ B1 )
+      ( memory/_0855_ ZN ) + USE SIGNAL ;
+    - memory/_0394_ ( memory/_0994_ A1 ) ( memory/_0985_ A1 ) ( memory/_0976_ A1 ) ( memory/_0967_ A1 ) ( memory/_0957_ A1 ) ( memory/_0948_ A1 ) ( memory/_0939_ A1 )
+      ( memory/_0930_ A1 ) ( memory/_0920_ A1 ) ( memory/_0911_ A1 ) ( memory/_0902_ A1 ) ( memory/_0893_ A1 ) ( memory/_0883_ A1 ) ( memory/_0873_ A1 ) ( memory/_0858_ B1 )
+      ( memory/_0857_ ZN ) + USE SIGNAL ;
+    - memory/_0395_ ( memory/_0995_ A1 ) ( memory/_0986_ A1 ) ( memory/_0977_ A1 ) ( memory/_0968_ A1 ) ( memory/_0958_ A1 ) ( memory/_0949_ A1 ) ( memory/_0940_ A1 )
+      ( memory/_0931_ A1 ) ( memory/_0921_ A1 ) ( memory/_0912_ A1 ) ( memory/_0903_ A1 ) ( memory/_0894_ A1 ) ( memory/_0884_ A1 ) ( memory/_0874_ A1 ) ( memory/_0860_ B1 )
+      ( memory/_0859_ ZN ) + USE SIGNAL ;
+    - memory/_0396_ ( memory/_0996_ A1 ) ( memory/_0987_ A1 ) ( memory/_0978_ A1 ) ( memory/_0969_ A1 ) ( memory/_0959_ A1 ) ( memory/_0950_ A1 ) ( memory/_0941_ A1 )
+      ( memory/_0932_ A1 ) ( memory/_0922_ A1 ) ( memory/_0913_ A1 ) ( memory/_0904_ A1 ) ( memory/_0895_ A1 ) ( memory/_0885_ A1 ) ( memory/_0875_ A1 ) ( memory/_0862_ B1 )
+      ( memory/_0861_ ZN ) + USE SIGNAL ;
+    - memory/_0397_ ( memory/_0997_ A1 ) ( memory/_0988_ A1 ) ( memory/_0979_ A1 ) ( memory/_0970_ A1 ) ( memory/_0960_ A1 ) ( memory/_0951_ A1 ) ( memory/_0942_ A1 )
+      ( memory/_0933_ A1 ) ( memory/_0923_ A1 ) ( memory/_0914_ A1 ) ( memory/_0905_ A1 ) ( memory/_0896_ A1 ) ( memory/_0886_ A1 ) ( memory/_0876_ A1 ) ( memory/_0864_ B1 )
+      ( memory/_0863_ ZN ) + USE SIGNAL ;
+    - memory/_0398_ ( memory/_0998_ A1 ) ( memory/_0989_ A1 ) ( memory/_0980_ A1 ) ( memory/_0971_ A1 ) ( memory/_0961_ A1 ) ( memory/_0952_ A1 ) ( memory/_0943_ A1 )
+      ( memory/_0934_ A1 ) ( memory/_0924_ A1 ) ( memory/_0915_ A1 ) ( memory/_0906_ A1 ) ( memory/_0897_ A1 ) ( memory/_0887_ A1 ) ( memory/_0877_ A1 ) ( memory/_0866_ B1 )
+      ( memory/_0865_ ZN ) + USE SIGNAL ;
+    - memory/_0399_ ( memory/_0999_ A1 ) ( memory/_0990_ A1 ) ( memory/_0981_ A1 ) ( memory/_0972_ A1 ) ( memory/_0962_ A1 ) ( memory/_0953_ A1 ) ( memory/_0944_ A1 )
+      ( memory/_0935_ A1 ) ( memory/_0925_ A1 ) ( memory/_0916_ A1 ) ( memory/_0907_ A1 ) ( memory/_0898_ A1 ) ( memory/_0888_ A1 ) ( memory/_0878_ A1 ) ( memory/_0868_ B1 )
+      ( memory/_0867_ ZN ) + USE SIGNAL ;
+    - memory/_0400_ ( memory/_0982_ A1 ) ( memory/_0945_ A1 ) ( memory/_0908_ A1 ) ( memory/_0870_ A2 ) ( memory/_0869_ ZN ) + USE SIGNAL ;
+    - memory/_0401_ ( memory/_1029_ B2 ) ( memory/_0878_ A2 ) ( memory/_0877_ A2 ) ( memory/_0876_ A2 ) ( memory/_0875_ A2 ) ( memory/_0874_ A2 ) ( memory/_0873_ A2 )
+      ( memory/_0872_ A2 ) ( memory/_0871_ A2 ) ( memory/_0870_ ZN ) + USE SIGNAL ;
+    - memory/_0402_ ( memory/_1029_ A2 ) ( memory/_0878_ B1 ) ( memory/_0877_ B1 ) ( memory/_0876_ B1 ) ( memory/_0875_ B1 ) ( memory/_0874_ B1 ) ( memory/_0873_ B1 )
+      ( memory/_0872_ B1 ) ( memory/_0871_ ZN ) + USE SIGNAL ;
+    - memory/_0403_ ( memory/_0991_ A1 ) ( memory/_0954_ A1 ) ( memory/_0917_ A1 ) ( memory/_0880_ A2 ) ( memory/_0879_ ZN ) + USE SIGNAL ;
+    - memory/_0404_ ( memory/_1028_ B2 ) ( memory/_0888_ A2 ) ( memory/_0887_ A2 ) ( memory/_0886_ A2 ) ( memory/_0885_ A2 ) ( memory/_0884_ A2 ) ( memory/_0883_ A2 )
+      ( memory/_0882_ A2 ) ( memory/_0881_ A2 ) ( memory/_0880_ ZN ) + USE SIGNAL ;
+    - memory/_0405_ ( memory/_1028_ A2 ) ( memory/_0888_ B1 ) ( memory/_0887_ B1 ) ( memory/_0886_ B1 ) ( memory/_0885_ B1 ) ( memory/_0884_ B1 ) ( memory/_0883_ B1 )
+      ( memory/_0882_ B1 ) ( memory/_0881_ ZN ) + USE SIGNAL ;
+    - memory/_0406_ ( memory/_0917_ A2 ) ( memory/_0908_ A2 ) ( memory/_0899_ A2 ) ( memory/_0890_ A2 ) ( memory/_0889_ ZN ) + USE SIGNAL ;
+    - memory/_0407_ ( memory/_1027_ B2 ) ( memory/_0898_ A2 ) ( memory/_0897_ A2 ) ( memory/_0896_ A2 ) ( memory/_0895_ A2 ) ( memory/_0894_ A2 ) ( memory/_0893_ A2 )
+      ( memory/_0892_ A2 ) ( memory/_0891_ A2 ) ( memory/_0890_ ZN ) + USE SIGNAL ;
+    - memory/_0408_ ( memory/_1027_ A2 ) ( memory/_0898_ B1 ) ( memory/_0897_ B1 ) ( memory/_0896_ B1 ) ( memory/_0895_ B1 ) ( memory/_0894_ B1 ) ( memory/_0893_ B1 )
+      ( memory/_0892_ B1 ) ( memory/_0891_ ZN ) + USE SIGNAL ;
+    - memory/_0409_ ( memory/_1026_ B2 ) ( memory/_0907_ A2 ) ( memory/_0906_ A2 ) ( memory/_0905_ A2 ) ( memory/_0904_ A2 ) ( memory/_0903_ A2 ) ( memory/_0902_ A2 )
+      ( memory/_0901_ A2 ) ( memory/_0900_ A2 ) ( memory/_0899_ ZN ) + USE SIGNAL ;
+    - memory/_0410_ ( memory/_1026_ A2 ) ( memory/_0907_ B1 ) ( memory/_0906_ B1 ) ( memory/_0905_ B1 ) ( memory/_0904_ B1 ) ( memory/_0903_ B1 ) ( memory/_0902_ B1 )
+      ( memory/_0901_ B1 ) ( memory/_0900_ ZN ) + USE SIGNAL ;
+    - memory/_0411_ ( memory/_1025_ B2 ) ( memory/_0916_ A2 ) ( memory/_0915_ A2 ) ( memory/_0914_ A2 ) ( memory/_0913_ A2 ) ( memory/_0912_ A2 ) ( memory/_0911_ A2 )
+      ( memory/_0910_ A2 ) ( memory/_0909_ A2 ) ( memory/_0908_ ZN ) + USE SIGNAL ;
+    - memory/_0412_ ( memory/_1025_ A2 ) ( memory/_0916_ B1 ) ( memory/_0915_ B1 ) ( memory/_0914_ B1 ) ( memory/_0913_ B1 ) ( memory/_0912_ B1 ) ( memory/_0911_ B1 )
+      ( memory/_0910_ B1 ) ( memory/_0909_ ZN ) + USE SIGNAL ;
+    - memory/_0413_ ( memory/_1024_ B2 ) ( memory/_0925_ A2 ) ( memory/_0924_ A2 ) ( memory/_0923_ A2 ) ( memory/_0922_ A2 ) ( memory/_0921_ A2 ) ( memory/_0920_ A2 )
+      ( memory/_0919_ A2 ) ( memory/_0918_ A2 ) ( memory/_0917_ ZN ) + USE SIGNAL ;
+    - memory/_0414_ ( memory/_1024_ A2 ) ( memory/_0925_ B1 ) ( memory/_0924_ B1 ) ( memory/_0923_ B1 ) ( memory/_0922_ B1 ) ( memory/_0921_ B1 ) ( memory/_0920_ B1 )
+      ( memory/_0919_ B1 ) ( memory/_0918_ ZN ) + USE SIGNAL ;
+    - memory/_0415_ ( memory/_0954_ A2 ) ( memory/_0945_ A2 ) ( memory/_0936_ A2 ) ( memory/_0927_ A2 ) ( memory/_0926_ ZN ) + USE SIGNAL ;
+    - memory/_0416_ ( memory/_1023_ B2 ) ( memory/_0935_ A2 ) ( memory/_0934_ A2 ) ( memory/_0933_ A2 ) ( memory/_0932_ A2 ) ( memory/_0931_ A2 ) ( memory/_0930_ A2 )
+      ( memory/_0929_ A2 ) ( memory/_0928_ A2 ) ( memory/_0927_ ZN ) + USE SIGNAL ;
+    - memory/_0417_ ( memory/_1023_ A2 ) ( memory/_0935_ B1 ) ( memory/_0934_ B1 ) ( memory/_0933_ B1 ) ( memory/_0932_ B1 ) ( memory/_0931_ B1 ) ( memory/_0930_ B1 )
+      ( memory/_0929_ B1 ) ( memory/_0928_ ZN ) + USE SIGNAL ;
+    - memory/_0418_ ( memory/_1022_ B2 ) ( memory/_0944_ A2 ) ( memory/_0943_ A2 ) ( memory/_0942_ A2 ) ( memory/_0941_ A2 ) ( memory/_0940_ A2 ) ( memory/_0939_ A2 )
+      ( memory/_0938_ A2 ) ( memory/_0937_ A2 ) ( memory/_0936_ ZN ) + USE SIGNAL ;
+    - memory/_0419_ ( memory/_1022_ A2 ) ( memory/_0944_ B1 ) ( memory/_0943_ B1 ) ( memory/_0942_ B1 ) ( memory/_0941_ B1 ) ( memory/_0940_ B1 ) ( memory/_0939_ B1 )
+      ( memory/_0938_ B1 ) ( memory/_0937_ ZN ) + USE SIGNAL ;
+    - memory/_0420_ ( memory/_1021_ B2 ) ( memory/_0953_ A2 ) ( memory/_0952_ A2 ) ( memory/_0951_ A2 ) ( memory/_0950_ A2 ) ( memory/_0949_ A2 ) ( memory/_0948_ A2 )
+      ( memory/_0947_ A2 ) ( memory/_0946_ A2 ) ( memory/_0945_ ZN ) + USE SIGNAL ;
+    - memory/_0421_ ( memory/_1021_ A2 ) ( memory/_0953_ B1 ) ( memory/_0952_ B1 ) ( memory/_0951_ B1 ) ( memory/_0950_ B1 ) ( memory/_0949_ B1 ) ( memory/_0948_ B1 )
+      ( memory/_0947_ B1 ) ( memory/_0946_ ZN ) + USE SIGNAL ;
+    - memory/_0422_ ( memory/_1020_ B2 ) ( memory/_0962_ A2 ) ( memory/_0961_ A2 ) ( memory/_0960_ A2 ) ( memory/_0959_ A2 ) ( memory/_0958_ A2 ) ( memory/_0957_ A2 )
+      ( memory/_0956_ A2 ) ( memory/_0955_ A2 ) ( memory/_0954_ ZN ) + USE SIGNAL ;
+    - memory/_0423_ ( memory/_1020_ A2 ) ( memory/_0962_ B1 ) ( memory/_0961_ B1 ) ( memory/_0960_ B1 ) ( memory/_0959_ B1 ) ( memory/_0958_ B1 ) ( memory/_0957_ B1 )
+      ( memory/_0956_ B1 ) ( memory/_0955_ ZN ) + USE SIGNAL ;
+    - memory/_0424_ ( memory/_0991_ A2 ) ( memory/_0982_ A2 ) ( memory/_0973_ A2 ) ( memory/_0964_ A2 ) ( memory/_0963_ ZN ) + USE SIGNAL ;
+    - memory/_0425_ ( memory/_1019_ B2 ) ( memory/_0972_ A2 ) ( memory/_0971_ A2 ) ( memory/_0970_ A2 ) ( memory/_0969_ A2 ) ( memory/_0968_ A2 ) ( memory/_0967_ A2 )
+      ( memory/_0966_ A2 ) ( memory/_0965_ A2 ) ( memory/_0964_ ZN ) + USE SIGNAL ;
+    - memory/_0426_ ( memory/_1019_ A2 ) ( memory/_0972_ B1 ) ( memory/_0971_ B1 ) ( memory/_0970_ B1 ) ( memory/_0969_ B1 ) ( memory/_0968_ B1 ) ( memory/_0967_ B1 )
+      ( memory/_0966_ B1 ) ( memory/_0965_ ZN ) + USE SIGNAL ;
+    - memory/_0427_ ( memory/_1018_ B2 ) ( memory/_0981_ A2 ) ( memory/_0980_ A2 ) ( memory/_0979_ A2 ) ( memory/_0978_ A2 ) ( memory/_0977_ A2 ) ( memory/_0976_ A2 )
+      ( memory/_0975_ A2 ) ( memory/_0974_ A2 ) ( memory/_0973_ ZN ) + USE SIGNAL ;
+    - memory/_0428_ ( memory/_1018_ A2 ) ( memory/_0981_ B1 ) ( memory/_0980_ B1 ) ( memory/_0979_ B1 ) ( memory/_0978_ B1 ) ( memory/_0977_ B1 ) ( memory/_0976_ B1 )
+      ( memory/_0975_ B1 ) ( memory/_0974_ ZN ) + USE SIGNAL ;
+    - memory/_0429_ ( memory/_1017_ B2 ) ( memory/_0990_ A2 ) ( memory/_0989_ A2 ) ( memory/_0988_ A2 ) ( memory/_0987_ A2 ) ( memory/_0986_ A2 ) ( memory/_0985_ A2 )
+      ( memory/_0984_ A2 ) ( memory/_0983_ A2 ) ( memory/_0982_ ZN ) + USE SIGNAL ;
+    - memory/_0430_ ( memory/_1017_ A2 ) ( memory/_0990_ B1 ) ( memory/_0989_ B1 ) ( memory/_0988_ B1 ) ( memory/_0987_ B1 ) ( memory/_0986_ B1 ) ( memory/_0985_ B1 )
+      ( memory/_0984_ B1 ) ( memory/_0983_ ZN ) + USE SIGNAL ;
+    - memory/_0431_ ( memory/_1016_ B2 ) ( memory/_0999_ A2 ) ( memory/_0998_ A2 ) ( memory/_0997_ A2 ) ( memory/_0996_ A2 ) ( memory/_0995_ A2 ) ( memory/_0994_ A2 )
+      ( memory/_0993_ A2 ) ( memory/_0992_ A2 ) ( memory/_0991_ ZN ) + USE SIGNAL ;
+    - memory/_0432_ ( memory/_1016_ A2 ) ( memory/_0999_ B1 ) ( memory/_0998_ B1 ) ( memory/_0997_ B1 ) ( memory/_0996_ B1 ) ( memory/_0995_ B1 ) ( memory/_0994_ B1 )
+      ( memory/_0993_ B1 ) ( memory/_0992_ ZN ) + USE SIGNAL ;
+    - memory/_0433_ ( memory/_1002_ A ) ( memory/_1000_ ZN ) + USE SIGNAL ;
+    - memory/_0434_ ( memory/_1002_ B ) ( memory/_1001_ ZN ) + USE SIGNAL ;
+    - memory/_0435_ ( memory/_1011_ C2 ) ( memory/_1002_ ZN ) + USE SIGNAL ;
+    - memory/_0436_ ( memory/_1004_ A ) ( memory/_1003_ ZN ) + USE SIGNAL ;
+    - memory/_0437_ ( memory/_1011_ A2 ) ( memory/_1004_ ZN ) + USE SIGNAL ;
+    - memory/_0438_ ( memory/_1007_ A ) ( memory/_1005_ ZN ) + USE SIGNAL ;
+    - memory/_0439_ ( memory/_1007_ B ) ( memory/_1006_ ZN ) + USE SIGNAL ;
+    - memory/_0440_ ( memory/_1011_ B1 ) ( memory/_1007_ ZN ) + USE SIGNAL ;
+    - memory/_0441_ ( memory/_1010_ A ) ( memory/_1008_ ZN ) + USE SIGNAL ;
+    - memory/_0442_ ( memory/_1010_ B ) ( memory/_1009_ ZN ) + USE SIGNAL ;
+    - memory/_0443_ ( memory/_1012_ B2 ) ( memory/_1010_ ZN ) + USE SIGNAL ;
+    - memory/_0444_ ( memory/_1014_ B2 ) ( memory/_1011_ ZN ) + USE SIGNAL ;
+    - memory/_0445_ ( memory/_1014_ B1 ) ( memory/_1012_ ZN ) + USE SIGNAL ;
+    - memory/_0446_ ( memory/_1014_ A ) ( memory/_1013_ ZN ) + USE SIGNAL ;
+    - memory/_0447_ ( memory/_1030_ B1 ) ( memory/_1029_ B1 ) ( memory/_1028_ B1 ) ( memory/_1027_ B1 ) ( memory/_1026_ B1 ) ( memory/_1025_ B1 ) ( memory/_1024_ B1 )
+      ( memory/_1023_ B1 ) ( memory/_1022_ B1 ) ( memory/_1021_ B1 ) ( memory/_1020_ B1 ) ( memory/_1019_ B1 ) ( memory/_1018_ B1 ) ( memory/_1017_ B1 ) ( memory/_1016_ B1 )
+      ( memory/_1015_ ZN ) + USE SIGNAL ;
+    - memory/_0448_ ( memory/_1047_ QN ) + USE SIGNAL ;
+    - memory/_0449_ ( memory/_1039_ QN ) + USE SIGNAL ;
+    - memory/_0450_ ( memory/_1167_ QN ) + USE SIGNAL ;
+    - memory/_0451_ ( memory/_1159_ QN ) + USE SIGNAL ;
+    - memory/_0452_ ( memory/_1151_ QN ) + USE SIGNAL ;
+    - memory/_0453_ ( memory/_1143_ QN ) + USE SIGNAL ;
+    - memory/_0454_ ( memory/_1135_ QN ) + USE SIGNAL ;
+    - memory/_0455_ ( memory/_1127_ QN ) + USE SIGNAL ;
+    - memory/_0456_ ( memory/_1119_ QN ) + USE SIGNAL ;
+    - memory/_0457_ ( memory/_1111_ QN ) + USE SIGNAL ;
+    - memory/_0458_ ( memory/_1103_ QN ) + USE SIGNAL ;
+    - memory/_0459_ ( memory/_1095_ QN ) + USE SIGNAL ;
+    - memory/_0460_ ( memory/_1087_ QN ) + USE SIGNAL ;
+    - memory/_0461_ ( memory/_1079_ QN ) + USE SIGNAL ;
+    - memory/_0462_ ( memory/_1071_ QN ) + USE SIGNAL ;
+    - memory/_0463_ ( memory/_1063_ QN ) + USE SIGNAL ;
+    - memory/_0464_ ( memory/_1055_ QN ) + USE SIGNAL ;
+    - memory/_0465_ ( memory/_1056_ QN ) + USE SIGNAL ;
+    - memory/_0466_ ( memory/_1057_ QN ) + USE SIGNAL ;
+    - memory/_0467_ ( memory/_1058_ QN ) + USE SIGNAL ;
+    - memory/_0468_ ( memory/_1059_ QN ) + USE SIGNAL ;
+    - memory/_0469_ ( memory/_1060_ QN ) + USE SIGNAL ;
+    - memory/_0470_ ( memory/_1061_ QN ) + USE SIGNAL ;
+    - memory/_0471_ ( memory/_1062_ QN ) + USE SIGNAL ;
+    - memory/_0472_ ( memory/_1064_ QN ) + USE SIGNAL ;
+    - memory/_0473_ ( memory/_1065_ QN ) + USE SIGNAL ;
+    - memory/_0474_ ( memory/_1066_ QN ) + USE SIGNAL ;
+    - memory/_0475_ ( memory/_1067_ QN ) + USE SIGNAL ;
+    - memory/_0476_ ( memory/_1068_ QN ) + USE SIGNAL ;
+    - memory/_0477_ ( memory/_1069_ QN ) + USE SIGNAL ;
+    - memory/_0478_ ( memory/_1070_ QN ) + USE SIGNAL ;
+    - memory/_0479_ ( memory/_1072_ QN ) + USE SIGNAL ;
+    - memory/_0480_ ( memory/_1073_ QN ) + USE SIGNAL ;
+    - memory/_0481_ ( memory/_1074_ QN ) + USE SIGNAL ;
+    - memory/_0482_ ( memory/_1075_ QN ) + USE SIGNAL ;
+    - memory/_0483_ ( memory/_1076_ QN ) + USE SIGNAL ;
+    - memory/_0484_ ( memory/_1077_ QN ) + USE SIGNAL ;
+    - memory/_0485_ ( memory/_1078_ QN ) + USE SIGNAL ;
+    - memory/_0486_ ( memory/_1080_ QN ) + USE SIGNAL ;
+    - memory/_0487_ ( memory/_1081_ QN ) + USE SIGNAL ;
+    - memory/_0488_ ( memory/_1082_ QN ) + USE SIGNAL ;
+    - memory/_0489_ ( memory/_1083_ QN ) + USE SIGNAL ;
+    - memory/_0490_ ( memory/_1084_ QN ) + USE SIGNAL ;
+    - memory/_0491_ ( memory/_1085_ QN ) + USE SIGNAL ;
+    - memory/_0492_ ( memory/_1086_ QN ) + USE SIGNAL ;
+    - memory/_0493_ ( memory/_1088_ QN ) + USE SIGNAL ;
+    - memory/_0494_ ( memory/_1089_ QN ) + USE SIGNAL ;
+    - memory/_0495_ ( memory/_1090_ QN ) + USE SIGNAL ;
+    - memory/_0496_ ( memory/_1091_ QN ) + USE SIGNAL ;
+    - memory/_0497_ ( memory/_1092_ QN ) + USE SIGNAL ;
+    - memory/_0498_ ( memory/_1093_ QN ) + USE SIGNAL ;
+    - memory/_0499_ ( memory/_1094_ QN ) + USE SIGNAL ;
+    - memory/_0500_ ( memory/_1096_ QN ) + USE SIGNAL ;
+    - memory/_0501_ ( memory/_1097_ QN ) + USE SIGNAL ;
+    - memory/_0502_ ( memory/_1098_ QN ) + USE SIGNAL ;
+    - memory/_0503_ ( memory/_1099_ QN ) + USE SIGNAL ;
+    - memory/_0504_ ( memory/_1100_ QN ) + USE SIGNAL ;
+    - memory/_0505_ ( memory/_1101_ QN ) + USE SIGNAL ;
+    - memory/_0506_ ( memory/_1102_ QN ) + USE SIGNAL ;
+    - memory/_0507_ ( memory/_1104_ QN ) + USE SIGNAL ;
+    - memory/_0508_ ( memory/_1105_ QN ) + USE SIGNAL ;
+    - memory/_0509_ ( memory/_1106_ QN ) + USE SIGNAL ;
+    - memory/_0510_ ( memory/_1107_ QN ) + USE SIGNAL ;
+    - memory/_0511_ ( memory/_1108_ QN ) + USE SIGNAL ;
+    - memory/_0512_ ( memory/_1109_ QN ) + USE SIGNAL ;
+    - memory/_0513_ ( memory/_1110_ QN ) + USE SIGNAL ;
+    - memory/_0514_ ( memory/_1112_ QN ) + USE SIGNAL ;
+    - memory/_0515_ ( memory/_1113_ QN ) + USE SIGNAL ;
+    - memory/_0516_ ( memory/_1114_ QN ) + USE SIGNAL ;
+    - memory/_0517_ ( memory/_1115_ QN ) + USE SIGNAL ;
+    - memory/_0518_ ( memory/_1116_ QN ) + USE SIGNAL ;
+    - memory/_0519_ ( memory/_1117_ QN ) + USE SIGNAL ;
+    - memory/_0520_ ( memory/_1118_ QN ) + USE SIGNAL ;
+    - memory/_0521_ ( memory/_1120_ QN ) + USE SIGNAL ;
+    - memory/_0522_ ( memory/_1121_ QN ) + USE SIGNAL ;
+    - memory/_0523_ ( memory/_1122_ QN ) + USE SIGNAL ;
+    - memory/_0524_ ( memory/_1123_ QN ) + USE SIGNAL ;
+    - memory/_0525_ ( memory/_1124_ QN ) + USE SIGNAL ;
+    - memory/_0526_ ( memory/_1125_ QN ) + USE SIGNAL ;
+    - memory/_0527_ ( memory/_1126_ QN ) + USE SIGNAL ;
+    - memory/_0528_ ( memory/_1128_ QN ) + USE SIGNAL ;
+    - memory/_0529_ ( memory/_1129_ QN ) + USE SIGNAL ;
+    - memory/_0530_ ( memory/_1130_ QN ) + USE SIGNAL ;
+    - memory/_0531_ ( memory/_1131_ QN ) + USE SIGNAL ;
+    - memory/_0532_ ( memory/_1132_ QN ) + USE SIGNAL ;
+    - memory/_0533_ ( memory/_1133_ QN ) + USE SIGNAL ;
+    - memory/_0534_ ( memory/_1134_ QN ) + USE SIGNAL ;
+    - memory/_0535_ ( memory/_1136_ QN ) + USE SIGNAL ;
+    - memory/_0536_ ( memory/_1137_ QN ) + USE SIGNAL ;
+    - memory/_0537_ ( memory/_1138_ QN ) + USE SIGNAL ;
+    - memory/_0538_ ( memory/_1139_ QN ) + USE SIGNAL ;
+    - memory/_0539_ ( memory/_1140_ QN ) + USE SIGNAL ;
+    - memory/_0540_ ( memory/_1141_ QN ) + USE SIGNAL ;
+    - memory/_0541_ ( memory/_1142_ QN ) + USE SIGNAL ;
+    - memory/_0542_ ( memory/_1144_ QN ) + USE SIGNAL ;
+    - memory/_0543_ ( memory/_1145_ QN ) + USE SIGNAL ;
+    - memory/_0544_ ( memory/_1146_ QN ) + USE SIGNAL ;
+    - memory/_0545_ ( memory/_1147_ QN ) + USE SIGNAL ;
+    - memory/_0546_ ( memory/_1148_ QN ) + USE SIGNAL ;
+    - memory/_0547_ ( memory/_1149_ QN ) + USE SIGNAL ;
+    - memory/_0548_ ( memory/_1150_ QN ) + USE SIGNAL ;
+    - memory/_0549_ ( memory/_1152_ QN ) + USE SIGNAL ;
+    - memory/_0550_ ( memory/_1153_ QN ) + USE SIGNAL ;
+    - memory/_0551_ ( memory/_1154_ QN ) + USE SIGNAL ;
+    - memory/_0552_ ( memory/_1155_ QN ) + USE SIGNAL ;
+    - memory/_0553_ ( memory/_1156_ QN ) + USE SIGNAL ;
+    - memory/_0554_ ( memory/_1157_ QN ) + USE SIGNAL ;
+    - memory/_0555_ ( memory/_1158_ QN ) + USE SIGNAL ;
+    - memory/_0556_ ( memory/_1160_ QN ) + USE SIGNAL ;
+    - memory/_0557_ ( memory/_1161_ QN ) + USE SIGNAL ;
+    - memory/_0558_ ( memory/_1162_ QN ) + USE SIGNAL ;
+    - memory/_0559_ ( memory/_1163_ QN ) + USE SIGNAL ;
+    - memory/_0560_ ( memory/_1164_ QN ) + USE SIGNAL ;
+    - memory/_0561_ ( memory/_1165_ QN ) + USE SIGNAL ;
+    - memory/_0562_ ( memory/_1166_ QN ) + USE SIGNAL ;
+    - memory/_0563_ ( memory/_1032_ QN ) + USE SIGNAL ;
+    - memory/_0564_ ( memory/_1033_ QN ) + USE SIGNAL ;
+    - memory/_0565_ ( memory/_1034_ QN ) + USE SIGNAL ;
+    - memory/_0566_ ( memory/_1035_ QN ) + USE SIGNAL ;
+    - memory/_0567_ ( memory/_1036_ QN ) + USE SIGNAL ;
+    - memory/_0568_ ( memory/_1037_ QN ) + USE SIGNAL ;
+    - memory/_0569_ ( memory/_1038_ QN ) + USE SIGNAL ;
+    - memory/_0570_ ( memory/_1040_ QN ) + USE SIGNAL ;
+    - memory/_0571_ ( memory/_1041_ QN ) + USE SIGNAL ;
+    - memory/_0572_ ( memory/_1042_ QN ) + USE SIGNAL ;
+    - memory/_0573_ ( memory/_1043_ QN ) + USE SIGNAL ;
+    - memory/_0574_ ( memory/_1044_ QN ) + USE SIGNAL ;
+    - memory/_0575_ ( memory/_1045_ QN ) + USE SIGNAL ;
+    - memory/_0576_ ( memory/_1046_ QN ) + USE SIGNAL ;
+    - memory/_0577_ ( memory/_1048_ QN ) + USE SIGNAL ;
+    - memory/_0578_ ( memory/_1049_ QN ) + USE SIGNAL ;
+    - memory/_0579_ ( memory/_1050_ QN ) + USE SIGNAL ;
+    - memory/_0580_ ( memory/_1051_ QN ) + USE SIGNAL ;
+    - memory/_0581_ ( memory/_1052_ QN ) + USE SIGNAL ;
+    - memory/_0582_ ( memory/_1053_ QN ) + USE SIGNAL ;
+    - memory/_0583_ ( memory/_1054_ QN ) + USE SIGNAL ;
+    - memory/mem\[0\][0] ( memory/_1040_ Q ) ( memory/_0830_ A1 ) ( memory/_0696_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][1] ( memory/_1041_ Q ) ( memory/_0818_ A1 ) ( memory/_0694_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][2] ( memory/_1042_ Q ) ( memory/_0803_ A1 ) ( memory/_0692_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][3] ( memory/_1043_ Q ) ( memory/_0788_ A1 ) ( memory/_0690_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][4] ( memory/_1044_ Q ) ( memory/_0773_ A1 ) ( memory/_0688_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][5] ( memory/_1045_ Q ) ( memory/_0758_ A1 ) ( memory/_0686_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][6] ( memory/_1046_ Q ) ( memory/_0738_ A1 ) ( memory/_0684_ A ) + USE SIGNAL ;
+    - memory/mem\[0\][7] ( memory/_1047_ Q ) ( memory/_1006_ A1 ) ( memory/_0725_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][0] ( memory/_1096_ Q ) ( memory/_0827_ A2 ) ( memory/_0626_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][1] ( memory/_1097_ Q ) ( memory/_0820_ A2 ) ( memory/_0624_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][2] ( memory/_1098_ Q ) ( memory/_0805_ A2 ) ( memory/_0622_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][3] ( memory/_1099_ Q ) ( memory/_0790_ A2 ) ( memory/_0620_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][4] ( memory/_1100_ Q ) ( memory/_0775_ A2 ) ( memory/_0618_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][5] ( memory/_1101_ Q ) ( memory/_0760_ A2 ) ( memory/_0616_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][6] ( memory/_1102_ Q ) ( memory/_0745_ A2 ) ( memory/_0614_ A ) + USE SIGNAL ;
+    - memory/mem\[10\][7] ( memory/_1103_ Q ) ( memory/_1008_ A3 ) ( memory/_0715_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][0] ( memory/_1088_ Q ) ( memory/_0828_ B2 ) ( memory/_0627_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][1] ( memory/_1089_ Q ) ( memory/_0821_ B2 ) ( memory/_0625_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][2] ( memory/_1090_ Q ) ( memory/_0806_ B2 ) ( memory/_0623_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][3] ( memory/_1091_ Q ) ( memory/_0791_ B2 ) ( memory/_0621_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][4] ( memory/_1092_ Q ) ( memory/_0776_ B2 ) ( memory/_0619_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][5] ( memory/_1093_ Q ) ( memory/_0761_ B2 ) ( memory/_0617_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][6] ( memory/_1094_ Q ) ( memory/_0746_ B2 ) ( memory/_0615_ A ) + USE SIGNAL ;
+    - memory/mem\[11\][7] ( memory/_1095_ Q ) ( memory/_1009_ B2 ) ( memory/_0716_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][0] ( memory/_1080_ Q ) ( memory/_0834_ A1 ) ( memory/_0612_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][1] ( memory/_1081_ Q ) ( memory/_0813_ A1 ) ( memory/_0610_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][2] ( memory/_1082_ Q ) ( memory/_0798_ A1 ) ( memory/_0608_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][3] ( memory/_1083_ Q ) ( memory/_0785_ A1 ) ( memory/_0606_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][4] ( memory/_1084_ Q ) ( memory/_0770_ A1 ) ( memory/_0604_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][5] ( memory/_1085_ Q ) ( memory/_0755_ A1 ) ( memory/_0602_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][6] ( memory/_1086_ Q ) ( memory/_0735_ A1 ) ( memory/_0600_ A ) + USE SIGNAL ;
+    - memory/mem\[12\][7] ( memory/_1087_ Q ) ( memory/_1003_ A1 ) ( memory/_0713_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][0] ( memory/_1072_ Q ) ( memory/_0613_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][1] ( memory/_1073_ Q ) ( memory/_0611_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][2] ( memory/_1074_ Q ) ( memory/_0609_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][3] ( memory/_1075_ Q ) ( memory/_0607_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][4] ( memory/_1076_ Q ) ( memory/_0605_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][5] ( memory/_1077_ Q ) ( memory/_0603_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][6] ( memory/_1078_ Q ) ( memory/_0601_ A ) + USE SIGNAL ;
+    - memory/mem\[13\][7] ( memory/_1079_ Q ) ( memory/_0714_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][0] ( memory/_1064_ Q ) ( memory/_0598_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][1] ( memory/_1065_ Q ) ( memory/_0812_ A2 ) ( memory/_0596_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][2] ( memory/_1066_ Q ) ( memory/_0797_ A2 ) ( memory/_0594_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][3] ( memory/_1067_ Q ) ( memory/_0592_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][4] ( memory/_1068_ Q ) ( memory/_0590_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][5] ( memory/_1069_ Q ) ( memory/_0588_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][6] ( memory/_1070_ Q ) ( memory/_0731_ A1 ) ( memory/_0585_ A ) + USE SIGNAL ;
+    - memory/mem\[14\][7] ( memory/_1071_ Q ) ( memory/_0711_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][0] ( memory/_1056_ Q ) ( memory/_0834_ B2 ) ( memory/_0599_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][1] ( memory/_1057_ Q ) ( memory/_0813_ B2 ) ( memory/_0597_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][2] ( memory/_1058_ Q ) ( memory/_0798_ B2 ) ( memory/_0595_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][3] ( memory/_1059_ Q ) ( memory/_0785_ B2 ) ( memory/_0593_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][4] ( memory/_1060_ Q ) ( memory/_0770_ B2 ) ( memory/_0591_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][5] ( memory/_1061_ Q ) ( memory/_0755_ B2 ) ( memory/_0589_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][6] ( memory/_1062_ Q ) ( memory/_0735_ B2 ) ( memory/_0586_ A ) + USE SIGNAL ;
+    - memory/mem\[15\][7] ( memory/_1063_ Q ) ( memory/_1003_ B2 ) ( memory/_0712_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][0] ( memory/_1032_ Q ) ( memory/_0697_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][1] ( memory/_1033_ Q ) ( memory/_0695_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][2] ( memory/_1034_ Q ) ( memory/_0693_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][3] ( memory/_1035_ Q ) ( memory/_0691_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][4] ( memory/_1036_ Q ) ( memory/_0689_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][5] ( memory/_1037_ Q ) ( memory/_0687_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][6] ( memory/_1038_ Q ) ( memory/_0685_ A ) + USE SIGNAL ;
+    - memory/mem\[1\][7] ( memory/_1039_ Q ) ( memory/_0726_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][0] ( memory/_1160_ Q ) ( memory/_0682_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][1] ( memory/_1161_ Q ) ( memory/_0817_ A2 ) ( memory/_0680_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][2] ( memory/_1162_ Q ) ( memory/_0802_ A2 ) ( memory/_0678_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][3] ( memory/_1163_ Q ) ( memory/_0787_ A2 ) ( memory/_0676_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][4] ( memory/_1164_ Q ) ( memory/_0772_ A2 ) ( memory/_0674_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][5] ( memory/_1165_ Q ) ( memory/_0757_ A2 ) ( memory/_0672_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][6] ( memory/_1166_ Q ) ( memory/_0670_ A ) + USE SIGNAL ;
+    - memory/mem\[2\][7] ( memory/_1167_ Q ) ( memory/_1005_ A3 ) ( memory/_0723_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][0] ( memory/_1152_ Q ) ( memory/_0830_ B2 ) ( memory/_0683_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][1] ( memory/_1153_ Q ) ( memory/_0818_ B2 ) ( memory/_0681_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][2] ( memory/_1154_ Q ) ( memory/_0803_ B2 ) ( memory/_0679_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][3] ( memory/_1155_ Q ) ( memory/_0788_ B2 ) ( memory/_0677_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][4] ( memory/_1156_ Q ) ( memory/_0773_ B2 ) ( memory/_0675_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][5] ( memory/_1157_ Q ) ( memory/_0758_ B2 ) ( memory/_0673_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][6] ( memory/_1158_ Q ) ( memory/_0738_ B2 ) ( memory/_0671_ A ) + USE SIGNAL ;
+    - memory/mem\[3\][7] ( memory/_1159_ Q ) ( memory/_1006_ B2 ) ( memory/_0724_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][0] ( memory/_1144_ Q ) ( memory/_0832_ A1 ) ( memory/_0668_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][1] ( memory/_1145_ Q ) ( memory/_0815_ A1 ) ( memory/_0666_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][2] ( memory/_1146_ Q ) ( memory/_0800_ A1 ) ( memory/_0664_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][3] ( memory/_1147_ Q ) ( memory/_0783_ A1 ) ( memory/_0662_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][4] ( memory/_1148_ Q ) ( memory/_0768_ A1 ) ( memory/_0660_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][5] ( memory/_1149_ Q ) ( memory/_0753_ A1 ) ( memory/_0658_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][6] ( memory/_1150_ Q ) ( memory/_0742_ A1 ) ( memory/_0656_ A ) + USE SIGNAL ;
+    - memory/mem\[4\][7] ( memory/_1151_ Q ) ( memory/_1001_ A1 ) ( memory/_0721_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][0] ( memory/_1136_ Q ) ( memory/_0669_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][1] ( memory/_1137_ Q ) ( memory/_0667_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][2] ( memory/_1138_ Q ) ( memory/_0665_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][3] ( memory/_1139_ Q ) ( memory/_0663_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][4] ( memory/_1140_ Q ) ( memory/_0661_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][5] ( memory/_1141_ Q ) ( memory/_0659_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][6] ( memory/_1142_ Q ) ( memory/_0657_ A ) + USE SIGNAL ;
+    - memory/mem\[5\][7] ( memory/_1143_ Q ) ( memory/_0722_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][0] ( memory/_1128_ Q ) ( memory/_0654_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][1] ( memory/_1129_ Q ) ( memory/_0652_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][2] ( memory/_1130_ Q ) ( memory/_0650_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][3] ( memory/_1131_ Q ) ( memory/_0782_ A2 ) ( memory/_0648_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][4] ( memory/_1132_ Q ) ( memory/_0767_ A2 ) ( memory/_0646_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][5] ( memory/_1133_ Q ) ( memory/_0752_ A2 ) ( memory/_0644_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][6] ( memory/_1134_ Q ) ( memory/_0741_ A2 ) ( memory/_0642_ A ) + USE SIGNAL ;
+    - memory/mem\[6\][7] ( memory/_1135_ Q ) ( memory/_1000_ A3 ) ( memory/_0719_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][0] ( memory/_1120_ Q ) ( memory/_0832_ B2 ) ( memory/_0655_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][1] ( memory/_1121_ Q ) ( memory/_0815_ B2 ) ( memory/_0653_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][2] ( memory/_1122_ Q ) ( memory/_0800_ B2 ) ( memory/_0651_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][3] ( memory/_1123_ Q ) ( memory/_0783_ B2 ) ( memory/_0649_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][4] ( memory/_1124_ Q ) ( memory/_0768_ B2 ) ( memory/_0647_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][5] ( memory/_1125_ Q ) ( memory/_0753_ B2 ) ( memory/_0645_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][6] ( memory/_1126_ Q ) ( memory/_0742_ B2 ) ( memory/_0643_ A ) + USE SIGNAL ;
+    - memory/mem\[7\][7] ( memory/_1127_ Q ) ( memory/_1001_ B2 ) ( memory/_0720_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][0] ( memory/_1112_ Q ) ( memory/_0828_ A1 ) ( memory/_0640_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][1] ( memory/_1113_ Q ) ( memory/_0821_ A1 ) ( memory/_0638_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][2] ( memory/_1114_ Q ) ( memory/_0806_ A1 ) ( memory/_0636_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][3] ( memory/_1115_ Q ) ( memory/_0791_ A1 ) ( memory/_0634_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][4] ( memory/_1116_ Q ) ( memory/_0776_ A1 ) ( memory/_0632_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][5] ( memory/_1117_ Q ) ( memory/_0761_ A1 ) ( memory/_0630_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][6] ( memory/_1118_ Q ) ( memory/_0746_ A1 ) ( memory/_0628_ A ) + USE SIGNAL ;
+    - memory/mem\[8\][7] ( memory/_1119_ Q ) ( memory/_1009_ A1 ) ( memory/_0717_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][0] ( memory/_1104_ Q ) ( memory/_0641_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][1] ( memory/_1105_ Q ) ( memory/_0639_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][2] ( memory/_1106_ Q ) ( memory/_0637_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][3] ( memory/_1107_ Q ) ( memory/_0635_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][4] ( memory/_1108_ Q ) ( memory/_0633_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][5] ( memory/_1109_ Q ) ( memory/_0631_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][6] ( memory/_1110_ Q ) ( memory/_0629_ A ) + USE SIGNAL ;
+    - memory/mem\[9\][7] ( memory/_1111_ Q ) ( memory/_0718_ A ) + USE SIGNAL ;
+    - rd_en ( PIN rd_en ) ( controller/_53_ A1 ) ( controller/_52_ A1 ) ( controller/_47_ A ) + USE SIGNAL ;
+    - rd_pointer/_00_ ( rd_pointer/_28_ D ) ( rd_pointer/_18_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_01_ ( rd_pointer/_27_ D ) ( rd_pointer/_20_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_02_ ( rd_pointer/_26_ D ) ( rd_pointer/_22_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_03_ ( rd_pointer/_29_ D ) ( rd_pointer/_25_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_04_ ( rd_pointer/_21_ A ) ( rd_pointer/_17_ A ) ( rd_pointer/_15_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_05_ ( rd_pointer/_24_ A3 ) ( rd_pointer/_23_ B2 ) ( rd_pointer/_20_ A2 ) ( rd_pointer/_18_ B1 ) ( rd_pointer/_17_ B1 ) ( rd_pointer/_16_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_06_ ( rd_pointer/_18_ A ) ( rd_pointer/_17_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_07_ ( rd_pointer/_20_ A3 ) ( rd_pointer/_19_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_08_ ( rd_pointer/_22_ A ) ( rd_pointer/_21_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_09_ ( rd_pointer/_25_ A2 ) ( rd_pointer/_23_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_10_ ( rd_pointer/_25_ A3 ) ( rd_pointer/_24_ ZN ) + USE SIGNAL ;
+    - rd_pointer/_11_ ( rd_pointer/_29_ QN ) + USE SIGNAL ;
+    - rd_pointer/_12_ ( rd_pointer/_26_ QN ) + USE SIGNAL ;
+    - rd_pointer/_13_ ( rd_pointer/_27_ QN ) + USE SIGNAL ;
+    - rd_pointer/_14_ ( rd_pointer/_28_ QN ) + USE SIGNAL ;
+    - rd_ptr[0] ( rd_pointer/_26_ Q ) ( rd_pointer/_22_ B1 ) ( rd_pointer/_21_ B1 ) ( rd_pointer/_19_ B1 ) ( rd_pointer/_16_ A2 ) ( memory/_0734_ A1 ) ( memory/_0732_ A1 )
+      ( memory/_0587_ A ) + USE SIGNAL ;
+    - rd_ptr[1] ( rd_pointer/_27_ Q ) ( rd_pointer/_19_ A ) ( rd_pointer/_16_ A3 ) ( memory/_1008_ A2 ) ( memory/_1005_ A2 ) ( memory/_1000_ A2 ) ( memory/_0827_ A3 )
+      ( memory/_0820_ A3 ) ( memory/_0817_ A3 ) ( memory/_0812_ A3 ) ( memory/_0805_ A3 ) ( memory/_0802_ A3 ) ( memory/_0797_ A3 ) ( memory/_0790_ A3 ) ( memory/_0787_ A3 )
+      ( memory/_0782_ A3 ) ( memory/_0775_ A3 ) ( memory/_0772_ A3 ) ( memory/_0767_ A3 ) ( memory/_0760_ A3 ) ( memory/_0757_ A3 ) ( memory/_0752_ A3 ) ( memory/_0745_ A3 )
+      ( memory/_0741_ A3 ) ( memory/_0734_ A2 ) ( memory/_0733_ A2 ) ( memory/_0732_ A2 ) ( memory/_0731_ A3 ) ( memory/_0730_ A2 ) + USE SIGNAL ;
+    - rd_ptr[2] ( rd_pointer/_28_ Q ) ( rd_pointer/_24_ A2 ) ( rd_pointer/_23_ B1 ) ( rd_pointer/_18_ B2 ) ( rd_pointer/_17_ B2 ) ( memory/_0737_ A1 ) ( memory/_0729_ A1 )
+      ( memory/_0698_ A ) + USE SIGNAL ;
+    - rd_ptr[3] ( rd_pointer/_29_ Q ) ( rd_pointer/_24_ A1 ) ( rd_pointer/_23_ A ) ( memory/_0744_ A2 ) ( memory/_0740_ A2 ) ( memory/_0737_ A2 ) ( memory/_0729_ A2 ) + USE SIGNAL ;
+    - rd_ptr_en ( rd_pointer/_22_ B2 ) ( rd_pointer/_21_ B2 ) ( rd_pointer/_19_ B2 ) ( rd_pointer/_16_ A1 ) ( memory/_1013_ B1 ) ( memory/_0838_ B2 ) ( memory/_0825_ B2 )
+      ( memory/_0810_ B2 ) ( memory/_0795_ B2 ) ( memory/_0780_ B2 ) ( memory/_0765_ B2 ) ( memory/_0750_ B2 ) ( memory/_0584_ A ) ( controller/_48_ ZN ) + USE SIGNAL ;
+    - rst ( PIN rst ) ( wr_pointer/_25_ A1 ) ( wr_pointer/_20_ A1 ) ( wr_pointer/_15_ A ) ( rd_pointer/_25_ A1 ) ( rd_pointer/_20_ A1 ) ( rd_pointer/_15_ A )
+      ( memory/_0843_ A1 ) ( memory/_0842_ A ) ( memory/_0841_ A ) ( memory/_0840_ A1 ) ( memory/_0699_ A ) ( controller/_80_ A ) ( controller/_75_ A1 ) ( controller/_73_ A )
+      ( controller/_68_ A ) ( controller/_63_ A ) + USE SIGNAL ;
+    - wr_en ( PIN wr_en ) ( controller/_76_ A1 ) ( controller/_41_ A ) + USE SIGNAL ;
+    - wr_pointer/_00_ ( wr_pointer/_28_ D ) ( wr_pointer/_18_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_01_ ( wr_pointer/_27_ D ) ( wr_pointer/_20_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_02_ ( wr_pointer/_26_ D ) ( wr_pointer/_22_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_03_ ( wr_pointer/_29_ D ) ( wr_pointer/_25_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_04_ ( wr_pointer/_21_ A ) ( wr_pointer/_17_ A ) ( wr_pointer/_15_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_05_ ( wr_pointer/_24_ A3 ) ( wr_pointer/_23_ B2 ) ( wr_pointer/_20_ A2 ) ( wr_pointer/_18_ B1 ) ( wr_pointer/_17_ B1 ) ( wr_pointer/_16_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_06_ ( wr_pointer/_18_ A ) ( wr_pointer/_17_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_07_ ( wr_pointer/_20_ A3 ) ( wr_pointer/_19_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_08_ ( wr_pointer/_22_ A ) ( wr_pointer/_21_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_09_ ( wr_pointer/_25_ A2 ) ( wr_pointer/_23_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_10_ ( wr_pointer/_25_ A3 ) ( wr_pointer/_24_ ZN ) + USE SIGNAL ;
+    - wr_pointer/_11_ ( wr_pointer/_29_ QN ) + USE SIGNAL ;
+    - wr_pointer/_12_ ( wr_pointer/_26_ QN ) + USE SIGNAL ;
+    - wr_pointer/_13_ ( wr_pointer/_27_ QN ) + USE SIGNAL ;
+    - wr_pointer/_14_ ( wr_pointer/_28_ QN ) + USE SIGNAL ;
+    - wr_ptr[0] ( wr_pointer/_26_ Q ) ( wr_pointer/_22_ B1 ) ( wr_pointer/_21_ B1 ) ( wr_pointer/_19_ B1 ) ( wr_pointer/_16_ A2 ) ( memory/_0879_ A4 ) ( memory/_0852_ A4 )
+      ( memory/_0703_ A ) + USE SIGNAL ;
+    - wr_ptr[1] ( wr_pointer/_27_ Q ) ( wr_pointer/_19_ A ) ( wr_pointer/_16_ A3 ) ( memory/_0879_ A3 ) ( memory/_0869_ A3 ) ( memory/_0702_ A ) + USE SIGNAL ;
+    - wr_ptr[2] ( wr_pointer/_28_ Q ) ( wr_pointer/_24_ A2 ) ( wr_pointer/_23_ B1 ) ( wr_pointer/_18_ B2 ) ( wr_pointer/_17_ B2 ) ( memory/_0963_ A2 ) ( memory/_0889_ A2 )
+      ( memory/_0700_ A ) + USE SIGNAL ;
+    - wr_ptr[3] ( wr_pointer/_29_ Q ) ( wr_pointer/_24_ A1 ) ( wr_pointer/_23_ A ) ( memory/_0963_ A4 ) ( memory/_0926_ A4 ) ( memory/_0727_ A ) + USE SIGNAL ;
+    - wr_ptr_en ( wr_pointer/_22_ B2 ) ( wr_pointer/_21_ B2 ) ( wr_pointer/_19_ B2 ) ( wr_pointer/_16_ A1 ) ( memory/_0963_ A3 ) ( memory/_0926_ A3 ) ( memory/_0889_ A3 )
+      ( memory/_0879_ A2 ) ( memory/_0869_ A2 ) ( memory/_0852_ A2 ) ( memory/_0701_ A ) ( controller/_71_ A2 ) ( controller/_55_ S ) ( controller/_54_ A1 ) ( controller/_51_ A2 )
+      ( controller/_50_ ZN ) + USE SIGNAL ;
+END NETS
+END DESIGN
