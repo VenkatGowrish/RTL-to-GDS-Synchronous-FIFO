@@ -4,7 +4,30 @@
 
 The RTL design of the parameterized Synchronous FIFO was synthesized using **Yosys** with the **Nangate45 standard cell library**. The synthesis process translated the Verilog RTL into a technology-mapped gate-level netlist while optimizing the design for area.
 
-The synthesized gate-level netlist is available as **`fifo_synthesized.v`**, and the synthesis script used for this step is **`logic_synthesis.tcl`**.
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `logic_synthesis.tcl` | Yosys synthesis script that reads the RTL modules, sets the top module, performs optimization, maps the design to the Nangate45 standard cell library, generates synthesis statistics, and produces the technology-mapped gate-level netlist (`fifo_synthesized.v`). |
+| `fifo_synthesized.v` | Technology-mapped gate-level Verilog netlist generated after logic synthesis. |
+
+---
+
+## Synthesis Script
+
+**`logic_synthesis.tcl`**
+
+The synthesis script automates the RTL-to-gate-level synthesis flow by performing the following steps:
+
+- Reads the Verilog RTL modules.
+- Defines `fifo_top` as the top-level module.
+- Converts RTL processes into logic.
+- Optimizes the design by removing redundant logic and performing resource sharing.
+- Maps combinational and sequential logic to the Nangate45 standard cell library.
+- Generates area statistics for the synthesized design.
+- Writes the technology-mapped gate-level netlist as `fifo_synthesized.v`.
 
 ---
 
