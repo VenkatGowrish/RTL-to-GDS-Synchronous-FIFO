@@ -82,37 +82,31 @@ Floorplanning/
 The generated floorplan showing the die boundary, core region, and standard-cell rows.
 
 <p align="center">
-<img src="images/Floorplan.png" width="700">
+<img src="images/Floorplan.png" width="300">
 </p>
-
----
 
 ## I/O Pin Placement
 
 Automatic placement of all input and output ports around the chip boundary.
 
 <p align="center">
-<img src="images/IO_ports.png" width="700">
+<img src="images/IO_ports.png" width="300">
 </p>
-
----
 
 ## Floorplanning Execution
 
 Console output showing floorplan initialization, utilization, I/O placement, and tapcell insertion.
 
 <p align="center">
-<img src="images/scripting.png" width="700">
+<img src="images/scripting.png" width="300">
 </p>
-
----
 
 ## Tapcell / Endcap Insertion
 
 Visualization after inserting endcaps required for fabrication.
 
 <p align="center">
-<img src="images/tapcell.png" width="700">
+<img src="images/tapcell.png" width="300">
 </p>
 
 ---
