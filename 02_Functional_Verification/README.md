@@ -6,6 +6,20 @@ The functional verification of the parameterized Synchronous FIFO was carried ou
 
 ---
 
+## Simulation Output
+
+<p align="center">
+  <img src="simulation_output.png" alt="Simulation Output" width="900">
+</p>
+
+## Waveform
+
+<p align="center">
+  <img src="waveform.png" alt="GTKWave Waveform" width="900">
+</p>
+
+---
+
 ## Verification Scenarios
 
 ### 1. Reset Verification
