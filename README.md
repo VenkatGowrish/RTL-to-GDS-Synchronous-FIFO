@@ -87,17 +87,42 @@ rtl-to-gds-synchronous-fifo/
 │   ├── timing_power_check.tcl
 │   └── reports/
 │
-├── 05_Floorplan/
+├── 05_Floorplanning/
+│   ├── images/
+│   ├── README.md
+│   ├── flow_floorplan.tcl
+│   ├── gcd_nangate45.tcl
+│   ├── post_floorplan.def
+│   ├── post_macro_placement.def
+│   └── post_tapcell.def
 │
-├── 06_Placement/
+├── 06_Power_Distribution_Network/
+│   ├── images/
+│   ├── README.md
+│   ├── flow_pdn.tcl
+│   ├── gcd_nangate45.tcl
+│   └── post_pdn.def
 │
-├── 07_CTS/
+├── 07_Global_Placement/
+│   ├── images/
+│   ├── README.md
+│   ├── flow_global_placement.tcl
+│   ├── gcd_nangate45.tcl
+│   └── post_global_placement.def
 │
-├── 08_Routing/
+├── 08_Detailed_placement/
+│   ├── images/
+│   ├── README.md
+│   ├── flow_detailed_placement.tcl
+│   ├── gcd_nangate45.tcl
+│   ├── post_detailed_placement.def
+│   └── post_detailed_placement.v
 │
-├── 09_GDSII/
+├── 09_CTS/
 │
-├── images/
+├── 10_Routing/
+│
+├── 11_GDSII/
 │
 └── README.md
 ```
