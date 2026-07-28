@@ -108,7 +108,6 @@ A placement database checkpoint is also saved for future stages.
 
 ## 1. Die after Global Placement
 
-![Global Placement]
 <p align="center">
 <img src="images/die.png" width="350">
 </p>
@@ -128,7 +127,6 @@ At this stage the design is ready for global placement.
 
 ## 2. Initial Global Placement
 
-![Random Placement]
 <p align="center">
 <img src="images/standard_cells.png" width="350">
 </p>
@@ -147,7 +145,6 @@ This behaviour is expected because legalization has not yet been performed.
 
 ## 3. Zoomed View
 
-![Placed Cells]
 <p align="center">
 <img src="images/random_placement_standard_cells.png" width="350">
 </p>
@@ -166,12 +163,8 @@ The zoomed image illustrates:
 
 | File | Description |
 |------|-------------|
-| `post_floorplan.def` | Floorplan DEF |
-| `post_macro_placement.def` | Macro placement DEF |
-| `post_tapcell.def` | Tap cell insertion DEF |
-| `post_pdn.def` | Power distribution DEF |
 | `post_global_placement.def` | Global placement DEF |
-| `*_global_place.db` | OpenROAD placement database |
+
 
 ---
 
