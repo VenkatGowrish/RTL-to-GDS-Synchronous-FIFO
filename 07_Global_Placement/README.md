@@ -8,72 +8,6 @@ The objective of global placement is to determine an optimized location for ever
 
 ---
 
-# Design Information
-
-| Parameter | Value |
-|-----------|-------|
-| Design | Synchronous FIFO |
-| Top Module | `fifo_top` |
-| Technology | Nangate45 |
-| Tool | OpenROAD |
-| Flow Stage | Global Placement |
-| Input Netlist | `fifo_synthesized.v` |
-| Constraint File | `gcd_nangate45.sdc` |
-
----
-
-# Flow Overview
-
-The following operations are performed during the Global Placement stage:
-
-```
-Synthesized Netlist
-        │
-        ▼
-Read Libraries
-        │
-        ▼
-Read Verilog
-        │
-        ▼
-Link Design
-        │
-        ▼
-Read SDC Constraints
-        │
-        ▼
-Initialize Floorplan
-        │
-        ▼
-Place IO Pins
-        │
-        ▼
-Macro Placement (if macros exist)
-        │
-        ▼
-Tap Cell Insertion
-        │
-        ▼
-Power Distribution Network (PDN)
-        │
-        ▼
-Global Routing Layer Setup
-        │
-        ▼
-Global Placement
-        │
-        ▼
-Estimate Parasitics
-        │
-        ▼
-Repair Design
-        │
-        ▼
-Generate DEF Database
-```
-
----
-
 # TCL Files
 
 ## 1. `gcd_nangate45.tcl`
@@ -122,12 +56,6 @@ This script performs the complete physical design flow up to Global Placement.
 
 Creates the die and core area where cells will be placed.
 
-Output:
-
-```
-post_floorplan.def
-```
-
 ---
 
 ### IO Pin Placement
@@ -144,39 +72,17 @@ If macros are present:
 - Places macros
 - Adds halo/channel spacing
 
-Output:
-
-```
-post_macro_placement.def
-```
-
 ---
 
 ### Tap Cell Insertion
 
 Adds tap cells to prevent latch-up and satisfy fabrication requirements.
 
-Output:
-
-```
-post_tapcell.def
-```
-
 ---
 
 ### Power Distribution Network
 
-Creates the power grid using:
-
-```
-pdngen
-```
-
-Output:
-
-```
-post_pdn.def
-```
+Creates the power grid using
 
 ---
 
