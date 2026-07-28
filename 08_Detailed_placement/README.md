@@ -192,55 +192,6 @@ The zoomed image clearly illustrates:
 
 ---
 
-# Key Concepts
-
-## Detailed Placement
-
-Detailed placement converts the coarse global placement into a manufacturable layout by moving cells only small distances while maintaining the optimization achieved during global placement.
-
----
-
-## Placement Legalization
-
-Legalization ensures that:
-
-- Every cell is inside the core area.
-- Cells are placed on valid placement sites.
-- Cells are aligned to standard cell rows.
-- No two cells overlap.
-
----
-
-## Site Alignment
-
-Each standard cell is snapped onto predefined placement sites defined by the technology library. This guarantees that power rails, routing tracks, and neighboring cells align correctly.
-
----
-
-## Local Optimization
-
-Small movements of neighboring cells are performed to:
-
-- Reduce displacement
-- Improve routing quality
-- Preserve timing
-- Minimize additional wirelength
-
----
-
-## Why Detailed Placement is Important
-
-Without detailed placement:
-
-- Cells may overlap.
-- Routing cannot be completed.
-- Clock Tree Synthesis cannot proceed.
-- The layout becomes physically invalid.
-
-Detailed placement produces a legal design that satisfies placement rules and prepares the circuit for CTS and routing.
-
----
-
 # Conclusion
 
 The Detailed Placement stage successfully legalized the placement of the **Synchronous FIFO** design. Standard cells were aligned to the predefined placement sites, overlaps were eliminated, and the layout now satisfies the physical constraints of the Nangate45 technology. Compared with the Global Placement stage, the placement is now fully legal and manufacturable. The generated `post_detailed_placement.def` and `post_detailed_placement.v` files provide the finalized placement database that will be used as the input for the next stage of the OpenROAD flow, **Clock Tree Synthesis (CTS)**.
