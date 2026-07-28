@@ -106,9 +106,12 @@ A placement database checkpoint is also saved for future stages.
 
 # Results
 
-## 1. Floorplan after PDN
+## 1. Die after Global Placement
 
-![Floorplan](die(1).png)
+![Global Placement]
+<p align="center">
+<img src="images/die.png" width="350">
+</p>
 
 The image shows:
 
@@ -117,6 +120,7 @@ The image shows:
 - Standard cell rows
 - Power Distribution Network (PDN)
 - IO pins around the boundary
+- Standard cells
 
 At this stage the design is ready for global placement.
 
@@ -124,7 +128,11 @@ At this stage the design is ready for global placement.
 
 ## 2. Initial Global Placement
 
-![Random Placement](random_placement_standard_cells.png)
+![Random Placement]
+<p align="center">
+<img src="images/standard_cells.png" width="350">
+</p>
+
 
 Observations:
 
@@ -139,7 +147,11 @@ This behaviour is expected because legalization has not yet been performed.
 
 ## 3. Zoomed View
 
-![Placed Cells](standard_cells.png)
+![Placed Cells]
+<p align="center">
+<img src="images/random_placement_standard_cells.png" width="350">
+</p>
+
 
 The zoomed image illustrates:
 
