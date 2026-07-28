@@ -50,93 +50,56 @@ This script performs the complete physical design flow up to Global Placement.
 - Link the design
 - Read SDC constraints
 
----
-
 ### Floorplan Initialization
-
 Creates the die and core area where cells will be placed.
 
----
-
 ### IO Pin Placement
-
 Places input/output pins around the boundary of the chip.
 
----
-
 ### Macro Placement
-
 If macros are present:
-
 - Performs initial global placement
 - Places macros
 - Adds halo/channel spacing
 
----
-
 ### Tap Cell Insertion
-
 Adds tap cells to prevent latch-up and satisfy fabrication requirements.
 
----
-
 ### Power Distribution Network
-
 Creates the power grid using
 
----
-
 ### Global Placement
-
 The script performs two placement passes.
-
 **First Pass**
-
 - Places standard cells
 - Skips IO movement
-
 **Second Pass**
-
 - Replaces cells after IO pins are fixed
 - Enables routability-driven optimization
-
 Settings used include:
-
 - Placement density
 - Routing layer adjustments
 - Routing layer limits
 - Macro extension
 - Placement padding
 
----
-
 ### Parasitic Estimation
-
 Approximates RC values after placement.
-
 ```
 estimate_parasitics -placement
 ```
 
----
-
 ### Design Repair
-
 Repairs:
-
 - Maximum slew violations
 - Maximum capacitance violations
 - Fanout violations
 - Tie-cell fanout violations
 
----
-
 ### Output
-
 ```
 post_global_placement.def
 ```
-
 A placement database checkpoint is also saved for future stages.
 
 ---
