@@ -126,7 +126,12 @@ rtl-to-gds-synchronous-fifo/
 │   ├── post_CTS.def
 │   └── post_CTS.v
 ├── 10_Routing/
-│
+│   ├── images/
+│   ├── README.md
+│   ├── flow_routing.tcl
+│   ├── gcd_nangate45.tcl
+│   ├── post_routing.def
+│   └── post_routing.v
 ├── 11_GDSII/
 │
 └── README.md
