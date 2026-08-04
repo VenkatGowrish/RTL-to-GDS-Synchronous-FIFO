@@ -1,0 +1,7 @@
+Clock core_clock
+  0.092 source latency controller/_83_/CK ^
+ -0.089 target latency memory/_1035_/CK ^
+  0.000 CRPR
+--------------
+  0.003 setup skew
+

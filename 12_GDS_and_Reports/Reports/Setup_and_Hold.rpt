@@ -1,0 +1,85 @@
+Startpoint: rst (input port clocked by core_clock)
+Endpoint: controller/_81_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+                     0.000    0.000   clock core_clock (rise edge)
+                     0.000    0.000   clock network delay (propagated)
+                     0.100    0.100 ^ input external delay
+  50.167    0.000    0.000    0.100 ^ rst (in)
+            0.002    0.002    0.102 ^ controller/_75_/A1 (NOR2_X1)
+   1.187    0.003    0.006    0.107 v controller/_75_/ZN (NOR2_X1)
+            0.003    0.000    0.107 v controller/_81_/D (DFF_X1)
+                              0.107   data arrival time
+
+                     0.000    0.000   clock core_clock (rise edge)
+                     0.000    0.000   clock source latency
+  10.586    0.000    0.000    0.000 ^ clk (in)
+            0.001    0.001    0.001 ^ clkbuf_0_clk/A (BUF_X4)
+  68.514    0.040    0.054    0.054 ^ clkbuf_0_clk/Z (BUF_X4)
+            0.040    0.002    0.057 ^ clkbuf_4_0_0_clk/A (BUF_X4)
+  17.343    0.013    0.034    0.090 ^ clkbuf_4_0_0_clk/Z (BUF_X4)
+            0.013    0.002    0.092 ^ controller/_81_/CK (DFF_X1)
+                     0.000    0.092   clock reconvergence pessimism
+                     0.004    0.096   library hold time
+                              0.096   data required time
+---------------------------------------------------------------------------
+                              0.096   data required time
+                             -0.107   data arrival time
+---------------------------------------------------------------------------
+                              0.011   slack (MET)
+
+
+Startpoint: controller/_81_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: memory/_1092_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+                     0.000    0.000   clock core_clock (rise edge)
+                     0.000    0.000   clock source latency
+  10.586    0.000    0.000    0.000 ^ clk (in)
+            0.001    0.001    0.001 ^ clkbuf_0_clk/A (BUF_X4)
+  68.514    0.040    0.054    0.054 ^ clkbuf_0_clk/Z (BUF_X4)
+            0.040    0.002    0.057 ^ clkbuf_4_0_0_clk/A (BUF_X4)
+  17.343    0.013    0.034    0.090 ^ clkbuf_4_0_0_clk/Z (BUF_X4)
+            0.013    0.002    0.092 ^ controller/_81_/CK (DFF_X1)
+   8.022    0.012    0.094    0.186 v controller/_81_/Q (DFF_X1)
+            0.012    0.000    0.186 v controller/_44_/A4 (NOR4_X4)
+   9.265    0.049    0.089    0.276 ^ controller/_44_/ZN (NOR4_X4)
+            0.049    0.001    0.277 ^ controller/_50_/B1 (AOI21_X4)
+  22.179    0.021    0.033    0.310 v controller/_50_/ZN (AOI21_X4)
+            0.021    0.002    0.311 v memory/_0926_/A3 (NAND4_X1)
+  12.728    0.038    0.053    0.365 ^ memory/_0926_/ZN (NAND4_X1)
+            0.038    0.003    0.368 ^ memory/_0954_/A2 (OR2_X1)
+  21.287    0.049    0.079    0.447 ^ memory/_0954_/ZN (OR2_X1)
+            0.049    0.002    0.449 ^ memory/_0955_/A2 (NAND2_X1)
+  16.550    0.033    0.057    0.506 v memory/_0955_/ZN (NAND2_X1)
+            0.033    0.001    0.506 v memory/_0958_/B1 (OAI22_X1)
+   1.629    0.030    0.049    0.555 ^ memory/_0958_/ZN (OAI22_X1)
+            0.030    0.000    0.555 ^ memory/_1092_/D (DFF_X1)
+                              0.555   data arrival time
+
+                     0.500    0.500   clock core_clock (rise edge)
+                     0.000    0.500   clock source latency
+  10.586    0.000    0.000    0.500 ^ clk (in)
+            0.001    0.001    0.501 ^ clkbuf_0_clk/A (BUF_X4)
+  68.514    0.040    0.054    0.554 ^ clkbuf_0_clk/Z (BUF_X4)
+            0.040    0.003    0.557 ^ clkbuf_4_15_0_clk/A (BUF_X4)
+  17.877    0.013    0.034    0.591 ^ clkbuf_4_15_0_clk/Z (BUF_X4)
+            0.013    0.002    0.592 ^ memory/_1092_/CK (DFF_X1)
+                     0.000    0.592   clock reconvergence pessimism
+                    -0.036    0.557   library setup time
+                              0.557   data required time
+---------------------------------------------------------------------------
+                              0.557   data required time
+                             -0.555   data arrival time
+---------------------------------------------------------------------------
+                              0.002   slack (MET)
+
+
