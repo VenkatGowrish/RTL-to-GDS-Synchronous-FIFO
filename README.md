@@ -49,7 +49,7 @@ The objective of this project is to understand and implement the complete front-
 ```
 rtl-to-gds-synchronous-fifo/
 │
-│   ├── gcd_nangate.sdc
+├── gcd_nangate.sdc
 |
 ├── 01_RTL_Design/
 │   ├── fifo.v
