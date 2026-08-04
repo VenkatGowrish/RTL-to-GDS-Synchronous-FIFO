@@ -47,7 +47,7 @@ The objective of this project is to understand and implement the complete front-
 ## Repository Structure
 
 ```
-rtl-to-gds-synchronous-fifo/
+RTL-to-GDSII-Synchronous-FIFO/
 │
 ├── gcd_nangate.sdc
 |
