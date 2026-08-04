@@ -1,5 +1,10 @@
+# Physical Design Outputs
 
-# 10. Final Design Generation
+This directory contains all the important output files generated during the RTL-to-GDSII physical design flow using OpenROAD. These files are used for timing analysis, verification, debugging, and final tape-out.
+
+---
+
+# Final Design Generation
 
 After all optimization and verification steps are completed, the final design files are generated.
 These files include:
@@ -23,37 +28,33 @@ These outputs are used as the input for the final **GDSII generation** stage.
 - Design Rule Reports
 
 ---
-# Physical Design Outputs
-
-This directory contains all the important output files generated during the RTL-to-GDSII physical design flow using OpenROAD. These files are used for timing analysis, verification, debugging, and final tape-out.
-
----
 
 ## Directory Structure
 
 ```
 Outputs/
 │
-├── Reports/
-│   ├── Setup_and_Hold.rpt
-│   ├── clock_skew.rpt
-│   ├── tns.rpt
-│   ├── worst_slack_max.rpt
-│   ├── worst_slack_min.rpt
-│   ├── power.rpt
-│   ├── ...
+├── Setup_and_Hold.rpt
 │
-├── DEF/
-│   └── design.def
+├── clock_skew.rpt
 │
-├── Verilog/
-│   └── design.v
+├── tns.rpt
 │
-├── SPEF/
-│   └── designspef
+├── worst_slack_max.rpt
 │
-├── ODB/
-│   └── design.odb
+├── worst_slack_min.rpt
+│
+├── power.rpt
+│
+├──area.txt
+│
+├──design.def
+│
+├── design.v
+│
+├── designspef
+│
+├── design.odb
 │
 ├── Die.png
 │
