@@ -7,22 +7,6 @@ The objective of this project is to understand and implement the complete front-
 
 ---
 
-## Features
-
-- Parameterized Synchronous FIFO
-- Modular RTL Design
-- Functional Verification using Verilog Testbench
-- Logic Synthesis
-- Static Timing Analysis (STA)
-- Floorplanning
-- Placement
-- Clock Tree Synthesis (CTS)
-- Routing
-- Design Rule Checking (DRC)
-- GDSII Generation
-
----
-
 ## Design Specifications
 
 | Parameter | Value |
