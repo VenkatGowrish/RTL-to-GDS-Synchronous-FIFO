@@ -149,7 +149,7 @@ Results for each step are included in respective folders
 The figure below shows the final routed layout after completing the entire RTL-to-GDSII flow.
 
 <p align="center">
-<img src="Die.png" width="750">
+<img src="Die.png" width="350">
 </p>
 
 The layout includes:
