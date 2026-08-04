@@ -158,31 +158,6 @@ This helps evaluate how efficiently the chip area has been used.
 
 ---
 
-# 10. Final Design Generation
-
-After all optimization and verification steps are completed, the final design files are generated.
-These files include:
-- Final gate-level Verilog netlist
-- Final routed DEF file
-- SPEF file containing extracted parasitic information
-- Timing, power, and area reports
-
-These outputs are used as the input for the final **GDSII generation** stage.
-
----
-
-# Generated Outputs
-- Final Routed DEF
-- Final Gate-Level Verilog
-- SPEF File
-- Timing Reports
-- Power Report
-- Area Report
-- Clock Skew Report
-- Design Rule Reports
-
----
-
 # Conclusion
 
-The post-routing stage prepares the routed design for final signoff by repairing antenna violations, optimizing timing, legalizing placement, inserting filler cells, extracting parasitic information, and performing comprehensive timing, power, and area analyses. The resulting outputs provide a verified and optimized design that is ready for GDSII generation and fabrication.
+The post-routing stage prepares the routed design for final signoff by repairing antenna violations, optimizing timing, legalizing placement, inserting filler cells, extracting parasitic information, and performing comprehensive timing, power, and area analyses.
