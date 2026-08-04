@@ -56,7 +56,6 @@ The objective of this project is to understand and implement the complete front-
 - Yosys
 - OpenSTA
 - OpenROAD
-- Magic VLSI
 - Nangate45 Open Cell Library
 
 ---
@@ -66,6 +65,8 @@ The objective of this project is to understand and implement the complete front-
 ```
 rtl-to-gds-synchronous-fifo/
 │
+│   ├── gcd_nangate.sdc
+|
 ├── 01_RTL_Design/
 │   ├── fifo.v
 │   ├── write_pointer.v
@@ -133,7 +134,13 @@ rtl-to-gds-synchronous-fifo/
 │   ├── post_routing.def
 │   └── post_routing.v
 ├── 11_GDSII/
-│
+│   ├── README.md
+│   ├── design.v
+│   ├── design.spef
+│   ├── design.obd
+│   ├──design.def
+|   └── Reports
+|
 └── README.md
 ```
 
@@ -151,6 +158,72 @@ rtl-to-gds-synchronous-fifo/
 - Final Layout (GDSII)
 Results for each step are included in respective folders
 
+---
+
+# Final Layout
+
+The figure below shows the final routed layout after completing the entire RTL-to-GDSII flow.
+
+<p align="center">
+<img src="Die.png" width="750">
+</p>
+
+The layout includes:
+
+- Standard cell placement
+- Clock tree
+- Multi-layer routing
+- Signal interconnections
+- Power rails
+- Via connections
+- Filler cells
+- Post-route optimized layout
+
+---
+
+# Final Design Summary
+
+| Parameter | Result |
+|-----------|--------|
+| Clock Name | core_clock |
+| Clock Period | **0.5 ns** |
+| Design Area | **1336 µm²** |
+| Core Utilization | **21%** |
+| Worst Hold Slack | **0.011 ns (MET)** |
+| Worst Setup Slack | **0.002 ns (MET)** |
+| Total Negative Slack (TNS) | **0.000 ns** |
+| Setup Clock Skew | **0.003 ns** |
+| Total Power | **5.30 mW** |
+
+---
+
+# Power Breakdown
+
+| Component | Total Power |
+|-----------|-------------|
+| Sequential Logic | **2.34 mW** |
+| Combinational Logic | **1.28 mW** |
+| Clock Network | **1.68 mW** |
+| Total Power | **5.30 mW** |
+
+---
+
+# Timing Summary
+
+The final Static Timing Analysis confirms that:
+
+- Setup timing is satisfied.
+- Hold timing is satisfied.
+- Worst setup slack is positive.
+- Worst hold slack is positive.
+- Total Negative Slack (TNS) is zero.
+- The design successfully meets the specified timing constraints.
+
+---
+
+# Conclusion
+
+The RTL-to-GDSII flow completed successfully, producing a fully placed, clocked, and routed design that satisfies the specified timing constraints. The final implementation achieved **1336 µm²** of design area with **21% core utilization**, **0.0 ns Total Negative Slack**, **0.002 ns worst setup slack**, and **0.011 ns worst hold slack**, indicating that both setup and hold timing requirements are met. The clock network exhibits a low **0.003 ns setup skew**, while the total estimated power consumption is **5.30 mW**. The generated DEF, Verilog, ODB, SPEF, reports, timing constraints, and final layout image together provide a complete set of artifacts for post-layout verification, signoff analysis, and GDSII generation.
 
 ---
 
